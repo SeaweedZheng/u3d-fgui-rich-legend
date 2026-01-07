@@ -1,0 +1,77 @@
+{
+  "name": "Main",
+  "updated_at": 1767790517908,
+  "hotfix_key": "hf_debug_android_20251216143338",
+  "hotfix_version": "1.0.18",
+  "hash": "582905032b4e282835f0cfe3b325180f",
+  "asset_bundle": {
+    "manifest": {
+      "hash": "b16b18755a546d5a9646339d7f8a1f30",
+      "size_bytes": 7296
+    },
+    "bundles": {
+      "_common/game maker/abs/g152/game icon/game avatar 152.unity3d": {
+        "hash": "76532747e39c210873dd0e7203a91cb4",
+        "size_bytes": 60486
+      },
+      "_common/game maker/abs/g300/game icon/game avatar 300.unity3d": {
+        "hash": "11374e2c790b09b8a6f9443bef5c62c5",
+        "size_bytes": 12089
+      },
+      "consoles/console coin pusher 01/abs/i18ns/i18nconsolecoinpusher01.unity3d": {
+        "hash": "5f955c83bcc02c70fb9792886a6d9565",
+        "size_bytes": 13078
+      },
+      "consoles/console coin pusher 01/abs/i18ns/language_cn_console_coin_pusher_01.unity3d": {
+        "hash": "6a8760440cbddd55f7bcecc746010f00",
+        "size_bytes": 4354
+      },
+      "consoles/console coin pusher 01/abs/i18ns/language_en_console_coin_pusher_01.unity3d": {
+        "hash": "7faff734932ff3bc389068098e379bb9",
+        "size_bytes": 4065
+      },
+      "consoles/console coin pusher 01/abs/i18ns/language_tw_console_coin_pusher_01.unity3d": {
+        "hash": "6af5024b7f6839365c584a8de0c8def2",
+        "size_bytes": 4116
+      },
+      "consoles/console coin pusher 01/fguis.unity3d": {
+        "hash": "19332aeb73f3aa32bdd6b9f97c0f46a7",
+        "size_bytes": 12318
+      },
+      "consoles/console/abs/i18ns/i18nconsole001.unity3d": {
+        "hash": "1d32766e112c0c8d727f60e6c5d9c778",
+        "size_bytes": 11945
+      },
+      "consoles/console/abs/i18ns/language_cn_console_01.unity3d": {
+        "hash": "1c25b349626bba9080cc2ab4515b0e76",
+        "size_bytes": 6743
+      },
+      "consoles/console/abs/i18ns/language_en_console_01.unity3d": {
+        "hash": "e0618a71a9816ed6b4cf38b7df7ec869",
+        "size_bytes": 7071
+      },
+      "consoles/console/abs/i18ns/language_tw_console_01.unity3d": {
+        "hash": "a796cbfac2cf540dde4b3ea19f495ccd",
+        "size_bytes": 6776
+      },
+      "consoles/console/fguis.unity3d": {
+        "hash": "bd3ee4611821c9f6372423530f4158ba",
+        "size_bytes": 325893
+      }
+    }
+  },
+  "asset_backup": {},
+  "asset_dll": {
+    "Base.dll.bytes": {
+      "hash": "da47980e1c571e3ffd8fa0ac62c41ea0",
+      "size_bytes": 169472,
+      "level": 0
+    },
+    "Main.dll.bytes": {
+      "hash": "2c6ed7e2beeb74522aec28c00411e6a3",
+      "size_bytes": 1023488,
+      "level": 1
+    }
+  },
+  "dependencies": {}
+}

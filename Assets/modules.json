@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1000,
+    "modules_name": "Main",
+    "name": "主包",
+    "asset_bundle": "Assets/AstBundle/_Common#Assets/AstBundle/Consoles#Assets/AstBundle/Halls",
+    "asset_backup": "Assets/AstBackup/_Common#Assets/AstBackup/Halls",
+    "asset_dll": "Base#Main",
+    "dependencies": "",
+    "save_pth": "Assets/StreamingAssets/Hotfix/Modules/Main",
+    "level": 0,
+    "pre_packaged": true
+  },
+  {
+    "id": 1001,
+    "modules_name": "RL201",
+    "name": "富翁传奇",
+    "asset_bundle": "Assets/AstBundle/Games/Coin Pusher Rich Legend 201",
+    "asset_backup": "",
+    "asset_dll": "",
+    "dependencies": "Main",
+    "save_pth": "Assets/StreamingAssets/Hotfix/Modules/RL201",
+    "level": 1,
+    "pre_packaged": true
+  }
+]

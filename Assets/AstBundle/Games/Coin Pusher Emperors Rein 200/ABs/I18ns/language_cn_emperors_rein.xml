@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="9ffscgs49ay5nh-n0_9ay5" mz="title">【温馨提示】: 即将停止游戏。</string>
+  <string name="9ffscgs4r8oz7-n3_r8oz" mz="title">x1</string>
+  <string name="9ffscgs4hydani-n1_r8oz" mz="buttons">Analysis</string>
+  <string name="9ffscgs4r8ozd-n1_r8oz" mz="buttons">Buttons</string>
+  <string name="9ffscgs4r8oza-n1_r8oz" mz="gm">GM</string>
+  <string name="9ffscgs4r8ozi-n0_r8oz" mz="title">KV</string>
+  <string name="9ffscgs4r8oz4-n0_r8oz" mz="title">Ver 2.23.0/2.23.6</string>
+  <string name="9ffscgs4r8oz9-n1_r8oz" mz="pages">Pages</string>
+  <string name="9ffscgs4r8oz6-n1_r8oz" mz="x1">x1</string>
+  <string name="9ffscgs4r8oz6-n2_r8oz" mz="x2">x2</string>
+  <string name="9ffscgs4r8oz6-n3_r8oz" mz="x10">x10</string>
+  <string name="9ffscgs4r8oz3-n2_r8oz-1" mz="menu">FPS</string>
+  <string name="9ffscgs4rl7yk-n3_rl7y" mz="title">Button1</string>
+  <string name="9ffscgs4r8oze-n2_r8oz-0-title" mz="menu">Button1</string>
+  <string name="9ffscgs4r8oze-n2_r8oz-1-title" mz="menu">Button2</string>
+  <string name="vdmp4vsri77o0-n15_nimz" mz="load">加载中：0/100</string>
+  <string name="vdmp4vsrnpu5xn1cm-n8_npu5-cp-key" mz="gameNumber">游戏编号:</string>
+  <string name="vdmp4vsrnpu5xn1cm-n9_npu5-cp-key" mz="gameData">游玩日期:</string>
+  <string name="vdmp4vsrnpu5xn1cm-n10_npu5-cp-key" mz="totalBet">押注:</string>
+  <string name="vdmp4vsrnpu5xn1cm-n12_npu5-cp-key" mz="baseGameWinCoins">基础游戏赢币:</string>
+  <string name="vdmp4vsrnpu5xn1cm-n13_npu5-cp-key" mz="jackpot1 WinCoins">JP1彩金赢币:</string>
+  <string name="vdmp4vsrnpu5xn1cm-n14_npu5-cp-key" mz="jackpot2WinCoins">JP2彩金硬币:</string>
+  <string name="vdmp4vsrnpu5xn1cm-n23_npu5-cp-key" mz="jackpot3WinCoins">JP3彩金赢币:</string>
+  <string name="vdmp4vsrnpu5xn1cm-n24_npu5-cp-key" mz="jackpot4WinCoins">JP4彩金硬币:</string>
+  <string name="vdmp4vsrnpu5xn1cm-n18_npu5-cp-key" mz="ballDropCount">掉球数量:</string>
+  <string name="vdmp4vsrnpu5xn1cm-n15_npu5-cp-key" mz="isFreeSpin">是免费游戏:</string>
+  <string name="vdmp4vsrnpu5xn1cm-n16_npu5-cp-key" mz="freeSpinTotalTimes">免费游戏总局数:</string>
+  <string name="vdmp4vsrnpu5xn1cm-n17_npu5-cp-key" mz="freeSpinCurrentTimes">免费游戏当前局数:</string>
+  <string name="vdmp4vsrnpu5xn1cm-n22_npu5" mz="n22">XXX Game Recall 1 of 100</string>
+  <string name="vdmp4vsrnpu5xn1co-n0_npu5" mz="key">key:</string>
+  <string name="vdmp4vsrnpu5xn1co-n2_npu5" mz="value">value</string>
+  <string name="vdmp4vsrpa4i3r-n1_tsjn" mz="n1">&lt;img src="ui://vdmp4vsrw36x17" width="100" height="106"/&gt;可替代除&lt;img src="ui://vdmp4vsrw36x19" width="100" height="106"/&gt;、&lt;img src="ui://vdmp4vsrjjue2h" width="100" height="106"/&gt;、&lt;img src="ui://vdmp4vsrjjue2i" width="100" height="106" style="vertical-align:middle"/&gt;和&lt;img src="ui://vdmp4vsrjjue2i" width="100" height="106" style="vertical-align:middle"/&gt;之外的所有符号。
+
+
+
+每组获胜组合仅支付最高奖金。
+
+所有连线奖金均乘以每线投注额。
+
+连线奖金必须出现在相邻转轴上，且从最左侧转轴开始。所有奖金以游戏币为单位。</string>
+  <string name="vdmp4vsrpa4i3n-n1_tsjn" mz="n1">&lt;img src="ui://vdmp4vsrw36x17" width="100" height="106"/&gt;可替代除&lt;img src="ui://vdmp4vsrw36x19" width="100" height="106"/&gt;、&lt;img src="ui://vdmp4vsrjjue2h" width="100" height="106"/&gt;、&lt;img src="ui://vdmp4vsrjjue2i" width="100" height="106" style="vertical-align:middle"/&gt;和&lt;img src="ui://vdmp4vsrjjue2i" width="100" height="106" style="vertical-align:middle"/&gt;之外的所有符號。
+
+
+
+每組獲勝組合僅支付最高獎金。
+
+所有連線獎金均乘以每線投注額。
+
+連線獎金必須出現在相鄰轉軸上，且從最左側轉軸開始。所有獎金以遊戲幣為單位。</string>
+  <string name="vdmp4vsrldsc16v-n1_tsjn" mz="n1">&lt;img src="ui://vdmp4vsrw36x17" width="100" height="106"/&gt; substitutes for all symbols except &lt;img src="ui://vdmp4vsrw36x19" width="100" height="106"/&gt;, &lt;img src="ui://vdmp4vsrjjue2h" width="100" height="106"/&gt;, &lt;img src="ui://vdmp4vsrjjue2i" width="100" height="106" style="vertical-align:middle"/&gt; and &lt;img src="ui://vdmp4vsrjjue2i" width="100" height="106" style="vertical-align:middle"/&gt;.
+Only the highest winner is paid per winning combination.
+
+All line pays are multiplied by the bet per line.
+
+Line pays must occur on adjacent reels, beginning with the leftmost reel. All pays are in credits.</string>
+  <string name="vdmp4vsrldsc16w-n1_tsjn" mz="n1">In the base game, when 3 &lt;img src="ui://vdmp4vsrw36x19" width="100" height="106"/&gt; appear on the reels, the free game function can be triggered and 6 free spins are obtained.
+In the base game, when 4 &lt;img src="ui://vdmp4vsrw36x19" width="100" height="106"/&gt; appear on the reels, the free game function can be triggered and 9 free spins are obtained.
+In the base game, when 5 &lt;img src="ui://vdmp4vsrw36x19" width="100" height="106"/&gt; appear on the reels, the free game function can be triggered and 12 free spins are obtained.
+In a free game, when &lt;img src="ui://vdmp4vsrw36x19" width="100" height="106"/&gt; appears on the reels, the number of free games can be increased by 1.</string>
+  <string name="vdmp4vsrpa4i3s-n1_tsjn" mz="n1">在基础游戏中，当转轴上出现 3 个 &lt;img src="ui://vdmp4vsrw36x19"width="100"height="106"/&gt; 时，可触发免费游戏功能并获得 6 次免费旋转机会。
+
+在基础游戏中，当转轴上出现 4 个 &lt;img src="ui://vdmp4vsrw36x19"width="100"height="106"/&gt; 时，可触发免费游戏功能并获得 9 次免费旋转机会。
+
+在基础游戏中，当转轴上出现 5 个 &lt;img src="ui://vdmp4vsrw36x19"width="100"height="106"/&gt; 时，可触发免费游戏功能并获得 12 次免费旋转机会。
+
+在免费游戏中，当转轴上出现 &lt;img src="ui://vdmp4vsrw36x19"width="100"height="106"/&gt; 时，免费游戏次数可增加 1 次。</string>
+  <string name="vdmp4vsrpa4i3o-n1_tsjn" mz="n1">在基礎遊戲中，當轉軸上出現 3 個 &lt;img src="ui://vdmp4vsrw36x19"width="100"height="106"/&gt; 時，可觸發免費遊戲功能並獲得 6 次免費旋轉機會。
+
+在基礎遊戲中，當轉軸上出現 4 個 &lt;img src="ui://vdmp4vsrw36x19"width="100"height="106"/&gt; 時，可觸發免費遊戲功能並獲得 9 次免費旋轉機會。
+
+在基礎遊戲中，當轉軸上出現 5 個 &lt;img src="ui://vdmp4vsrw36x19"width="100"height="106"/&gt; 時，可觸發免費遊戲功能並獲得 12 次免費旋轉機會。
+
+在免費遊戲中，當轉軸上出現 &lt;img src="ui://vdmp4vsrw36x19"width="100"height="106"/&gt; 時，免費遊戲次數可增加 1 次。</string>
+  <string name="vdmp4vsrpa4i3t-n1_tsjn" mz="n1">在普通游戏中，当转轴上出现 3 个或更多&lt;img src='ui://vdmp4vsrjjue2h' width='60' height='60'/&gt;时，可触发奖励游戏。
+
+触发奖励游戏后，初始有 3 次旋转机会。旋转过程中，每当转轴上出现新的&lt;img src='ui://vdmp4vsrjjue2h' width='60' height='60'/&gt;，剩余旋转次数将重置为 3 次。
+
+当转轴布满&lt;img src='ui://vdmp4vsrjjue2h' width='60' height='60'/&gt;或旋转次数耗尽时，游戏结束。</string>
+  <string name="vdmp4vsrldsc16x-n1_tsjn" mz="n1">In normal games, when 3 or more &lt;img src='ui://vdmp4vsrjjue2h' width='60' height='60'/&gt; appear on the reels, the bonus game can be triggered.
+
+After triggering the bonus game, there are initially 3 spins. During the spinning process, each time a new &lt;img src='ui://vdmp4vsrjjue2h' width='60' height='60'/&gt; appears on the reel, the remaining number of spins will be reset to 3.
+
+The game ends when the reels are full of &lt;img src='ui://vdmp4vsrjjue2h' width='60' height='60'/&gt; or the number of spins runs out.</string>
+  <string name="vdmp4vsrpa4i3p-n1_tsjn" mz="n1">在一般遊戲中，當轉軸上出現 3 個或更多&lt;img src='ui://vdmp4vsrjjue2h' width='60' height='60'/&gt;時，可觸發獎勵遊戲。
+
+觸發獎勵遊戲後，初始有 3 次旋轉機會。旋轉過程中，每當轉軸上出現新的&lt;img src='ui://vdmp4vsrjjue2h' width='60' height='60'/&gt;，剩餘旋轉次數將重置為 3 次。
+
+當轉軸布滿&lt;img src='ui://vdmp4vsrjjue2h' width='60' height='60'/&gt;或旋轉次數耗盡時，遊戲結束。</string>
+  <string name="vdmp4vsrpa4i3u-n1_tsjn" mz="n1">当转轴上出现 3 个&lt;img src='ui://vdmp4vsrjjue2h' width='60' height='60'/&gt;时，将触发连线游戏。
+
+连线游戏中有 3 个转轴，初始状态下仅解锁底部的转轴。收集&lt;img src='ui://vdmp4vsrjjue2h' width='60' height='60'/&gt;可解锁新的转轴。
+
+游戏初始有 3 次旋转机会。若转轴上出现&lt;img src='ui://vdmp4vsrjjue2h' width='60' height='60'/&gt;，旋转次数将重置为 3 次。若转轴上的奖励形成一行、一列或一条斜线相连，该行、列或斜线上的奖励将被收集至转轴上方的转轴奖励池。
+
+若顶部转轴的奖励形成一行、一列或一条斜线相连，将直接发放对应奖励。当游戏次数为 0 时，两个奖励池的分数将被汇总作为最终奖励。</string>
+  <string name="vdmp4vsrldsc16y-n1_tsjn" mz="n1">When 3 &lt;img src='ui://vdmp4vsrjjue2h' width='60' height='60'/&gt; appear on the reels, the LINK GAME is triggered.
+
+There are 3 reels in LINK GAME. Initially, only the bottom reel is unlocked. Collecting &lt;img src='ui://vdmp4vsrjjue2h' width='60' height='60'/&gt; can unlock new reels.
+
+The game starts with 3 spins. If &lt;img src='ui://vdmp4vsrjjue2h' width='60' height='60'/&gt; appear on the reels, the number of spins will be reset to 3. If the bonuses on the reels are connected in a row, column, or oblique line, the bonuses in that row, column, or oblique line will be collected into the reel bonus pool above the reel.
+
+If the bonuses on the top reel are connected in a row, column, or oblique line, they will be awarded directly. When the number of game spins reaches 0, the scores from the two bonus pools will be collected as the final reward.</string>
+  <string name="vdmp4vsrpa4i3q-n1_tsjn" mz="n1">當轉軸上出現 3 個&lt;img src='ui://vdmp4vsrjjue2h' width='60' height='60'/&gt;時，將觸發連線遊戲
+。
+連線遊戲中有 3 個轉軸，初始狀態下僅解鎖底部的轉軸。收集&lt;img src='ui://vdmp4vsrjjue2h' width='60' height='60'/&gt;可解鎖新的轉軸。
+
+遊戲初始有 3 次旋轉機會。若轉軸上出現&lt;img src='ui://vdmp4vsrjjue2h' width='60' height='60'/&gt;，旋轉次數將重置為 3 次。若轉軸上的獎勵形成一行、一列或一條斜線相連，該行、列或斜線上的獎勵將被收集至轉軸上方的轉軸獎勵池。
+
+若頂部轉軸的獎勵形成一行、一列或一條斜線相連，將直接發放對應獎勵。當遊戲次數為 0 時，兩個獎勵池的分數將被彙總作為最終獎勵。</string>
+  <string name="vdmp4vsrw2bm178-n1_tsjn" mz="n1">Line wins pay left to right on consecutive reels, starting from the leftmost reel.
+Winning symbols must land on an active line to qualify.
+Wins on different lines are added.
+Only the highest win is paid per line.</string>
+  <string name="vdmp4vsrw2bm17j-n1_tsjn" mz="n1">本游戏采用“50固定获胜线”机制。
+相同符号从最左转轮起，相邻连续即可成组。
+所有符号必须沿有效线路出现，才能获胜。
+不同获胜线或位置的获胜组合，奖励可累加。
+同一条线上只计最高获胜组合。</string>
+  <string name="vdmp4vsrw2bm179-n1_tsjn" mz="n1">3, 4 or 5 &lt;img src="ui://vdmp4vsrw36x19" width="100" height="106"/&gt; trigger 6, 9 or 12 Free Games respectively.
+During Free Games, &lt;img src="ui://vdmp4vsrw36x19" width="100" height="106"/&gt; are removed from the reels.</string>
+  <string name="vdmp4vsrw2bm17k-n1_tsjn" mz="n1">同一局游戏中，不同数量的&lt;img src="ui://vdmp4vsrw36x19" width="100" height="106"/&gt; 
+可触发不同数量的帝国荣耀免费游戏。
+3个&lt;img src="ui://vdmp4vsrw36x19" width="100" height="106"/&gt; ＝6场帝国荣耀免费游戏
+4个&lt;img src="ui://vdmp4vsrw36x19" width="100" height="106"/&gt; ＝9场帝国荣耀免费游戏
+5个&lt;img src="ui://vdmp4vsrw36x19" width="100" height="106"/&gt; ＝12场帝国荣耀免费游戏
+免费游戏期间不出现&lt;img src="ui://vdmp4vsrw36x19" width="100" height="106"/&gt; 。</string>
+  <string name="vdmp4vsrw2bm17a-n1_tsjn" mz="n1">1, 2 or 3 &lt;img src="ui://vdmp4vsrncj2ny" width="100" height="106"/&gt; award 1, 2 or 3 Balls respectively.
+The awarded Balls are released immediately.</string>
+  <string name="vdmp4vsrw2bm17l-n1_tsjn" mz="n1">同一局游戏中，不同数量的&lt;img src="ui://vdmp4vsrncj2ny" width="100" height="106"/&gt; 可触发不同数量的落珠。
+1个&lt;img src="ui://vdmp4vsrncj2ny" width="100" height="106"/&gt; ＝1个落珠
+2个&lt;img src="ui://vdmp4vsrncj2ny" width="100" height="106"/&gt; ＝2个落珠
+3个&lt;img src="ui://vdmp4vsrncj2ny" width="100" height="106"/&gt; ＝3个落珠</string>
+  <string name="vdmp4vsrw2bm17m-n1_tsjn" mz="n1">JP有四档＝JP1/JP2/JP3/JP4
+ JP1、JP2为连线累积奖，JP3/JP4为固定奖。
+
+5个&lt;img src="ui://vdmp4vsrjmqcuy" width="100" height="106"/&gt; = JP1
+4个&lt;img src="ui://vdmp4vsrjmqcuy" width="100" height="106"/&gt; = JP2
+3个&lt;img src="ui://vdmp4vsrjmqcuy" width="100" height="106"/&gt; = JP3
+2个&lt;img src="ui://vdmp4vsrjmqcuy" width="100" height="106"/&gt; = JP4</string>
+  <string name="vdmp4vsrw2bm17b-n1_tsjn" mz="n1">Four levels: JP1, JP2, JP3, JP4.
+JP1 and JP2 are progressive jackpots; JP3 and JP4 pay fixed prizes (non-progressive).
+5 &lt;img src="ui://vdmp4vsrjmqcuy" width="100" height="106"/&gt; trigger JP1.
+4 &lt;img src="ui://vdmp4vsrjmqcuy" width="100" height="106"/&gt; trigger JP2.
+3 &lt;img src="ui://vdmp4vsrjmqcuy" width="100" height="106"/&gt; trigger JP3.
+2 &lt;img src="ui://vdmp4vsrjmqcuy" width="100" height="106"/&gt; trigger JP4.</string>
+  <string name="vdmp4vsrplwz1r-n16_plwz" mz="text">LINE 10</string>
+  <string name="vdmp4vsrplwz1t-n0_plwz-cp-text" mz="linetable1">LINE 1</string>
+  <string name="vdmp4vsrplwz1t-n5_plwz-cp-text" mz="linetable2">LINE 2</string>
+  <string name="vdmp4vsrplwz1t-n2_plwz-cp-text" mz="linetable3">LINE 3</string>
+  <string name="vdmp4vsrplwz1t-n3_plwz-cp-text" mz="linetable4">LINE 4</string>
+  <string name="vdmp4vsrplwz1t-n4_plwz-cp-text" mz="linetable5">LINE 5</string>
+  <string name="vdmp4vsrplwz1t-n1_plwz-cp-text" mz="linetable6">LINE 6</string>
+  <string name="vdmp4vsrplwz1t-n6_plwz-cp-text" mz="linetable7">LINE 8</string>
+  <string name="vdmp4vsrplwz1t-n7_plwz-cp-text" mz="linetable8">LINE 7</string>
+  <string name="vdmp4vsrls7y2l-n3_w2bm" mz="n3">PAYS</string>
+  <string name="vdmp4vsrlvmsby-n16_j122" mz="Introduce">总投注额为 50 个积分乘以每线投注额。
+以下投注线可参与赢奖。</string>
+  <string name="vdmp4vsrlvms8h-n16_j122" mz="Introduce">Total bet is 50 credits multiplied by the bet per line.
+The following lines can contribute to wins.</string>
+  <string name="vdmp4vsrlvms8o-n16_j122" mz="Introduce">總投注額為 50 個積分乘以每線投注額。
+以下投注線可參與贏獎。</string>
+  <string name="vdmp4vsrldsc119-n1_ls7y" mz="Introduce">50 PAYLINES</string>
+  <string name="vdmp4vsrldsc118-n0_ls7y-cp-Introduce" mz="n0">PAYS</string>
+  <string name="vdmp4vsrldsc166-n1_ls7y" mz="Introduce">50 PAYLINES</string>
+  <string name="vdmp4vsrtsjn2r-n0_tsjn-cp-n3" mz="n0">PAYS</string>
+  <string name="vdmp4vsrls7y2m-n0_ls7y-cp-Introduce" mz="n0">PAYS</string>
+  <string name="vdmp4vsrtsjn2s-n0_tsjn-cp-n3" mz="n0">FREE GAMES</string>
+  <string name="vdmp4vsrtsjn2t-n0_tsjn-cp-n3" mz="n0">BONUS GAMES</string>
+  <string name="vdmp4vsrplwz1p-n19_ls7y-cp-n3" mz="n19">50 PAYLINES</string>
+  <string name="vdmp4vsrlvms8i-n19_ls7y-cp-n3" mz="n19">50 PAYLINES</string>
+  <string name="vdmp4vsrq43s2z-n0_tsjn-cp-n3" mz="n0">LINK GAME</string>
+  <string name="vdmp4vsrgj847t-n33_gj84" mz="line">LINE</string>
+  <string name="8grgqzwanimz0-n12_r8oz" mz="title">loading...</string>
+  <string name="8grgqzwau59qh-n3_u59q" mz="title">Quit</string>
+  <string name="frz4r9owioi7ij-n4_ioi7" mz="n4">玩法说明</string>
+  <string name="fy0phz0sebgu76-n4_ioi7" mz="n4">玩法说明</string>
+  <string name="fy0phz0sebgu5v-n1_ls7y" mz="Introduce">50 PAYLINES</string>
+  <string name="fy0phz0sebgu5u-n0_ls7y-cp-Introduce" mz="n0">PAYS</string>
+</resources>

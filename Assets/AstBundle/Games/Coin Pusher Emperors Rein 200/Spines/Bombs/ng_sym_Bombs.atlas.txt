@@ -1,0 +1,62 @@
+
+ng_sym_Bombs.png
+size: 115,293
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bomb
+  rotate: false
+  xy: 0, 159
+  size: 115, 134
+  orig: 115, 134
+  offset: 0, 0
+  index: -1
+Burning
+  rotate: false
+  xy: 0, 58
+  size: 103, 99
+  orig: 103, 99
+  offset: 0, 0
+  index: -1
+Fire1
+  rotate: false
+  xy: 91, 41
+  size: 20, 15
+  orig: 25, 17
+  offset: 3, 0
+  index: -1
+Fire2
+  rotate: false
+  xy: 91, 24
+  size: 20, 15
+  orig: 24, 16
+  offset: 2, 1
+  index: -1
+Fire3
+  rotate: false
+  xy: 70, 40
+  size: 19, 16
+  orig: 22, 16
+  offset: 1, 0
+  index: -1
+Fire4
+  rotate: false
+  xy: 90, 7
+  size: 18, 15
+  orig: 20, 16
+  offset: 1, 0
+  index: -1
+Fire5
+  rotate: false
+  xy: 70, 22
+  size: 18, 16
+  orig: 20, 20
+  offset: 1, 0
+  index: -1
+Lead
+  rotate: true
+  xy: 0, 0
+  size: 56, 68
+  orig: 56, 68
+  offset: 0, 0
+  index: -1

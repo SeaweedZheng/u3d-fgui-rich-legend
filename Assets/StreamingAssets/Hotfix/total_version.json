@@ -1,0 +1,13 @@
+{
+  "updated_at": 1765866756489,
+  "data": [
+    {
+      "agent_name": "RichLegend",
+      "app": "--",
+      "app_key": "RichLegend201_debug_android_20251216143236",
+      "app_version": "1.0.0",
+      "version_suggest": null,
+      "hotfix_url": "./debug/android/1"
+    }
+  ]
+}

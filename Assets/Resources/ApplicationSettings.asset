@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff66f75f9c0ad434daa9b0c4338e1541, type: 3}
+  m_Name: ApplicationSettings
+  m_EditorClassIdentifier: 
+  isMachine: 0
+  isRelease: 0
+  isUseMoudle: 1
+  isMock: 1
+  isUseProtectApplication: 0
+  platformName: RichLegend201
+  gameTheme: RICH LEGEND
+  agentName: RichLegend
+  appKey: RichLegend201_debug_android_20251216143236
+  appVersion: 1.0.0
+  resourceServer: http://chresouce.oss-cn-guangzhou.aliyuncs.com
+  machineDebugUrl: 192.168.3.82
+  reportUrl: http://192.168.3.152/api/game_log/send
+  posterUrl: 
+  logoUrl: ui://Native/logo_emperors_rein
+  dbName: Games.db
+  isTestUseHotfixBundleAtEditor: 0
+  isTestUseStreamingAssetsBundleAtEditor: 1
+  isTestMachineButtonAtEditor: 0

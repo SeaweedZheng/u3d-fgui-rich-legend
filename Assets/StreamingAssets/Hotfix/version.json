@@ -1,0 +1,983 @@
+{
+  "name": "Total",
+  "updated_at": 1767790517908,
+  "hotfix_key": "hf_debug_android_20251216143338",
+  "hotfix_version": "1.0.18",
+  "hash": "a3f7c675b2d59f7284891470f4890908",
+  "asset_bundle": {
+    "manifest": {
+      "hash": "b16b18755a546d5a9646339d7f8a1f30",
+      "size_bytes": 7296
+    },
+    "bundles": {
+      "_common/game maker/abs/g152/game icon/game avatar 152.unity3d": {
+        "hash": "76532747e39c210873dd0e7203a91cb4",
+        "size_bytes": 60486
+      },
+      "_common/game maker/abs/g300/game icon/game avatar 300.unity3d": {
+        "hash": "11374e2c790b09b8a6f9443bef5c62c5",
+        "size_bytes": 12089
+      },
+      "_commons/common/abs/datas/console_display_permissions.unity3d": {
+        "hash": "214cc9c21ff9cff7f71938648a5dca8f",
+        "size_bytes": 1170
+      },
+      "_commons/common/fguis.unity3d": {
+        "hash": "ed7de0bcc1b742a338575aca550dae19",
+        "size_bytes": 2337
+      },
+      "_commons/common/prefabs/gs/gs manager.unity3d": {
+        "hash": "d2395c8d7d6ff706769c16fb6bd3485f",
+        "size_bytes": 2012
+      },
+      "_commons/common/prefabs/gs/gssource.unity3d": {
+        "hash": "3501228184eab26aee9ff7e51596897a",
+        "size_bytes": 2364
+      },
+      "_commons/game maker/abs/datas/error_code.unity3d": {
+        "hash": "4d4954bf7e65747c7dca677297b8323f",
+        "size_bytes": 998
+      },
+      "_commons/game maker/abs/datas/tmg_custom_button.unity3d": {
+        "hash": "3f00be82446b50697364d7a663abb89d",
+        "size_bytes": 1769
+      },
+      "_commons/game maker/abs/datas/tmg_page.unity3d": {
+        "hash": "15b6e9f461ad56f02ed42eea4b914d57",
+        "size_bytes": 1120
+      },
+      "_commons/game maker/abs/g152/datas/game_info_g152.unity3d": {
+        "hash": "fe89bf562e3625d66c170803acb5ff23",
+        "size_bytes": 1334
+      },
+      "_commons/game maker/abs/g152/datas/game_info_gxxx.unity3d": {
+        "hash": "9761671adabee1650ef3daf192964620",
+        "size_bytes": 1394
+      },
+      "_commons/game maker/abs/g200/datas/game_info_g200.unity3d": {
+        "hash": "6e6791e766afbc0d72929f89059eb2fb",
+        "size_bytes": 1358
+      },
+      "_commons/game maker/abs/g200/gm/tmg_mock_gm_200.unity3d": {
+        "hash": "214908c09691c3b52e94250219e1618b",
+        "size_bytes": 1163
+      },
+      "_commons/game maker/abs/g300/datas/game_info_g300.unity3d": {
+        "hash": "a2e26481289ef577d1d865de212fdf44",
+        "size_bytes": 1370
+      },
+      "_commons/game maker/abs/g300/gm/tmg_mock_gm_300.unity3d": {
+        "hash": "1a8049c6261072d2ff5f971a83e9c4ef",
+        "size_bytes": 1118
+      },
+      "_commons/game maker/abs/g4000/datas/game_info_g4000.unity3d": {
+        "hash": "632e56e232e1dcd50baf41d510e3083d",
+        "size_bytes": 1323
+      },
+      "_commons/game maker/abs/g4000/gm/tmg_mock_gm_4000.unity3d": {
+        "hash": "bd9819be5d5f33ec17ab095270e3bc3a",
+        "size_bytes": 1138
+      },
+      "_commons/game maker/abs/g4001/datas/game_info_g4001.unity3d": {
+        "hash": "46b4daff423d36c9ce1d7c929d2fbe00",
+        "size_bytes": 1332
+      },
+      "_commons/game maker/abs/g4001/gm/tmg_mock_gm_4001.unity3d": {
+        "hash": "f02d1ceb5a810218f68a06b80af62591",
+        "size_bytes": 1117
+      },
+      "_commons/game maker/prefabs/instance.unity3d": {
+        "hash": "c5c568a1af4fa45eeab7336ecd71b2cd",
+        "size_bytes": 6548
+      },
+      "_commons/game maker/prefabs/machine controller.unity3d": {
+        "hash": "805ae34ecf3ad58c6967fb8524c66e3f",
+        "size_bytes": 3228
+      },
+      "_commons/game maker/sounds/basebackground.unity3d": {
+        "hash": "824e33184ecab79d564c79ef2e953e25",
+        "size_bytes": 766136
+      },
+      "_commons/game maker/sounds/machine_coin_in.unity3d": {
+        "hash": "a64b04312f43a6493e8805a6e1e6eada",
+        "size_bytes": 41513
+      },
+      "_commons/game maker/sounds/ui_betting_down.unity3d": {
+        "hash": "924df79a2f0c04a2078658e0cbd5ef35",
+        "size_bytes": 57121
+      },
+      "_commons/game maker/sounds/ui_betting_max.unity3d": {
+        "hash": "653d6f7ec1093ae39340074960c7f87c",
+        "size_bytes": 80056
+      },
+      "_commons/game maker/sounds/ui_betting_up.unity3d": {
+        "hash": "8040ad33b0f873342f0bde088ebe0d74",
+        "size_bytes": 62164
+      },
+      "_commons/game maker/sounds/ui_button_normal.unity3d": {
+        "hash": "d180a7655c3e21cd05339ccf945d92b9",
+        "size_bytes": 79655
+      },
+      "_commons/game maker/sounds/ui_button_tab.unity3d": {
+        "hash": "fcedf9b8af6634abe1b750c7c7ba63bc",
+        "size_bytes": 11728
+      },
+      "_commons/game maker/sounds/ui_popup_close.unity3d": {
+        "hash": "11b718e7cacffe40af2082aa74e00107",
+        "size_bytes": 72798
+      },
+      "_commons/game maker/sounds/ui_popup_open.unity3d": {
+        "hash": "2014716b19cf0b3b87b630246cdb9808",
+        "size_bytes": 68307
+      },
+      "_commons/game maker/sounds/ui_spin_auto.unity3d": {
+        "hash": "317cbbff549f53b451f36c84a9d6ef35",
+        "size_bytes": 75819
+      },
+      "_commons/game maker/sounds/ui_spin_start.unity3d": {
+        "hash": "d5c7e322fcfc33f97ff17a81dca7521e",
+        "size_bytes": 34889
+      },
+      "consoles/console coin pusher 01/abs/i18ns/i18nconsolecoinpusher01.unity3d": {
+        "hash": "5f955c83bcc02c70fb9792886a6d9565",
+        "size_bytes": 13078
+      },
+      "consoles/console coin pusher 01/abs/i18ns/language_cn_console_coin_pusher_01.unity3d": {
+        "hash": "6a8760440cbddd55f7bcecc746010f00",
+        "size_bytes": 4354
+      },
+      "consoles/console coin pusher 01/abs/i18ns/language_en_console_coin_pusher_01.unity3d": {
+        "hash": "7faff734932ff3bc389068098e379bb9",
+        "size_bytes": 4065
+      },
+      "consoles/console coin pusher 01/abs/i18ns/language_tw_console_coin_pusher_01.unity3d": {
+        "hash": "6af5024b7f6839365c584a8de0c8def2",
+        "size_bytes": 4116
+      },
+      "consoles/console coin pusher 01/fguis.unity3d": {
+        "hash": "19332aeb73f3aa32bdd6b9f97c0f46a7",
+        "size_bytes": 12318
+      },
+      "consoles/console/abs/i18ns/i18nconsole001.unity3d": {
+        "hash": "1d32766e112c0c8d727f60e6c5d9c778",
+        "size_bytes": 11945
+      },
+      "consoles/console/abs/i18ns/language_cn_console_01.unity3d": {
+        "hash": "1c25b349626bba9080cc2ab4515b0e76",
+        "size_bytes": 6743
+      },
+      "consoles/console/abs/i18ns/language_en_console_01.unity3d": {
+        "hash": "e0618a71a9816ed6b4cf38b7df7ec869",
+        "size_bytes": 7071
+      },
+      "consoles/console/abs/i18ns/language_tw_console_01.unity3d": {
+        "hash": "a796cbfac2cf540dde4b3ea19f495ccd",
+        "size_bytes": 6776
+      },
+      "consoles/console/fguis.unity3d": {
+        "hash": "bd3ee4611821c9f6372423530f4158ba",
+        "size_bytes": 325893
+      },
+      "games/coin pusher emperors rein 200/abs/datas/slot_machine_config_bouns1.unity3d": {
+        "hash": "1d2c4a977b07cdbf0057143f817afbcb",
+        "size_bytes": 1713
+      },
+      "games/coin pusher emperors rein 200/abs/datas/slot_machine_config_temp.unity3d": {
+        "hash": "e738c9c03919b1f82072d512b1f2db61",
+        "size_bytes": 1680
+      },
+      "games/coin pusher emperors rein 200/abs/i18ns/i18nemperorsrein200.unity3d": {
+        "hash": "e10f35afcc980d35f4495ab2968eb58c",
+        "size_bytes": 2998
+      },
+      "games/coin pusher emperors rein 200/abs/i18ns/language_cn_emperors_rein.unity3d": {
+        "hash": "a0a80856e1f079fffd2d81324021d95b",
+        "size_bytes": 4444
+      },
+      "games/coin pusher emperors rein 200/abs/i18ns/language_en_emperors_rein.unity3d": {
+        "hash": "e83470a475659cb030dc3241972788f5",
+        "size_bytes": 4763
+      },
+      "games/coin pusher emperors rein 200/abs/i18ns/language_tw_emperors_rein.unity3d": {
+        "hash": "279044daae90d7fbbd5bbd2c43d30651",
+        "size_bytes": 4446
+      },
+      "games/coin pusher emperors rein 200/fguis.unity3d": {
+        "hash": "5c29c6587258e8130ba7609297036d8b",
+        "size_bytes": 8759759
+      },
+      "games/coin pusher emperors rein 200/prefabs/effects/game jackpot/prefabs/effect.unity3d": {
+        "hash": "176fe17e7d566ac6bcf7009ac9a15b60",
+        "size_bytes": 1404140
+      },
+      "games/coin pusher emperors rein 200/prefabs/effects/smallgame/art/effects/prefabs/2.unity3d": {
+        "hash": "7ccc7389086aaf62c7572cd7279df10c",
+        "size_bytes": 456807
+      },
+      "games/coin pusher emperors rein 200/prefabs/effects/smallgame/art/effects/prefabs/anchordi.unity3d": {
+        "hash": "0253c4ea0dae3e20d167cfbb7ad24e20",
+        "size_bytes": 455356
+      },
+      "games/coin pusher emperors rein 200/prefabs/effects/smallgame/art/effects/prefabs/eff_spineflageffect.unity3d": {
+        "hash": "9dfcd79d61392a2606d90c1fb99a0fe1",
+        "size_bytes": 571417
+      },
+      "games/coin pusher emperors rein 200/prefabs/effects/smallgame/art/effects/prefabs/eff_wincollisionglow.unity3d": {
+        "hash": "7f39c0bc2bb9c402946961bc0fd1c188",
+        "size_bytes": 472584
+      },
+      "games/coin pusher emperors rein 200/prefabs/effects/smallgame/art/effects/prefabs/eff_winsheildglow.unity3d": {
+        "hash": "d1b0ba4d2085223cdce881373d9f34bb",
+        "size_bytes": 1491891
+      },
+      "games/coin pusher emperors rein 200/prefabs/effects/smallgame/art/effects/prefabs/fg_eff_sym05_laurel.unity3d": {
+        "hash": "9a9401d07492551e320957d6f4c38b64",
+        "size_bytes": 26646
+      },
+      "games/coin pusher emperors rein 200/prefabs/effects/smallgame/art/effects/prefabs/fg_eff_sym06_bugle.unity3d": {
+        "hash": "c3e91bc2416df29dea1e0c1263a65609",
+        "size_bytes": 26167
+      },
+      "games/coin pusher emperors rein 200/prefabs/effects/smallgame/art/effects/prefabs/fg_eff_sym07_womanwarrior.unity3d": {
+        "hash": "d41df7cfcee1b9d8c9abf6654d6c16b4",
+        "size_bytes": 27905
+      },
+      "games/coin pusher emperors rein 200/prefabs/effects/smallgame/art/effects/prefabs/fg_eff_sym08_malewarrior.unity3d": {
+        "hash": "507d27770ce9b6f0e616ae73c4c1c5d1",
+        "size_bytes": 51184
+      },
+      "games/coin pusher emperors rein 200/prefabs/effects/smallgame/art/effects/prefabs/fg_eff_sym09_king.unity3d": {
+        "hash": "59163b8ebe8d0396c8f1df6418fab8a3",
+        "size_bytes": 2602057
+      },
+      "games/coin pusher emperors rein 200/prefabs/effects/smallgame/art/effects/prefabs/fg_eff_sym10_wild.unity3d": {
+        "hash": "abdaa24cbcfa273fbfba9fe9f2e0785e",
+        "size_bytes": 2777188
+      },
+      "games/coin pusher emperors rein 200/prefabs/effects/smallgame/art/effects/prefabs/fg_eff_sym11_purse.unity3d": {
+        "hash": "9d1bda4911f49f2d67ead325564d096f",
+        "size_bytes": 26463
+      },
+      "games/coin pusher emperors rein 200/prefabs/effects/smallgame/art/effects/prefabs/fg_eff_sym12_chest.unity3d": {
+        "hash": "c6420cf676dd12d9cc9f8d43330a369e",
+        "size_bytes": 49342
+      },
+      "games/coin pusher emperors rein 200/prefabs/effects/smallgame/art/effects/prefabs/fg_eff_tipsspineglow.unity3d": {
+        "hash": "4f7b2e3d949b7239e695efe3b1d137ab",
+        "size_bytes": 1408270
+      },
+      "games/coin pusher emperors rein 200/prefabs/effects/smallgame/art/effects/prefabs/fg_eff_tipsstartbutton.unity3d": {
+        "hash": "24e719074e184272e5d9754a036b2cca",
+        "size_bytes": 119367
+      },
+      "games/coin pusher emperors rein 200/prefabs/effects/smallgame/art/effects/prefabs/glowleftposition.unity3d": {
+        "hash": "c038e60a7fca6bbdcb9abf4a97a78632",
+        "size_bytes": 245463
+      },
+      "games/coin pusher emperors rein 200/prefabs/effects/smallgame/art/effects/prefabs/glowrightposition.unity3d": {
+        "hash": "d3f9a7bf048195b59c431c53a486dd6a",
+        "size_bytes": 246581
+      },
+      "games/coin pusher emperors rein 200/prefabs/effects/smallgame/art/effects/prefabs/ng_bg_kingandlion_eff.unity3d": {
+        "hash": "e81f456f4a06419a8ce782331d815bf9",
+        "size_bytes": 28275
+      },
+      "games/coin pusher emperors rein 200/prefabs/effects/smallgame/art/effects/prefabs/ng_eff_cellblow.unity3d": {
+        "hash": "6cbb4252e0cbb45c33be512db0ec44d5",
+        "size_bytes": 5420197
+      },
+      "games/coin pusher emperors rein 200/prefabs/effects/smallgame/art/effects/prefabs/ng_eff_rectangleglow.unity3d": {
+        "hash": "6747f8b38c12f8657a79c5532f07d563",
+        "size_bytes": 123588
+      },
+      "games/coin pusher emperors rein 200/prefabs/effects/smallgame/art/effects/prefabs/ng_eff_sym01_king.unity3d": {
+        "hash": "14dd105064eaf40d04ba1846d7517267",
+        "size_bytes": 2601183
+      },
+      "games/coin pusher emperors rein 200/prefabs/effects/smallgame/art/effects/prefabs/ng_eff_sym02_malewarrior.unity3d": {
+        "hash": "1f106e20d2d51cef7a9480cc74de216c",
+        "size_bytes": 52532
+      },
+      "games/coin pusher emperors rein 200/prefabs/effects/smallgame/art/effects/prefabs/ng_eff_sym03_womanwarrior.unity3d": {
+        "hash": "2d979ad2f2c3e180a7c0e462c1bdb596",
+        "size_bytes": 27843
+      },
+      "games/coin pusher emperors rein 200/prefabs/effects/smallgame/art/effects/prefabs/ng_eff_sym04_bugle.unity3d": {
+        "hash": "00c006f40e730e428f5e50c7a4e43d4a",
+        "size_bytes": 26702
+      },
+      "games/coin pusher emperors rein 200/prefabs/effects/smallgame/art/effects/prefabs/ng_eff_sym05_laurel.unity3d": {
+        "hash": "7df75b54c4f159ecb6ebbbb70cd345aa",
+        "size_bytes": 26591
+      },
+      "games/coin pusher emperors rein 200/prefabs/effects/smallgame/art/effects/prefabs/ng_eff_sym10_chest.unity3d": {
+        "hash": "4cf398bb844777df4d17d2fa4140982b",
+        "size_bytes": 48502
+      },
+      "games/coin pusher emperors rein 200/prefabs/effects/smallgame/art/effects/prefabs/ng_eff_sym10_wild.unity3d": {
+        "hash": "bfc79d5a9f5289af740d0c311c337699",
+        "size_bytes": 2776808
+      },
+      "games/coin pusher emperors rein 200/prefabs/effects/smallgame/art/effects/prefabs/ng_eff_sym11_purse.unity3d": {
+        "hash": "26ad3cf780602fbda140e43045ef0c89",
+        "size_bytes": 26169
+      },
+      "games/coin pusher emperors rein 200/prefabs/effects/smallgame/art/effects/prefabs/sg_down_jb.unity3d": {
+        "hash": "3480ec49bbdcaff44d1264540f2a9b44",
+        "size_bytes": 234113
+      },
+      "games/coin pusher emperors rein 200/prefabs/effects/smallgame/art/effects/prefabs/sg_eff_fadeabsorb.unity3d": {
+        "hash": "80d4600edd0f12ad52a93f88c79b237f",
+        "size_bytes": 163164
+      },
+      "games/coin pusher emperors rein 200/prefabs/effects/smallgame/art/effects/prefabs/sg_eff_fadeblow1.unity3d": {
+        "hash": "d0526b80b6aff7025d387b2c930bf5a2",
+        "size_bytes": 414480
+      },
+      "games/coin pusher emperors rein 200/prefabs/effects/smallgame/art/effects/prefabs/sg_eff_fadeblow2.unity3d": {
+        "hash": "d288b2a64fc44f853b3d0ac104a59931",
+        "size_bytes": 561012
+      },
+      "games/coin pusher emperors rein 200/prefabs/effects/smallgame/art/effects/prefabs/sg_eff_fadefeather.unity3d": {
+        "hash": "8fea21ef1d0783e38b38c41729a8501d",
+        "size_bytes": 372859
+      },
+      "games/coin pusher emperors rein 200/prefabs/effects/smallgame/art/effects/prefabs/weli.unity3d": {
+        "hash": "4bb301b17a17d37d09fb7b174e9bcc2c",
+        "size_bytes": 570617
+      },
+      "games/coin pusher emperors rein 200/prefabs/game controller/bonus1 controller.unity3d": {
+        "hash": "e42d321367d1ba95f8bf3b4f81885898",
+        "size_bytes": 3158
+      },
+      "games/coin pusher emperors rein 200/prefabs/game controller/push game main controller.unity3d": {
+        "hash": "85a6cb25c6865e71adb1b84cb173c8b5",
+        "size_bytes": 6117
+      },
+      "games/coin pusher emperors rein 200/prefabs/game controller/slot game main controller.unity3d": {
+        "hash": "85e3b5aeb3ac3318baf5ffc81d778b50",
+        "size_bytes": 4449
+      },
+      "games/coin pusher emperors rein 200/prefabs/pageergamemain/anchornpcqiang.unity3d": {
+        "hash": "57baa650ea952307865d511e360c91b7",
+        "size_bytes": 1297710
+      },
+      "games/coin pusher emperors rein 200/prefabs/pageergamemain/anchorwin01.unity3d": {
+        "hash": "193142a4bb8a246eaf3050fd3b51a3f0",
+        "size_bytes": 496725
+      },
+      "games/coin pusher emperors rein 200/prefabs/pageergamemain/anchorwin02.unity3d": {
+        "hash": "d14a2264866c360aa329a0b0c0ad8486",
+        "size_bytes": 613530
+      },
+      "games/coin pusher emperors rein 200/prefabs/pageergamemain/bg0.unity3d": {
+        "hash": "4eeb8688829c1d34fb4349f9cea7e5e1",
+        "size_bytes": 2724838
+      },
+      "games/coin pusher emperors rein 200/prefabs/pageergamemain/bgqiang.unity3d": {
+        "hash": "73ec22d97c6b94880f064f66a8b4e82b",
+        "size_bytes": 3985834
+      },
+      "games/coin pusher emperors rein 200/prefabs/pageergamemain/collectgoldcoin.unity3d": {
+        "hash": "4a26c1e90bfd9b5292a1d250408356b5",
+        "size_bytes": 284008
+      },
+      "games/coin pusher emperors rein 200/prefabs/pageergamemain/fgfadeflag.unity3d": {
+        "hash": "47d24171d9016bfc4ed75e9da73c17d5",
+        "size_bytes": 1708588
+      },
+      "games/coin pusher emperors rein 200/prefabs/pageergamemain/fseffect01.unity3d": {
+        "hash": "2ad3bdae339957548e97492e8d1e54cb",
+        "size_bytes": 613854
+      },
+      "games/coin pusher emperors rein 200/prefabs/pageergamemain/goldback.unity3d": {
+        "hash": "d6a55400a45b1cab9de59235b097f308",
+        "size_bytes": 289434
+      },
+      "games/coin pusher emperors rein 200/prefabs/pageergamemain/kinglion.unity3d": {
+        "hash": "bdcb369d87e76dbd05346e8461e5ff9a",
+        "size_bytes": 2705851
+      },
+      "games/coin pusher emperors rein 200/prefabs/pageergamemain/qi.unity3d": {
+        "hash": "c574a6e1eb437618026493c36f93c8de",
+        "size_bytes": 167728
+      },
+      "games/coin pusher emperors rein 200/prefabs/pageergamemain/reeleffect.unity3d": {
+        "hash": "5cd0c1d804676c0d34c6a80445b065cb",
+        "size_bytes": 168337
+      },
+      "games/coin pusher emperors rein 200/prefabs/popup jackpot on line/effects/coins/prefabs/eff_pup_grand.unity3d": {
+        "hash": "0dd8480cab7328a6209922512d5838f2",
+        "size_bytes": 445596
+      },
+      "games/coin pusher emperors rein 200/prefabs/popup jackpot on line/prefabs/anchor jackpot online.unity3d": {
+        "hash": "fb2a42661497a1ebd909e90161871c05",
+        "size_bytes": 6884231
+      },
+      "games/coin pusher emperors rein 200/prefabs/popupbigwin/begin queen.unity3d": {
+        "hash": "4fb2c57649e19d1e6c5b7e5b564e6f0b",
+        "size_bytes": 1352934
+      },
+      "games/coin pusher emperors rein 200/prefabs/popupbigwin/bigwineffect01.unity3d": {
+        "hash": "80f5b9753bbc0d3003a0ac741c5e1ec3",
+        "size_bytes": 1537945
+      },
+      "games/coin pusher emperors rein 200/prefabs/popupbigwin/bigwineffect02.unity3d": {
+        "hash": "d95d3b8a3e9cae338705756ef2835398",
+        "size_bytes": 516309
+      },
+      "games/coin pusher emperors rein 200/prefabs/popupfreebonusgame2/777.unity3d": {
+        "hash": "ca16c9c1fe4f6f26c786f00ba536e388",
+        "size_bytes": 874652
+      },
+      "games/coin pusher emperors rein 200/prefabs/popupfreebonusgame2/bombs.unity3d": {
+        "hash": "0ed5f83e06e6ef44e781cca02051672c",
+        "size_bytes": 111563
+      },
+      "games/coin pusher emperors rein 200/prefabs/popupfreebonusgame2/commonatlas.unity3d": {
+        "hash": "d6649eb505e09ce6398b0d43b199a1e2",
+        "size_bytes": 1000799
+      },
+      "games/coin pusher emperors rein 200/prefabs/popupfreespintrigger/fgfadetips.unity3d": {
+        "hash": "6e8f9534c068a1b2f4ba0d09be7013f0",
+        "size_bytes": 1856782
+      },
+      "games/coin pusher emperors rein 200/prefabs/popupgamejackpot/jackpot.unity3d": {
+        "hash": "6043782e083b70a43f2302c5cf3a88fe",
+        "size_bytes": 2933945
+      },
+      "games/coin pusher emperors rein 200/prefabs/popupgamejackpot/pushjackpot.unity3d": {
+        "hash": "d0d96f720d63c40f60ead5a350c65d25",
+        "size_bytes": 4665556
+      },
+      "games/coin pusher emperors rein 200/prefabs/popupzhuanchang/zhuanchang.unity3d": {
+        "hash": "725acf4d0ef86894340484e8e751c070",
+        "size_bytes": 5570294
+      },
+      "games/coin pusher emperors rein 200/prefabs/spin/push_btn_spin.unity3d": {
+        "hash": "746d45e5b2e5ff753d400b80c11c6add",
+        "size_bytes": 294815
+      },
+      "games/coin pusher emperors rein 200/prefabs/symbols/border/anchorborder.unity3d": {
+        "hash": "d4af5ebcc4260ed1d291e2f0d7581445",
+        "size_bytes": 5466643
+      },
+      "games/coin pusher emperors rein 200/prefabs/symbols/symbolappear/symbolappear0 wild.unity3d": {
+        "hash": "e986edab975a7454285fd33ce6606a7a",
+        "size_bytes": 261081
+      },
+      "games/coin pusher emperors rein 200/prefabs/symbols/symbolappear/symbolappear1.unity3d": {
+        "hash": "71b0bcbd2468178eb739d783392da4d7",
+        "size_bytes": 567350
+      },
+      "games/coin pusher emperors rein 200/prefabs/symbols/symbolappear/symbolappear10 freespin.unity3d": {
+        "hash": "845079594c15faa0c25a0478a1cc2871",
+        "size_bytes": 397564
+      },
+      "games/coin pusher emperors rein 200/prefabs/symbols/symbolappear/symbolappear11 bonus.unity3d": {
+        "hash": "3f7dbbe0d9c64d3a464c2a3a831f0a9e",
+        "size_bytes": 287808
+      },
+      "games/coin pusher emperors rein 200/prefabs/symbols/symbolappear/symbolappear11 bonus_ball.unity3d": {
+        "hash": "743c12ee91504e73634d30cd03d752c8",
+        "size_bytes": 201730
+      },
+      "games/coin pusher emperors rein 200/prefabs/symbols/symbolappear/symbolappear2.unity3d": {
+        "hash": "89792744cc4e12449273c80b779331d9",
+        "size_bytes": 214483
+      },
+      "games/coin pusher emperors rein 200/prefabs/symbols/symbolappear/symbolappear3.unity3d": {
+        "hash": "6aafd951ed01f7277863546d2465529b",
+        "size_bytes": 302461
+      },
+      "games/coin pusher emperors rein 200/prefabs/symbols/symbolappear/symbolappear4.unity3d": {
+        "hash": "19befb63cdbc7346d49baf011bd2f828",
+        "size_bytes": 221276
+      },
+      "games/coin pusher emperors rein 200/prefabs/symbols/symbolappear/symbolappear5.unity3d": {
+        "hash": "44b547bf38bc56604c92e0dc8e710ed8",
+        "size_bytes": 202991
+      },
+      "games/coin pusher emperors rein 200/prefabs/symbols/symbolappear/symbolappear6.unity3d": {
+        "hash": "34c1281dcc6235a1356c6fcf763936f2",
+        "size_bytes": 114919
+      },
+      "games/coin pusher emperors rein 200/prefabs/symbols/symbolappear/symbolappear7.unity3d": {
+        "hash": "3d7486de7c2bd10639281ab91c0926f1",
+        "size_bytes": 163186
+      },
+      "games/coin pusher emperors rein 200/prefabs/symbols/symbolappear/symbolappear8.unity3d": {
+        "hash": "ff80a4ab5def747491a4a78a218b0f49",
+        "size_bytes": 191840
+      },
+      "games/coin pusher emperors rein 200/prefabs/symbols/symbolappear/symbolappear9.unity3d": {
+        "hash": "171b0299a0ff19c4dfe041818155c46e",
+        "size_bytes": 164183
+      },
+      "games/coin pusher emperors rein 200/prefabs/symbols/symbolappear/symbolappear_jp.unity3d": {
+        "hash": "0e537379662857664f0b14620d749fa3",
+        "size_bytes": 1040123
+      },
+      "games/coin pusher emperors rein 200/prefabs/symbols/symbolhit/symbolhit0 wild.unity3d": {
+        "hash": "ef74efb41acc89efa0ddae91b4620e19",
+        "size_bytes": 261053
+      },
+      "games/coin pusher emperors rein 200/prefabs/symbols/symbolhit/symbolhit1.unity3d": {
+        "hash": "b27c5921a4bc9cd6b0a7df6b5ee899df",
+        "size_bytes": 567675
+      },
+      "games/coin pusher emperors rein 200/prefabs/symbols/symbolhit/symbolhit10 freespin.unity3d": {
+        "hash": "e0bce436f0c5a8cbe791a52dc6a22b82",
+        "size_bytes": 397374
+      },
+      "games/coin pusher emperors rein 200/prefabs/symbols/symbolhit/symbolhit11 bonus.unity3d": {
+        "hash": "2d87c4cade74cec64deb6e8e384cd44f",
+        "size_bytes": 287969
+      },
+      "games/coin pusher emperors rein 200/prefabs/symbols/symbolhit/symbolhit2.unity3d": {
+        "hash": "f8dbe23f945b13b605399b15a42bd02d",
+        "size_bytes": 215084
+      },
+      "games/coin pusher emperors rein 200/prefabs/symbols/symbolhit/symbolhit3.unity3d": {
+        "hash": "ceb0ae0be5daebd64b3de82e0c5b5c6a",
+        "size_bytes": 302230
+      },
+      "games/coin pusher emperors rein 200/prefabs/symbols/symbolhit/symbolhit4.unity3d": {
+        "hash": "fd8de3b113a591a96acddd954c837137",
+        "size_bytes": 221481
+      },
+      "games/coin pusher emperors rein 200/prefabs/symbols/symbolhit/symbolhit5.unity3d": {
+        "hash": "4d8bd6b45db5833f9b8b3c21cdc6f1b5",
+        "size_bytes": 203202
+      },
+      "games/coin pusher emperors rein 200/prefabs/symbols/symbolhit/symbolhit6.unity3d": {
+        "hash": "bfeb1ef14cf3cfb8339634b2480fc131",
+        "size_bytes": 115362
+      },
+      "games/coin pusher emperors rein 200/prefabs/symbols/symbolhit/symbolhit7.unity3d": {
+        "hash": "e49d3ab90a8a4b255b194a13ed64752d",
+        "size_bytes": 163541
+      },
+      "games/coin pusher emperors rein 200/prefabs/symbols/symbolhit/symbolhit8.unity3d": {
+        "hash": "3bd9fd5730aa593cd824e650cf90f47a",
+        "size_bytes": 192147
+      },
+      "games/coin pusher emperors rein 200/prefabs/symbols/symbolhit/symbolhit9.unity3d": {
+        "hash": "64b274f546c0a21cf1d1c63ea2a9387d",
+        "size_bytes": 163933
+      },
+      "games/coin pusher emperors rein 200/prefabs/symbols/symbolhit/symbolhit_jp.unity3d": {
+        "hash": "02b9c907eabc016d62f5e4aaf70eaa5e",
+        "size_bytes": 1040409
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/bigwin/bigwin_chajian.unity3d": {
+        "hash": "3dd2ca6b8be040ccfa68dd1056b70128",
+        "size_bytes": 85520
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/bigwin/bigwin_coin.unity3d": {
+        "hash": "245e1b864d8fc85bccdd865150282363",
+        "size_bytes": 225347
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/bigwin/bigwin_end.unity3d": {
+        "hash": "32705d92c29002d9b19d7ef88c45cac5",
+        "size_bytes": 24555
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/bigwin/bigwin_number_on.unity3d": {
+        "hash": "3d80bbbfd61f9109fcd9fca2bd16bbd9",
+        "size_bytes": 44916
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/bigwin/bigwin_on.unity3d": {
+        "hash": "3fb044c680c8ba20611154b13f4dabf8",
+        "size_bytes": 85488
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/bonus/bonus_tipappear.unity3d": {
+        "hash": "6435f5ae700465a28fc33547ee693fd4",
+        "size_bytes": 84254
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/bonus/bonusshooteff.unity3d": {
+        "hash": "ae849d83a3cc0524760d859b96763089",
+        "size_bytes": 17943
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/bonus/bonussymbolwin.unity3d": {
+        "hash": "59f9c47131426a42128f06475ef90f12",
+        "size_bytes": 29546
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/bonus/bonuswinscoreeff.unity3d": {
+        "hash": "9e1f27ae37ddc5d01746afd7628f0ec9",
+        "size_bytes": 33337
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/button/button_back.unity3d": {
+        "hash": "4974977b80e657372b47404fe7fc39b2",
+        "size_bytes": 19219
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/button/button_bet.unity3d": {
+        "hash": "22b40243fbcacc37911e6a553f3291cd",
+        "size_bytes": 22285
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/button/button_denom.unity3d": {
+        "hash": "ee5d1ac5f44dea075090318c2cc7c573",
+        "size_bytes": 24034
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/button/button_info.unity3d": {
+        "hash": "c2475952c04bccf0da7eec9af133daa3",
+        "size_bytes": 26686
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/button/button_introduce.unity3d": {
+        "hash": "8d5171cdef013b936f53d57e9cf204cd",
+        "size_bytes": 30165
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/button/button_maxbet.unity3d": {
+        "hash": "9790a7f5123cb2a6529499d94ce63574",
+        "size_bytes": 46126
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/button/button_normal.unity3d": {
+        "hash": "2e82ffe4aeca36a1ec93810ad4f02748",
+        "size_bytes": 7603
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/button/button_preview.unity3d": {
+        "hash": "0e6fc0d5f13c0f35eb299d74bebaa77a",
+        "size_bytes": 35857
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/button/button_slot.unity3d": {
+        "hash": "9b3b7630a197e9c1d181dc06c937b48f",
+        "size_bytes": 12757
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/button/button_spin.unity3d": {
+        "hash": "42cd3bdc83c4ef4aed2261d88f271a30",
+        "size_bytes": 24922
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/button/button_voice.unity3d": {
+        "hash": "7023e9cb9ac990b8f5f01a3c1877df54",
+        "size_bytes": 15188
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/effect/clicknpc.unity3d": {
+        "hash": "06fb26fc50f16b521a0a9ba1f2eafcf3",
+        "size_bytes": 25864
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/effect/effect_win.unity3d": {
+        "hash": "23c28fedb8cf25abc9a7b9b3642bfacd",
+        "size_bytes": 138210
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/effect/flag.unity3d": {
+        "hash": "20d589e022a357761b49e9950337ac64",
+        "size_bytes": 78581
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/effect/freegamebigoddsymbolwin.unity3d": {
+        "hash": "bf511c73af04264fddefd94d674a3952",
+        "size_bytes": 125323
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/effect/freegamechestopen.unity3d": {
+        "hash": "55c7bc39fdd3f91e8fa89f52fca5d658",
+        "size_bytes": 76969
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/effect/freegamenpc.unity3d": {
+        "hash": "15948b5d85becb3c50f3a0bb670e3c9b",
+        "size_bytes": 48645
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/effect/freegamesmalloddsymbolwin.unity3d": {
+        "hash": "712f44e62e15e65ec0012322313fec5b",
+        "size_bytes": 111957
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/effect/freenumbertipappear.unity3d": {
+        "hash": "47717c6e3f3891551bf31f94265e978c",
+        "size_bytes": 146882
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/effect/normalgameenvironment.unity3d": {
+        "hash": "07207ba7e23abc39150af5851c2183f8",
+        "size_bytes": 2830036
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/link/link_add_score.unity3d": {
+        "hash": "8e8dffa4d7497150a95b8f4e2a8de0e1",
+        "size_bytes": 8570
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/link/link_end_effect.unity3d": {
+        "hash": "55f9571d280e9dde021e65c9135d8094",
+        "size_bytes": 45563
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/link/link_end_pgsound.unity3d": {
+        "hash": "36ffcdbd70812e8dcac86da84d24b4f7",
+        "size_bytes": 49123
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/link/link_jinbi.unity3d": {
+        "hash": "5568477a4f7ff8836e3c2196d6472a49",
+        "size_bytes": 81280
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/link/link_number_move.unity3d": {
+        "hash": "52357b81d29fe1af5fc8040f3902946f",
+        "size_bytes": 34173
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/link/link_scoretotsuo.unity3d": {
+        "hash": "b34a30b6b2a859b524a512745b990459",
+        "size_bytes": 6357
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/link/link_scroll.unity3d": {
+        "hash": "998f464d0c5b656140446ba6076681cb",
+        "size_bytes": 121751
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/link/link_specialscore_scroll.unity3d": {
+        "hash": "0dbaa18331b1fe2003c4ebe198b5f47d",
+        "size_bytes": 8697
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/link/link_specialscore_scroll_lock.unity3d": {
+        "hash": "2d4d3377a187fbd413d3a57c9e6d2141",
+        "size_bytes": 35819
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/link/link_start.unity3d": {
+        "hash": "5a983b716dada97fdf64ecf1d9b9efc0",
+        "size_bytes": 22670
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/link/link_stop.unity3d": {
+        "hash": "a36e3187497d9a6d5ab4a52e0fd22a12",
+        "size_bytes": 16285
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/link/link_stop1.unity3d": {
+        "hash": "256ae1f64abe8a263158a5f35503a428",
+        "size_bytes": 20258
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/link/link_stop2.unity3d": {
+        "hash": "b86271d622b4392f134b9f5998589b70",
+        "size_bytes": 20258
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/link/link_stop3.unity3d": {
+        "hash": "633d2ee92425714456acff3193e5c5d9",
+        "size_bytes": 20269
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/link/link_stop4.unity3d": {
+        "hash": "6586446891824d9451db06fa6ac3bf37",
+        "size_bytes": 20257
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/link/link_stop5.unity3d": {
+        "hash": "f808a29acc53acb9d1ba746a4044f0a9",
+        "size_bytes": 20268
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/link/link_transition_in.unity3d": {
+        "hash": "3c452ee88525a46d8a194a343e4419ec",
+        "size_bytes": 163654
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/link/link_transition_out.unity3d": {
+        "hash": "2c29623db676e38c87de563cbd71e6a0",
+        "size_bytes": 103618
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/link/link_zhadan_yr.unity3d": {
+        "hash": "d30615850a028e88939a6fc2bff79dc9",
+        "size_bytes": 200428
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/link/link_zhadan_zj.unity3d": {
+        "hash": "39645196fa0bc74f2fba27be8974c1af",
+        "size_bytes": 112297
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/scroll/freegamebigsymboldown.unity3d": {
+        "hash": "ea508ca9775f56c859704f1593aa491d",
+        "size_bytes": 33058
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/scroll/scroll_bgm.unity3d": {
+        "hash": "7c225f915efc63763c454b26503b235b",
+        "size_bytes": 147471
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/scroll/scroll_cover_bgm.unity3d": {
+        "hash": "0b5ef9ff2141f8aa80dfae6879375407",
+        "size_bytes": 27569
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/scroll/scroll_cover_focus_on.unity3d": {
+        "hash": "09a817ea4a824196e919d5c577d4613c",
+        "size_bytes": 50363
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/scroll/scroll_cover_open.unity3d": {
+        "hash": "1d83e2a5b3cee6dd70d5ae41e7722b0a",
+        "size_bytes": 9342
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/scroll/scroll_down_1.unity3d": {
+        "hash": "068b5d5d3338cdbc6685a0fc72af068c",
+        "size_bytes": 28107
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/scroll/scroll_down_2.unity3d": {
+        "hash": "2aa3b6fb28b0dddc54b480025e8a78f8",
+        "size_bytes": 26579
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/scroll/scroll_down_3.unity3d": {
+        "hash": "59af52b91c8f66e6b4ae038d142f6afc",
+        "size_bytes": 31624
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/scroll/scroll_down_4.unity3d": {
+        "hash": "997235ea58aae8cedd399223fa1e2a44",
+        "size_bytes": 35894
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/scroll/scroll_down_5.unity3d": {
+        "hash": "13c4c4f42205199ed6235c26f4f37a0d",
+        "size_bytes": 36472
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/scroll/scroll_focus_on.unity3d": {
+        "hash": "1b318646a0b7c74f212db3729ce6622b",
+        "size_bytes": 67513
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/scroll/scroll_win_10.unity3d": {
+        "hash": "677df9822a47cf58e4d7ca95a76d56fa",
+        "size_bytes": 42924
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/scroll/scroll_win_11.unity3d": {
+        "hash": "4029cd773fdb379bb3c8761ec5c5b987",
+        "size_bytes": 43446
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/scroll/scroll_win_12.unity3d": {
+        "hash": "0ba1728001e37534861c5b1bd1c1b504",
+        "size_bytes": 90929
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/scroll/scroll_win_1234.unity3d": {
+        "hash": "d6f8e1fb382faef2bac01458f4c4fc0b",
+        "size_bytes": 32512
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/scroll/scroll_win_5.unity3d": {
+        "hash": "74a5bfe731387d000f95889f9715d3d9",
+        "size_bytes": 59024
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/scroll/scroll_win_6.unity3d": {
+        "hash": "b503b3cc4792ff925665217465d657d5",
+        "size_bytes": 73290
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/scroll/scroll_win_7.unity3d": {
+        "hash": "f6f6ddc59e6368a86088519fc8f6a6c2",
+        "size_bytes": 13352
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/scroll/scroll_win_8.unity3d": {
+        "hash": "e3eaa918ca2a7799a89a563c65648ccd",
+        "size_bytes": 37376
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/scroll/scroll_win_9.unity3d": {
+        "hash": "d7e90bc399290b97200a0947d49debcd",
+        "size_bytes": 53304
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/transition/transition_bonus_off.unity3d": {
+        "hash": "f5a452e5e54968cfc45d98f3349a407b",
+        "size_bytes": 247654
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/transition/transition_bonus_on.unity3d": {
+        "hash": "96c0c7a773b057c0425e47703d9a3c70",
+        "size_bytes": 423619
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/transition/transition_free_off.unity3d": {
+        "hash": "adae49b8eb37d4f7b0736c4d382c3582",
+        "size_bytes": 154551
+      },
+      "games/coin pusher emperors rein 200/sounds/effect/transition/transition_free_on.unity3d": {
+        "hash": "cdddb21bc8c804a19bc4a0c4a6ec0a3a",
+        "size_bytes": 151675
+      },
+      "games/coin pusher emperors rein 200/sounds/music/music_bigwin.unity3d": {
+        "hash": "c33962b31a7aaad7925558dd6e6fd631",
+        "size_bytes": 818919
+      },
+      "games/coin pusher emperors rein 200/sounds/music/music_bonus.unity3d": {
+        "hash": "3b82b0a89147999228a22f3585e71089",
+        "size_bytes": 1443538
+      },
+      "games/coin pusher emperors rein 200/sounds/music/music_free.unity3d": {
+        "hash": "52ab3cbf666b019674f2635509c40c4e",
+        "size_bytes": 899109
+      },
+      "games/coin pusher emperors rein 200/sounds/music/music_freenumbertip.unity3d": {
+        "hash": "773c0b12b3100200612be71f2450eb6e",
+        "size_bytes": 1493288
+      },
+      "games/coin pusher emperors rein 200/sounds/music/music_link.unity3d": {
+        "hash": "2f67f8ddc315d75a1346b7aa25f02f48",
+        "size_bytes": 1682462
+      },
+      "games/coin pusher emperors rein 200/sounds/music/music_normal.unity3d": {
+        "hash": "2b18def9f61af88a51aa2764adb636dd",
+        "size_bytes": 497607
+      },
+      "games/panel coin pusher 02/fguis.unity3d": {
+        "hash": "89b28af011da4b908ba9bbda62cf2554",
+        "size_bytes": 482816
+      },
+      "games/panel slot 01/fguis.unity3d": {
+        "hash": "fc49500350b3e3fb9b1404646973556d",
+        "size_bytes": 202239
+      },
+      "games/panel slot 01/prefabs/slot_btn_spin.unity3d": {
+        "hash": "2b20062f838f5b22b0117c6463e43ddf",
+        "size_bytes": 324429
+      },
+      "lobbys/lobby01/fguis.unity3d": {
+        "hash": "3e9d4d9e7827bde29953e2b9072c3284",
+        "size_bytes": 1474988
+      }
+    }
+  },
+  "asset_backup": {
+    "Lobbys/Game Info/lobby_games.json": {
+      "hash": "b5aab39e917f37f3a8aa7bdd4bc682ff",
+      "size_bytes": 1544
+    },
+    "Lobbys/Game Info/G152/Game Avatar/Game Avatar G152.png": {
+      "hash": "0c68e0540f633f3298a7bf03c28a2c7b",
+      "size_bytes": 48211
+    },
+    "Lobbys/Game Info/G152/Game Lobby Image/Slot Image Big GFN.png": {
+      "hash": "f00315e83a8cdca1d4a442c5010151ae",
+      "size_bytes": 159754
+    },
+    "Lobbys/Game Info/G152/Game Lobby Image/Slot Image Small GFN.png": {
+      "hash": "7bad37210fee7667f428f1872a8f2e8b",
+      "size_bytes": 80748
+    },
+    "Lobbys/Game Info/G200/Game Avatar/Game Avatar G200.png": {
+      "hash": "c7e85a6bf25d4a948f3291dbe23029ae",
+      "size_bytes": 49453
+    },
+    "Lobbys/Game Info/G200/Game Lobby Image/Slot Image Big SPG.png": {
+      "hash": "808d7e15ce88130dbb41d01990917cc7",
+      "size_bytes": 47525
+    },
+    "Lobbys/Game Info/G200/Game Lobby Image/Slot Image Small SPG.png": {
+      "hash": "f02404b55be635f63bdf2cb65ce71489",
+      "size_bytes": 23009
+    },
+    "Lobbys/Game Info/G201/Game Lobby Image/Slot Image Big BLC.png": {
+      "hash": "0da764eecd9199327612b43d689de9d2",
+      "size_bytes": 162328
+    },
+    "Lobbys/Game Info/G201/Game Lobby Image/Slot Image Small BLC.png": {
+      "hash": "4f9b5f537182f5b4eae07f8095bc8854",
+      "size_bytes": 74311
+    },
+    "Lobbys/Game Info/G300/Game Avatar/Game Avatar G300.png": {
+      "hash": "c7e85a6bf25d4a948f3291dbe23029ae",
+      "size_bytes": 49453
+    },
+    "Lobbys/Game Info/G4000/Game Lobby Image/Slot Image Big MPM.png": {
+      "hash": "b24c9f0f251f66436d222d425eeff68d",
+      "size_bytes": 146565
+    },
+    "Lobbys/Game Info/G4000/Game Lobby Image/Slot Image Small MPM.png": {
+      "hash": "599f66d89741168cd88bb46cf01561f5",
+      "size_bytes": 75871
+    },
+    "_Commons/Game Maker/Datas/Test 01/DDD AAA.json": {
+      "hash": "46f8026b0a183d8ab18517bc5be5ea14",
+      "size_bytes": 36
+    }
+  },
+  "asset_dll": {
+    "Base.dll.bytes": {
+      "hash": "da47980e1c571e3ffd8fa0ac62c41ea0",
+      "size_bytes": 169472,
+      "level": 0
+    },
+    "Main.dll.bytes": {
+      "hash": "2c6ed7e2beeb74522aec28c00411e6a3",
+      "size_bytes": 1023488,
+      "level": 1
+    }
+  },
+  "dependencies": {
+    "Main": {
+      "hash": "1002abc",
+      "hotfix_version": "2.20.2"
+    },
+    "Hall": {
+      "hash": "1002abc",
+      "hotfix_version": "2.20.2"
+    }
+  }
+}

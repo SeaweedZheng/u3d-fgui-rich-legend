@@ -1,0 +1,22 @@
+{
+  "name": "RL201",
+  "updated_at": 1767790517908,
+  "hotfix_key": "hf_debug_android_20251216143338",
+  "hotfix_version": "1.0.18",
+  "hash": "288ed7444458944ac0638f02b0bc0163",
+  "asset_bundle": {
+    "manifest": {
+      "hash": "b16b18755a546d5a9646339d7f8a1f30",
+      "size_bytes": 7296
+    },
+    "bundles": {}
+  },
+  "asset_backup": {},
+  "asset_dll": {},
+  "dependencies": {
+    "Main": {
+      "hash": "582905032b4e282835f0cfe3b325180f",
+      "hotfix_version": "1.0.18"
+    }
+  }
+}

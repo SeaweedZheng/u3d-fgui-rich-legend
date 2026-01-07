@@ -1,0 +1,53 @@
+{
+  "updated_at": 1759850470466,
+  "data": [
+    {
+      "agent_name": "luoma",
+      "app": "正式产品包-英文版",
+      "app_key": "luoma_release_machine_20251104100000",
+      "app_version": "1.1.0",
+      "version_suggest": null,
+      "hotfix_url": "./Product/release/1_1_26"
+    },
+    {
+      "agent_name": "luoma",
+      "app": "--",
+      "app_key": "luoma_debug_machine_20251007232110",
+      "app_version": "1.2.0",
+      "version_suggest": null,
+      "hotfix_url": "./debug/android/1"
+    },
+    {
+      "agent_name": "luoma",
+      "app": "正式产品包-多语言版",
+      "app_key": "luoma_release_machine_20250929154431",
+      "app_version": "1.1.0",
+      "version_suggest": null,
+      "hotfix_url": "./Product/release/1_1_0"
+    },
+    {
+      "agent_name": "EmperorsRein200",
+      "app": "机台测试包",
+      "app_key": "EmperorsRein200_debug_machine_20250825200001",
+      "app_version": "1.0.0",
+      "version_suggest": null,
+      "hotfix_url": "./debug/android/1"
+    },
+    {
+      "agent_name": "EmperorsRein200",
+      "app": "机台测试包",
+      "app_key": "EmperorsRein200_debug_machine_20250825200000",
+      "app_version": "1.0.0",
+      "version_suggest": null,
+      "hotfix_url": "./debug/android/1_0_999"
+    },
+    {
+      "agent_name": "EmperorsRein200",
+      "app": "测试包",
+      "app_key": "EmperorsRein200_debug_android_20250815170450",
+      "app_version": "1.0.0",
+      "version_suggest": null,
+      "hotfix_url": "./debug/android/1"
+    }
+  ]
+}

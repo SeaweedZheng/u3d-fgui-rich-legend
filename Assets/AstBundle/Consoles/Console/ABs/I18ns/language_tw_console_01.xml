@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="xp0b9yqd8yql7z-n29_os7y-cp-title" mz="navBottom">超級管理員</string>
+  <string name="xp0b9yqd8yql7z-n30_i938-cp-title" mz="navBottom2">Permissions</string>
+  <string name="xp0b9yqd8yql7z-n6_cwuo" mz="navDebug">調試</string>
+  <string name="xp0b9yqd8yql7z-n31_i938" mz="navDebug">PERMISSIONS</string>
+  <string name="xp0b9yqdg3lh53-n6_cwuo" mz="navBusiness">總營收</string>
+  <string name="xp0b9yqdg3lh53-n31_g3lh" mz="navCoin">投退幣記錄</string>
+  <string name="xp0b9yqdg3lh53-n29_os7y-cp-title" mz="navBottom">營收記錄</string>
+  <string name="xp0b9yqdkc0c89-n6_cwuo" mz="navGame">遊戲記錄</string>
+  <string name="xp0b9yqdkc0c89-n31_g3lh" mz="navJackpot">彩金記錄</string>
+  <string name="xp0b9yqdg3lh5m-n32_g3lh-cp-key" mz="machineName">機台名稱:</string>
+  <string name="xp0b9yqdg3lh5m-n32_g3lh-cp-value" mz="machineName">GOOD FORTUNE RETURNS</string>
+  <string name="xp0b9yqdg3lh5m-n33_g3lh-cp-key" mz="softwareVer">軟體版本:</string>
+  <string name="xp0b9yqdg3lh5m-n34_g3lh-cp-key" mz="hardwareVer">硬體版本:</string>
+  <string name="xp0b9yqdg3lh5m-n35_g3lh-cp-key" mz="algorithmVer">算灋版本:</string>
+  <string name="xp0b9yqdg3lh5m-n36_g3lh-cp-key" mz="producedBy">遊戲廠商:</string>
+  <string name="xp0b9yqdg3lh5m-n29_os7y-cp-title" mz="navBottom">遊戲資訊</string>
+  <string name="xp0b9yqd8yql82-n29_os7y-cp-title" mz="navBottom">硬體測試</string>
+  <string name="xp0b9yqd8yql82-n5_cwuo" mz="navMachine">按鈕</string>
+  <string name="xp0b9yqd8yql82-n6_cwuo" mz="navInOut">荧幕</string>
+  <string name="xp0b9yqdu8xf7r-n6_cwuo" mz="navEvent">事件記錄</string>
+  <string name="xp0b9yqdu8xf7r-n31_g3lh" mz="navWarning">警告記錄</string>
+  <string name="xp0b9yqdu8xf7r-n32_kv1r-cp-title" mz="navBottom">Event Record, Page 1 of 1</string>
+  <string name="xp0b9yqdglrj1i-n5_cwuo" mz="navMachine">設備</string>
+  <string name="xp0b9yqdglrj1i-n6_cwuo" mz="navInOut">投-退</string>
+  <string name="xp0b9yqdglrj1i-n7_cwuo" mz="navPROGRESSIVE">增强</string>
+  <string name="xp0b9yqdglrj1i-n29_os7y-cp-title" mz="navBottom">設備設定</string>
+  <string name="xp0b9yqdyx3q0-n2_smbp-0" mz="menu">遊戲資訊</string>
+  <string name="xp0b9yqdyx3q0-n2_smbp-1" mz="menu">營收記錄</string>
+  <string name="xp0b9yqdyx3q0-n2_smbp-2" mz="menu">遊戲歷史</string>
+  <string name="xp0b9yqdyx3q0-n2_smbp-3" mz="menu">事件記錄</string>
+  <string name="xp0b9yqdyx3q0-n2_smbp-4" mz="menu">系統時間</string>
+  <string name="xp0b9yqdyx3q0-n2_smbp-5" mz="menu">音量設定</string>
+  <string name="xp0b9yqdyx3q0-n2_smbp-6" mz="menu">語言</string>
+  <string name="xp0b9yqdyx3q0-n2_smbp-7" mz="menu">硬體測試</string>
+  <string name="xp0b9yqdyx3q0-n2_smbp-8" mz="menu">觸控屏</string>
+  <string name="xp0b9yqdyx3q0-n2_smbp-9" mz="menu">設定</string>
+  <string name="xp0b9yqdyx3q0-n2_smbp-10" mz="menu">超級管理員</string>
+  <string name="xp0b9yqdyx3q0-n2_smbp-11" mz="menu">退出</string>
+  <string name="xp0b9yqdi9389e-n29_os7y-cp-title" mz="navBottom">Bill Validator</string>
+  <string name="xp0b9yqdi9389e-n30_i938" mz="nav">BILL VALIDATOR</string>
+  <string name="xp0b9yqdi93897-n29_os7y-cp-title" mz="navBottom">投-退</string>
+  <string name="xp0b9yqdi93897-n31_i938-cp-title" mz="navBottomPages">Games</string>
+  <string name="xp0b9yqdi93897-n5_cwuo" mz="navGames">GAMES</string>
+  <string name="xp0b9yqdi93897-n6_cwuo" mz="navJackpotGame">JACKPOT GAME</string>
+  <string name="xp0b9yqdi93897-n30_i938" mz="navGames1">GAMES</string>
+  <string name="xp0b9yqdi9389f-n29_os7y-cp-title" mz="navBottom">好酷</string>
+  <string name="xp0b9yqdi9389f-n30_i938" mz="nav">好酷</string>
+  <string name="xp0b9yqdi93891-n29_os7y-cp-title" mz="navBottom">投-退</string>
+  <string name="xp0b9yqdi93891-n30_i938" mz="navInOut">投-退</string>
+  <string name="xp0b9yqdi9389r-n29_os7y-cp-title" mz="navBottom">聯網彩金</string>
+  <string name="xp0b9yqdi9389r-n30_i938" mz="nav">JACKPOT ONLINE</string>
+  <string name="xp0b9yqdi93893-n29_os7y-cp-title" mz="navBottom">Machine</string>
+  <string name="xp0b9yqdi93893-n5_cwuo" mz="navMachine">設備</string>
+  <string name="xp0b9yqdi93893-n32_i938" mz="navAccount">USER</string>
+  <string name="xp0b9yqdi93893-n32_i938-0" mz="navAccount">USER</string>
+  <string name="xp0b9yqdi93893-n30_i938" mz="navHotfix">HOTFIX</string>
+  <string name="xp0b9yqdi93893-n30_i938-0" mz="navHotfix">HOTFIX</string>
+  <string name="xp0b9yqdi9388p-n30_i938-cp-title" mz="navBottomPages">設定</string>
+  <string name="xp0b9yqdi9388p-n31_i938-0" mz="menu1">Machine</string>
+  <string name="xp0b9yqdi9388p-n31_i938-1" mz="menu1">Games</string>
+  <string name="xp0b9yqdi9388p-n31_i938-2" mz="menu1">投-退</string>
+  <string name="xp0b9yqdi9388p-n31_i938-3" mz="menu1">Record</string>
+  <string name="xp0b9yqdi9388p-n31_i938-4" mz="menu1">Screen</string>
+  <string name="xp0b9yqdi9388p-n31_i938-5" mz="menu1">Bill Validator</string>
+  <string name="xp0b9yqdi9388p-n31_i938-6" mz="menu1">Printer</string>
+  <string name="xp0b9yqdi9388p-n31_i938-7" mz="menu1">遠程控制</string>
+  <string name="xp0b9yqdi9388p-n31_i938-8" mz="menu1">好酷</string>
+  <string name="xp0b9yqdi9388p-n31_i938-9" mz="menu1">Sas</string>
+  <string name="xp0b9yqdi9388p-n31_i938-10" mz="menu1">聯網彩金</string>
+  <string name="xp0b9yqdi9388p-n31_i938-11" mz="menu1">ATM</string>
+  <string name="xp0b9yqdi9388p-n31_i938-12-title" mz="menu1">Digit Counter</string>
+  <string name="xp0b9yqdi9389b-n29_os7y-cp-title" mz="navBottom">Printer</string>
+  <string name="xp0b9yqdi9389b-n30_i938" mz="nav">PRINTER</string>
+  <string name="xp0b9yqdi9389t-n29_os7y-cp-title" mz="navBottom">Record</string>
+  <string name="xp0b9yqdi9389t-n30_i938" mz="nav">RECORD</string>
+  <string name="xp0b9yqdi9389i-n29_os7y-cp-title" mz="navBottom">遠程控制</string>
+  <string name="xp0b9yqdi9389i-n30_i938" mz="nav">REMOTE CONTROL</string>
+  <string name="xp0b9yqdi9389j-n29_os7y-cp-title" mz="navBottom">Sas</string>
+  <string name="xp0b9yqdi9389j-n30_i938" mz="navSas">SAS</string>
+  <string name="xp0b9yqdi93899-n29_os7y-cp-title" mz="navBottom">Screen</string>
+  <string name="xp0b9yqdi93899-n30_i938" mz="navScreen">荧幕</string>
+  <string name="xp0b9yqdvqlx6s-n16_vqlx" mz="selectDate">Selected Date &amp; Time: 25 October 2024 12:44PM</string>
+  <string name="xp0b9yqdvqlx6s-n21_vqlx" mz="button1">取消</string>
+  <string name="xp0b9yqdvqlx6s-n23_vqlx" mz="button2">保存</string>
+  <string name="xp0b9yqdvqlx6s-n31_vqlx" mz="sun">日</string>
+  <string name="xp0b9yqdvqlx6s-n32_vqlx" mz="mon">一</string>
+  <string name="xp0b9yqdvqlx6s-n33_vqlx" mz="tue">二</string>
+  <string name="xp0b9yqdvqlx6s-n34_vqlx" mz="wed">三</string>
+  <string name="xp0b9yqdvqlx6s-n35_vqlx" mz="thu">四</string>
+  <string name="xp0b9yqdvqlx6s-n36_vqlx" mz="fri">五</string>
+  <string name="xp0b9yqdvqlx6s-n37_vqlx" mz="sat">六</string>
+  <string name="xp0b9yqdvqlx6s-n47_vqlx" mz="selectTime">選擇時間</string>
+  <string name="xp0b9yqdvqlx6s-n48_vqlx" mz="hour">小時: </string>
+  <string name="xp0b9yqdvqlx6s-n55_vqlx" mz="minute">分鐘:</string>
+  <string name="xp0b9yqdos7y3k-n6_os7y" mz="title">选择打印机型号</string>
+  <string name="xp0b9yqdos7y3k-n8_os7y" mz="param1">Selected language: Chinese(简体)</string>
+  <string name="xp0b9yqdos7y3k-n9_os7y-0" mz="list">English</string>
+  <string name="xp0b9yqdos7y3k-n9_os7y-1" mz="list">Chinese(简体)</string>
+  <string name="xp0b9yqdos7y3k-n9_os7y-2" mz="list">Chinese(繁体)</string>
+  <string name="xp0b9yqdvjfj51-n6_os7y" mz="title">啟動報碼</string>
+  <string name="xp0b9yqdvjfj51-n16_vjfj" mz="A">A: 38000000</string>
+  <string name="xp0b9yqdvjfj51-n17_vjfj" mz="B">B: 3800</string>
+  <string name="xp0b9yqdvjfj51-n18_vjfj" mz="C">C: 3800</string>
+  <string name="xp0b9yqdvjfj51-n20_vjfj" mz="D">D: 3800</string>
+  <string name="xp0b9yqdvjfj51-n19_vjfj" mz="E">E: 3800</string>
+  <string name="xp0b9yqdvjfj51-n21_vjfj" mz="time">remaining time: 2 days and 12 hours</string>
+  <string name="xp0b9yqdvqlx6k-n16_vqlx" mz="content02">Confirm Reboot Machine?</string>
+  <string name="xp0b9yqdvqlx6k-n29_kv1r" mz="title01">Confirm Reboot Machine?</string>
+  <string name="xp0b9yqdvqlx6k-n30_kv1r" mz="content01">Confirm Reboot Machine?</string>
+  <string name="xp0b9yqdvqlx6k-n26_vqlx" mz="button1">取消</string>
+  <string name="xp0b9yqdg3lh5u-n6_os7y" mz="title">选择打印机型号</string>
+  <string name="xp0b9yqdvqlx66-n6_os7y" mz="title">选择打印机型号</string>
+  <string name="xp0b9yqdkc0c88-n21_kc0c" mz="btnNext">下一頁</string>
+  <string name="xp0b9yqdvqlx64-n6_os7y" mz="title">遠端服務器連接設定</string>
+  <string name="xp0b9yqdvqlx64-n8_os7y" mz="param1">服務器IP:</string>
+  <string name="xp0b9yqdvqlx64-n14_vqlx" mz="tip1">The password length must be at least 8 characters and no more than 12 characters.</string>
+  <string name="xp0b9yqdvqlx5w-n6_os7y" mz="title">遠端服務器連接設定</string>
+  <string name="xp0b9yqdvqlx5w-n8_os7y" mz="param1">服務器IP:</string>
+  <string name="xp0b9yqdvqlx5w-n14_vqlx" mz="tip1">The password length must be at least 8 characters and no more than 12 characters.</string>
+  <string name="xp0b9yqdvqlx5w-n16_vqlx" mz="param2">服務器IP:</string>
+  <string name="xp0b9yqdvqlx5w-n18_vqlx" mz="tip2">The password length must be at least 8 characters and no more than 12 characters.</string>
+  <string name="xp0b9yqdvqlx6g-n16_vqlx" mz="title">ticket out scale&lt;br&gt;200:1</string>
+  <string name="xp0b9yqdvqlx67-n16_vqlx" mz="music">背景音樂:</string>
+  <string name="xp0b9yqdvqlx67-n18_vqlx" mz="sound">音效:</string>
+  <string name="xp0b9yqdvqlx67-n22_od68" mz="mute">靜音:</string>
+  <string name="xp0b9yqdiyvn4u-n2_g8qg" mz="helloWord">Hello China</string>
+  <string name="xp0b9yqdiyvn4u-n3_kv1r" mz="buttonConsole">Console</string>
+  <string name="xp0b9yqdiyvn4u-n7_h0il" mz="i18nTag">&lt;i18n value="CON1x"&gt;Difficulty:&lt;/i18n&gt;</string>
+  <string name="xp0b9yqdhzti8l-n4_smbp" mz="title">Buttton&lt;br&gt;1[color=#666666]666[/color]</string>
+  <string name="xp0b9yqdsmbpv-n4_smbp" mz="title">Buttton&lt;br&gt;1[color=#666666]666[/color]</string>
+  <string name="xp0b9yqdsmbpx-n4_smbp" mz="title">旋轉荧幕</string>
+  <string name="xp0b9yqdsmbp19-n4_smbp" mz="title">Buttton</string>
+  <string name="xp0b9yqdvqlx5x-n4_smbp" mz="title">確定</string>
+  <string name="xp0b9yqdvqlx6t-n3_vqlx" mz="title">October 2024</string>
+  <string name="xp0b9yqdglrj1x-n4_glrj" mz="title">清除</string>
+  <string name="xp0b9yqdglrj20-n4_glrj" mz="title">删除</string>
+  <string name="xp0b9yqdglrj1z-n4_glrj" mz="title">確認</string>
+  <string name="xp0b9yqd8yql85-n6_8yql" mz="title">設定</string>
+  <string name="xp0b9yqdu8xf7w-n33_u8xf" mz="title">三体人在利用魔法般的科技锁死了地球人的科学之后，庞大的宇宙舰队直扑太阳系，意欲清除地球文明。
+面对前所未有的危局，经历过无数磨难的地球人组建起同样庞大的太空舰队，同时，利用三体人思维透明的致命缺陷，制订了神秘莫测的“面壁计划”，精选出四位“面壁者”。秘密展开对三体人的反击。
+三体人自身虽然无法识破人类的诡谲计谋，却依靠由地球人中的背叛者挑选出的“破壁人”，与“面壁者”展开智慧博弈。[9] 三体人在利用魔法般的科技锁死了地球人的科学之后，庞大的宇宙舰队直扑太阳系，意欲清除地球文明。
+面对前所未有的危局，经历过无数磨难的地球人组建起同样庞大的太空舰队，同时，利用三体人思维透明的致命缺陷，制订了神秘莫测的“面壁计划”，精选出四位“面壁者”。秘密展开对三体人的反击。
+三体人自身虽然无法识破人类的诡谲计谋，却依靠由地球人中的背叛者挑选出的“破壁人”，与“面壁者”展开智慧博弈。[9]</string>
+  <string name="xp0b9yqdglrj1l-n5_os7y" mz="title">營收記錄</string>
+  <string name="xp0b9yqdglrj1m-n4_glrj" mz="title">營收記錄</string>
+  <string name="xp0b9yqdoibks-n6_os7y" mz="title">營收記錄</string>
+  <string name="xp0b9yqdi9388s-n6_os7y" mz="title">營收記錄</string>
+  <string name="xp0b9yqdhz8ta4-n6_os7y" mz="title">營收記錄</string>
+  <string name="xp0b9yqdcwuo2j-n0_glrj" mz="key">面额:</string>
+  <string name="xp0b9yqdcwuo2p-n24_jtgo" mz="title">設備</string>
+  <string name="xp0b9yqdg3lh5k-n99_g3lh" mz="col0">投</string>
+  <string name="xp0b9yqdg3lh5k-n100_g3lh" mz="col1">AS</string>
+  <string name="xp0b9yqdglrj1o-n12_glrj" mz="No.Delete">删除</string>
+  <string name="xp0b9yqdglrj1o-n14_glrj" mz="No.OK">確認</string>
+  <string name="xp0b9yqdglrj1w-n19_glrj" mz="No.Cancel">取消</string>
+  <string name="xp0b9yqddzs178-n1_cwuo" mz="No.q">q</string>
+  <string name="xp0b9yqddzs178-n2_cwuo" mz="No.w">w</string>
+  <string name="xp0b9yqddzs178-n3_cwuo" mz="No.e">e</string>
+  <string name="xp0b9yqddzs178-n4_cwuo" mz="No.r">r</string>
+  <string name="xp0b9yqddzs178-n5_cwuo" mz="No.t">t</string>
+  <string name="xp0b9yqddzs178-n6_cwuo" mz="No.y">y</string>
+  <string name="xp0b9yqddzs178-n7_cwuo" mz="No.u">u</string>
+  <string name="xp0b9yqddzs178-n8_cwuo" mz="No.i">主機版本/算灋版本/難度/盈利宕機（需要乘一萬）</string>
+  <string name="xp0b9yqddzs178-n9_cwuo" mz="No.o">o</string>
+  <string name="xp0b9yqddzs178-n10_cwuo" mz="No.p">p</string>
+  <string name="xp0b9yqddzs178-n11_cwuo" mz="No.a">a</string>
+  <string name="xp0b9yqddzs178-n12_cwuo" mz="No.s">s</string>
+  <string name="xp0b9yqddzs178-n13_cwuo" mz="No.d">d</string>
+  <string name="xp0b9yqddzs178-n14_cwuo" mz="No.f">f</string>
+  <string name="xp0b9yqddzs178-n15_cwuo" mz="No.g">g</string>
+  <string name="xp0b9yqddzs178-n16_cwuo" mz="No.h">h</string>
+  <string name="xp0b9yqddzs178-n17_cwuo" mz="No.j">j</string>
+  <string name="xp0b9yqddzs178-n18_cwuo" mz="No.k">k</string>
+  <string name="xp0b9yqddzs178-n19_cwuo" mz="No.l">l</string>
+  <string name="xp0b9yqddzs178-n74_cwuo" mz="No.z">z</string>
+  <string name="xp0b9yqddzs178-n75_cwuo" mz="No.x">x</string>
+  <string name="xp0b9yqddzs178-n76_cwuo" mz="No.c">c</string>
+  <string name="xp0b9yqddzs178-n77_cwuo" mz="No.v">v</string>
+  <string name="xp0b9yqddzs178-n78_cwuo" mz="Nob">b</string>
+  <string name="xp0b9yqddzs178-n79_cwuo" mz="No.n">n</string>
+  <string name="xp0b9yqddzs178-n80_cwuo" mz="No.m">m</string>
+  <string name="xp0b9yqddzs178-n87_cwuo" mz="No.Q">Q</string>
+  <string name="xp0b9yqddzs178-n88_cwuo" mz="No.W">W</string>
+  <string name="xp0b9yqddzs178-n89_cwuo" mz="No.E">E</string>
+  <string name="xp0b9yqddzs178-n90_cwuo" mz="No.R">R</string>
+  <string name="xp0b9yqddzs178-n91_cwuo" mz="No.T">T</string>
+  <string name="xp0b9yqddzs178-n92_cwuo" mz="No.Y">Y</string>
+  <string name="xp0b9yqddzs178-n93_cwuo" mz="No.U">U</string>
+  <string name="xp0b9yqddzs178-n94_cwuo" mz="No.I">I</string>
+  <string name="xp0b9yqddzs178-n95_cwuo" mz="No.O">O</string>
+  <string name="xp0b9yqddzs178-n96_cwuo" mz="No.P">P</string>
+  <string name="xp0b9yqddzs178-n98_cwuo" mz="No.A">A</string>
+  <string name="xp0b9yqddzs178-n99_cwuo" mz="No.S">S</string>
+  <string name="xp0b9yqddzs178-n100_cwuo" mz="No.D">D</string>
+  <string name="xp0b9yqddzs178-n101_cwuo" mz="No.F">F</string>
+  <string name="xp0b9yqddzs178-n102_cwuo" mz="No.G">G</string>
+  <string name="xp0b9yqddzs178-n103_cwuo" mz="No.H">H</string>
+  <string name="xp0b9yqddzs178-n104_cwuo" mz="NoJ">J</string>
+  <string name="xp0b9yqddzs178-n105_cwuo" mz="No.K">K</string>
+  <string name="xp0b9yqddzs178-n106_cwuo" mz="No.L">L</string>
+  <string name="xp0b9yqddzs178-n109_cwuo" mz="No.Z">Z</string>
+  <string name="xp0b9yqddzs178-n110_cwuo" mz="No.X">X</string>
+  <string name="xp0b9yqddzs178-n111_cwuo" mz="No.C">C</string>
+  <string name="xp0b9yqddzs178-n112_cwuo" mz="No.V">V</string>
+  <string name="xp0b9yqddzs178-n113_cwuo" mz="No.B">B</string>
+  <string name="xp0b9yqddzs178-n114_cwuo" mz="No.N">N</string>
+  <string name="xp0b9yqddzs178-n115_cwuo" mz="No.M">M</string>
+  <string name="xp0b9yqddzs178-n69_cwuo" mz="No.ABC">ABC</string>
+  <string name="xp0b9yqddzs178-n123_cwuo" mz="No.[">[</string>
+  <string name="xp0b9yqddzs178-n124_cwuo" mz="No.]">]</string>
+  <string name="xp0b9yqddzs178-n125_cwuo" mz="No.3">{</string>
+  <string name="xp0b9yqddzs178-n126_cwuo" mz="No.4">}</string>
+  <string name="xp0b9yqddzs178-n129_cwuo" mz="No.^">^</string>
+  <string name="xp0b9yqddzs178-n134_cwuo" mz="No._">_</string>
+  <string name="xp0b9yqddzs178-n135_cwuo" mz="No.\">\</string>
+  <string name="xp0b9yqddzs178-n136_cwuo" mz="No.|">|</string>
+  <string name="xp0b9yqddzs178-n137_cwuo" mz="No.~">~</string>
+  <string name="xp0b9yqddzs178-n140_cwuo" mz="No.€">€</string>
+  <string name="xp0b9yqddzs178-n141_cwuo" mz="No.￡">￡</string>
+  <string name="xp0b9yqddzs178-n142_cwuo" mz="No.￥">￥</string>
+  <string name="xp0b9yqddzs178-n143_cwuo" mz="No.·">·</string>
+  <string name="xp0b9yqddzs178-n153_cwuo" mz="No.ABC">ABC</string>
+  <string name="xp0b9yqdpv437x-n12_glrj" mz="No.Delete">删除</string>
+  <string name="xp0b9yqdpv437x-n14_glrj" mz="No.OK">確認</string>
+  <string name="xp0b9yqdg3lh58-n0_glrj" mz="key">日期:</string>
+  <string name="xp0b9yqdg3lh58-n3_g3lh-0" mz="value">item1</string>
+  <string name="xp0b9yqdg3lh58-n3_g3lh-1" mz="value">item2</string>
+  <string name="xp0b9yqdg3lh58-n3_g3lh-2" mz="value">item3</string>
+  <string name="xp0b9yqdg3lh58-n3_g3lh-3" mz="value">item4</string>
+  <string name="xp0b9yqdi9389y-n50_i938" mz="title">Mahine:</string>
+  <string name="xp0b9yqdi938a0-n50_i938" mz="title">Module</string>
+  <string name="xp0b9yqdi938a0-n57_i938" mz="staff">Staff</string>
+  <string name="xp0b9yqdi938a0-n58_i938" mz="manager">Manager</string>
+  <string name="xp0b9yqdi938a0-n59_i938" mz="admin">超級管理員</string>
+  <string name="xp0b9yqddzs17a-n69_cwuo" mz="No.ABC">ABC</string>
+  <string name="xp0b9yqddzs17b-n87_cwuo" mz="No.Q">Q</string>
+  <string name="xp0b9yqddzs17b-n88_cwuo" mz="No.W">W</string>
+  <string name="xp0b9yqddzs17b-n89_cwuo" mz="No.E">E</string>
+  <string name="xp0b9yqddzs17b-n90_cwuo" mz="No.R">R</string>
+  <string name="xp0b9yqddzs17b-n91_cwuo" mz="No.T">T</string>
+  <string name="xp0b9yqddzs17b-n92_cwuo" mz="No.Y">Y</string>
+  <string name="xp0b9yqddzs17b-n93_cwuo" mz="No.U">U</string>
+  <string name="xp0b9yqddzs17b-n94_cwuo" mz="No.I">I</string>
+  <string name="xp0b9yqddzs17b-n95_cwuo" mz="No.O">O</string>
+  <string name="xp0b9yqddzs17b-n96_cwuo" mz="No.P">P</string>
+  <string name="xp0b9yqddzs17b-n98_cwuo" mz="No.A">A</string>
+  <string name="xp0b9yqddzs17b-n99_cwuo" mz="No.S">S</string>
+  <string name="xp0b9yqddzs17b-n100_cwuo" mz="No.D">D</string>
+  <string name="xp0b9yqddzs17b-n101_cwuo" mz="No.F">F</string>
+  <string name="xp0b9yqddzs17b-n102_cwuo" mz="No.G">G</string>
+  <string name="xp0b9yqddzs17b-n103_cwuo" mz="No.H">H</string>
+  <string name="xp0b9yqddzs17b-n104_cwuo" mz="NoJ">J</string>
+  <string name="xp0b9yqddzs17b-n105_cwuo" mz="No.K">K</string>
+  <string name="xp0b9yqddzs17b-n106_cwuo" mz="No.L">L</string>
+  <string name="xp0b9yqddzs17b-n109_cwuo" mz="No.Z">Z</string>
+  <string name="xp0b9yqddzs17b-n110_cwuo" mz="No.X">X</string>
+  <string name="xp0b9yqddzs17b-n111_cwuo" mz="No.C">C</string>
+  <string name="xp0b9yqddzs17b-n112_cwuo" mz="No.V">V</string>
+  <string name="xp0b9yqddzs17b-n113_cwuo" mz="No.B">B</string>
+  <string name="xp0b9yqddzs17b-n114_cwuo" mz="No.N">N</string>
+  <string name="xp0b9yqddzs17b-n115_cwuo" mz="No.M">M</string>
+  <string name="xp0b9yqddzs179-n123_cwuo" mz="No.[">[</string>
+  <string name="xp0b9yqddzs179-n124_cwuo" mz="No.]">]</string>
+  <string name="xp0b9yqddzs179-n125_cwuo" mz="No._DAT">{</string>
+  <string name="xp0b9yqddzs179-n126_cwuo" mz="No._DAT">}</string>
+  <string name="xp0b9yqddzs179-n129_cwuo" mz="No.^">^</string>
+  <string name="xp0b9yqddzs179-n134_cwuo" mz="No._">_</string>
+  <string name="xp0b9yqddzs179-n135_cwuo" mz="No.\">\</string>
+  <string name="xp0b9yqddzs179-n136_cwuo" mz="No.|">|</string>
+  <string name="xp0b9yqddzs179-n137_cwuo" mz="No.~">~</string>
+  <string name="xp0b9yqddzs179-n140_cwuo" mz="No.€">€</string>
+  <string name="xp0b9yqddzs179-n141_cwuo" mz="No.￡">￡</string>
+  <string name="xp0b9yqddzs179-n142_cwuo" mz="No.￥">￥</string>
+  <string name="xp0b9yqddzs179-n143_cwuo" mz="No.·">·</string>
+  <string name="xp0b9yqddzs179-n153_cwuo" mz="No.ABC">ABC</string>
+  <string name="xp0b9yqddzs17d-n1_cwuo" mz="No.q">q</string>
+  <string name="xp0b9yqddzs17d-n2_cwuo" mz="No.w">w</string>
+  <string name="xp0b9yqddzs17d-n3_cwuo" mz="No.e">e</string>
+  <string name="xp0b9yqddzs17d-n4_cwuo" mz="No.r">r</string>
+  <string name="xp0b9yqddzs17d-n5_cwuo" mz="No.t">t</string>
+  <string name="xp0b9yqddzs17d-n6_cwuo" mz="No.y">y</string>
+  <string name="xp0b9yqddzs17d-n7_cwuo" mz="No.u">u</string>
+  <string name="xp0b9yqddzs17d-n8_cwuo" mz="No.i">主機版本/算灋版本/難度/盈利宕機（需要乘一萬）</string>
+  <string name="xp0b9yqddzs17d-n9_cwuo" mz="No.o">o</string>
+  <string name="xp0b9yqddzs17d-n10_cwuo" mz="No.p">p</string>
+  <string name="xp0b9yqddzs17d-n11_cwuo" mz="No.a">a</string>
+  <string name="xp0b9yqddzs17d-n12_cwuo" mz="No.s">s</string>
+  <string name="xp0b9yqddzs17d-n13_cwuo" mz="No.d">d</string>
+  <string name="xp0b9yqddzs17d-n14_cwuo" mz="No.f">f</string>
+  <string name="xp0b9yqddzs17d-n15_cwuo" mz="No.g">g</string>
+  <string name="xp0b9yqddzs17d-n16_cwuo" mz="No.h">h</string>
+  <string name="xp0b9yqddzs17d-n17_cwuo" mz="No.j">j</string>
+  <string name="xp0b9yqddzs17d-n18_cwuo" mz="No.k">k</string>
+  <string name="xp0b9yqddzs17d-n19_cwuo" mz="No.l">l</string>
+  <string name="xp0b9yqddzs17d-n74_cwuo" mz="No.z">z</string>
+  <string name="xp0b9yqddzs17d-n75_cwuo" mz="No.x">x</string>
+  <string name="xp0b9yqddzs17d-n76_cwuo" mz="No.c">c</string>
+  <string name="xp0b9yqddzs17d-n77_cwuo" mz="No.v">v</string>
+  <string name="xp0b9yqddzs17d-n78_cwuo" mz="No.b">b</string>
+  <string name="xp0b9yqddzs17d-n79_cwuo" mz="No.n">n</string>
+  <string name="xp0b9yqddzs17d-n80_cwuo" mz="No.m">m</string>
+  <string name="xp0b9yqdhzti8d-n54_hzti-cp-key" mz="updateSize">Update Size:</string>
+  <string name="xp0b9yqdhzti8d-n54_hzti-cp-value" mz="updateSize">2MB</string>
+  <string name="xp0b9yqdhzti8d-n47_hzti-cp-key" mz="name">Name:</string>
+  <string name="xp0b9yqdhzti8d-n47_hzti-cp-value" mz="name">RICH LENGEND</string>
+  <string name="xp0b9yqdhzti8d-n49_hzti-cp-key" mz="gameType">Game Type:</string>
+  <string name="xp0b9yqdhzti8d-n49_hzti-cp-value" mz="gameType">Slot</string>
+  <string name="xp0b9yqdhzti8d-n57_hzti-cp-key" mz="gameId">Game Id:</string>
+  <string name="xp0b9yqdhzti8d-n59_mbbq-cp-key" mz="active">Active:</string>
+  <string name="xp0b9yqdhzti8d-n59_mbbq-cp-value" mz="active">&lt;img src='ui://Console/icon_active4aff00' width='20' height='20'/&gt;</string>
+  <string name="xp0b9yqdhzti8d-n48_hzti-cp-key" mz="verSoftware">Software Version:</string>
+  <string name="xp0b9yqdhzti8d-n55_hzti-cp-key" mz="verAlgorithm">Algorithm Version:</string>
+  <string name="xp0b9yqdhzti8d-n51_hzti-cp-key" mz="updateAtLaunch">Update At Launch:</string>
+  <string name="xp0b9yqdhzti8d-n52_hzti-cp-key" mz="startUpdate">Start Update:</string>
+  <string name="xp0b9yqdhzti8d-n52_hzti-cp-value" mz="startUpdate">確定</string>
+  <string name="xp0b9yqdvqlx6p-n16_vqlx" mz="title">[color=#0000ff]11[/color]80980&lt;br&gt;0808ouiipiipoipoipoipi "第一行&lt;br&gt;&lt;font color='#ff0000'&gt;第二行&lt;/font&gt;";</string>
+  <string name="xp0b9yqdg3lh5n-n0_glrj" mz="key">設備唯一序號:</string>
+  <string name="xp0b9yqdg3lh5g-n0_glrj" mz="title">[注意]: 只保留最近的{0}次日营收数据。</string>
+  <string name="xp0b9yqdcwuo21-n0_glrj" mz="key">設備唯一序號:</string>
+  <string name="xp0b9yqdcwuo21-n2_cwuo" mz="value">title3[color=#666666]666[/color]99&lt;img src='ui://xp0b9yqdos7y4i' width='20' height='20'/&gt;</string>
+  <string name="xp0b9yqdg3lh55-n0_glrj" mz="key">設備唯一序號:</string>
+  <string name="xp0b9yqdg3lh55-n1_glrj" mz="value">20240911 11:22:00&lt;br/&gt;111/10600001/1:100&lt;br/&gt;1.0.0/1.1735123146/100</string>
+  <string name="xp0b9yqdglrj1n-n0_glrj" mz="key">設備唯一序號:</string>
+  <string name="xp0b9yqdglrj1n-n1_glrj" mz="value">http://192.168.3.152/api/game_log/caishen</string>
+  <string name="xp0b9yqdg3lh56-n0_glrj" mz="key">總投幣:</string>
+  <string name="xp0b9yqdcwuo2d-n0_glrj" mz="key">&lt;i18n value="CON1jqid"/&gt;Machine ID:</string>
+  <string name="xp0b9yqdhzti8f-n0_glrj" mz="key">&lt;i18n value="CON1jqid"/&gt;Machine ID:</string>
+  <string name="xp0b9yqdhzti8h-n0_glrj" mz="key">總投幣:</string>
+  <string name="xp0b9yqdhzti8k-n0_glrj" mz="key">總投幣:</string>
+  <string name="xp0b9yqdhzti8j-n0_glrj" mz="key">總投幣:</string>
+  <string name="xp0b9yqdglrj1k-n1_glrj" mz="title">ALL BUSINESS</string>
+  <string name="xp0b9yqdmi1s7e-n2_os7y-cp-title" mz="tip">[color=#0000ff]11[/color]80980&lt;br&gt;0808ouiipiipoipoipoipi "第一行&lt;br&gt;&lt;font color='#ff0000'&gt;第二行&lt;/font&gt;";</string>
+  <string name="xp0b9yqdos7y4o-n3_os7y" mz="title">Chinese(简体)</string>
+  <string name="xp0b9yqd8yql80-n27_os7y-cp-key" mz="scoreScale">ASBX短按比例(次:分):</string>
+  <string name="xp0b9yqd8yql80-n33_8yql-cp-key" mz="isDebugLog">是否列印日誌:</string>
+  <string name="xp0b9yqd8yql80-n34_8yql-cp-key" mz="useDebugTool">使用調試工具:</string>
+  <string name="xp0b9yqd8yql80-n35_8yql-cp-key" mz="useReporterPage">使用調試頁面:</string>
+  <string name="xp0b9yqd8yql80-n36_8yql-cp-key" mz="isShowUpdateInfo">是否顯示軟體更新資訊:</string>
+  <string name="xp0b9yqd8yql80-n37_8yql-cp-key" mz="pauseAtPopupFreeSpinTrigger">暫停免費遊戲觸發彈窗:</string>
+  <string name="xp0b9yqd8yql80-n38_8yql-cp-key" mz="pauseAtPopupFreeSpinResult">暫停免費遊戲結束彈窗:</string>
+  <string name="xp0b9yqd8yql80-n39_8yql-cp-key" mz="pauseAtPopupJackpotGame">暫停遊戲彩金彈窗:</string>
+  <string name="xp0b9yqd8yql80-n40_8yql-cp-key" mz="pauseAtPopupJackpotOnline">暫停聯網彩金彈窗:</string>
+  <string name="xp0b9yqd8yql80-n28_os7y-cp-btn" mz="errorCodeQuery">錯誤碼査詢</string>
+  <string name="xp0b9yqd8yql80-n41_8yql-cp-key" mz="appKey">軟件編號:</string>
+  <string name="xp0b9yqd8yql80-n42_8yql-cp-key" mz="serverAddress">資源伺服器地址:</string>
+  <string name="xp0b9yqd8yql80-n43_8yql-cp-key" mz="reportAddress">數據上報地址:</string>
+  <string name="xp0b9yqd8yql80-n47_8yql-cp-key" mz="installVer">安裝版本:</string>
+  <string name="xp0b9yqd8yql80-n44_8yql-cp-key" mz="softwareVer">軟體版本:</string>
+  <string name="xp0b9yqd8yql80-n45_8yql-cp-key" mz="hotfixKey">熱更新編號:</string>
+  <string name="xp0b9yqd8yql80-n46_8yql-cp-key" mz="autoHotfixAddress">動態熱更新目錄地址:</string>
+  <string name="xp0b9yqd8yql80-n49_8yql-cp-key" mz="iotAddress">好酷伺服器位址:</string>
+  <string name="xp0b9yqdi9389w-n53_i938-0" mz="lst">Machine:</string>
+  <string name="xp0b9yqdi9389w-n53_i938-0-title" mz="lst">Machine:</string>
+  <string name="xp0b9yqdi9389w-n53_i938-1" mz="lst">Games:</string>
+  <string name="xp0b9yqdi9389w-n53_i938-1-title" mz="lst">Games:</string>
+  <string name="xp0b9yqdi9389w-n53_i938-2" mz="lst">IN-OUT:</string>
+  <string name="xp0b9yqdi9389w-n53_i938-2-title" mz="lst">IN-OUT:</string>
+  <string name="xp0b9yqdi9389w-n53_i938-3" mz="lst">Record:</string>
+  <string name="xp0b9yqdi9389w-n53_i938-3-title" mz="lst">Record:</string>
+  <string name="xp0b9yqdi9389w-n53_i938-4" mz="lst">Scree:</string>
+  <string name="xp0b9yqdi9389w-n53_i938-4-title" mz="lst">Screen:</string>
+  <string name="xp0b9yqdi9389w-n53_i938-5" mz="lst">紙鈔機:</string>
+  <string name="xp0b9yqdi9389w-n53_i938-5-title" mz="lst">紙鈔機:</string>
+  <string name="xp0b9yqdi9389w-n53_i938-6" mz="lst">打印機:</string>
+  <string name="xp0b9yqdi9389w-n53_i938-6-title" mz="lst">打印機:</string>
+  <string name="xp0b9yqdi9389w-n53_i938-7" mz="lst">遠程控制:</string>
+  <string name="xp0b9yqdi9389w-n53_i938-7-title" mz="lst">遠程控制:</string>
+  <string name="xp0b9yqdi9389w-n53_i938-8" mz="lst">好酷:</string>
+  <string name="xp0b9yqdi9389w-n53_i938-8-title" mz="lst">好酷:</string>
+  <string name="xp0b9yqdi9389w-n53_i938-9" mz="lst">Sas:</string>
+  <string name="xp0b9yqdi9389w-n53_i938-9-title" mz="lst">Sas:</string>
+  <string name="xp0b9yqdi9389w-n53_i938-10" mz="lst">聯網彩金:</string>
+  <string name="xp0b9yqdi9389w-n53_i938-10-title" mz="lst">聯網彩金:</string>
+  <string name="xp0b9yqdi9389w-n53_i938-11" mz="lst">ATM:</string>
+  <string name="xp0b9yqdi9389w-n53_i938-11-title" mz="lst">ATM:</string>
+  <string name="xp0b9yqdi9389w-n53_i938-12" mz="lst">Digit Counter:</string>
+  <string name="xp0b9yqdi9389w-n53_i938-12-title" mz="lst">Digit Counter:</string>
+  <string name="xp0b9yqdi9389w-n60_hfr9-cp-btn" mz="btnReset">Reset Permissions</string>
+  <string name="xp0b9yqdg3lh54-n31_os7y-cp-title" mz="mdAllBusiness">历史總營收</string>
+  <string name="xp0b9yqdg3lh54-n48_g3lh-cp-key" mz="totalBet">總投注:</string>
+  <string name="xp0b9yqdg3lh54-n33_os7y-cp-key" mz="totalWin">總贏分:</string>
+  <string name="xp0b9yqdg3lh54-n50_g3lh-cp-key" mz="totalCoinIn">總投幣:</string>
+  <string name="xp0b9yqdg3lh54-n51_g3lh-cp-key" mz="totalCoinOut">總退票:</string>
+  <string name="xp0b9yqdg3lh54-n52_g3lh-cp-key" mz="totalScoreUp">總AS:</string>
+  <string name="xp0b9yqdg3lh54-n53_g3lh-cp-key" mz="totalScoreDown">總BX:</string>
+  <string name="xp0b9yqdg3lh54-n61_g3lh-cp-key" mz="billingInformation">帳單詳細資訊:</string>
+  <string name="xp0b9yqdg3lh54-n61_g3lh-cp-value" mz="billingInformation">20240911 11:22:00&lt;br/&gt;111/10600001/1:100&lt;br/&gt;1.0.0/1.1735123146/100</string>
+  <string name="xp0b9yqdg3lh54-n54_g3lh-cp-key" mz="remainingPoints">剩餘積分:</string>
+  <string name="xp0b9yqdg3lh54-n55_g3lh-cp-key" mz="totalProfitBet">總盈利:</string>
+  <string name="xp0b9yqdg3lh54-n57_g3lh-cp-key" mz="totalProfitCoinInOut">總盈利:</string>
+  <string name="xp0b9yqdg3lh54-n58_g3lh-cp-key" mz="totalProfitScoreUpDown">總盈利:</string>
+  <string name="xp0b9yqdg3lh54-n64_g3lh-cp-title" mz="mdDalyBusiness">每日總營收</string>
+  <string name="xp0b9yqdg3lh54-n80_g3lh-cp-key" mz="totalBetDaly">總投注:</string>
+  <string name="xp0b9yqdg3lh54-n81_g3lh-cp-key" mz="totalWinDaly">總贏分:</string>
+  <string name="xp0b9yqdg3lh54-n82_g3lh-cp-key" mz="totalProfitBetDaly">總盈利:</string>
+  <string name="xp0b9yqdg3lh54-n67_g3lh-cp-key" mz="totalCoinInDaly">總投幣:</string>
+  <string name="xp0b9yqdg3lh54-n68_g3lh-cp-key" mz="totalCoinOutDaly">總退票:</string>
+  <string name="xp0b9yqdg3lh54-n69_g3lh-cp-key" mz="totalProfitCoinInOutDaly">總盈利:</string>
+  <string name="xp0b9yqdg3lh54-n85_g3lh-cp-key" mz="totalScoreUpDaly">總AS:</string>
+  <string name="xp0b9yqdg3lh54-n86_g3lh-cp-key" mz="totalScoreDownDaly">總BX:</string>
+  <string name="xp0b9yqdg3lh54-n87_g3lh-cp-key" mz="totalProfitScoreUpDownDaly">總盈利:</string>
+  <string name="xp0b9yqdg3lh5i-n92_g3lh" mz="inOut">投-退</string>
+  <string name="xp0b9yqdg3lh5i-n93_g3lh" mz="device">裝置</string>
+  <string name="xp0b9yqdg3lh5i-n94_g3lh" mz="credit">分</string>
+  <string name="xp0b9yqdg3lh5i-n95_g3lh" mz="beforeCredit">中獎前分數</string>
+  <string name="xp0b9yqdg3lh5i-n96_g3lh" mz="afterCredit">中獎後分數</string>
+  <string name="xp0b9yqdg3lh5i-n97_g3lh" mz="date">日期</string>
+  <string name="xp0b9yqdg3lh5i-n67_g3lh-cp-key" mz="totalCoinInSummary">總投幣:</string>
+  <string name="xp0b9yqdg3lh5i-n68_g3lh-cp-key" mz="totalCoinOutSummary">總退票:</string>
+  <string name="xp0b9yqdg3lh5i-n69_g3lh-cp-key" mz="totalProfitCoinSummary">總盈利:</string>
+  <string name="xp0b9yqdg3lh5i-n85_g3lh-cp-key" mz="totalScoreUpSummary">總AS:</string>
+  <string name="xp0b9yqdg3lh5i-n86_g3lh-cp-key" mz="totalScoreDownSummary">總BX:</string>
+  <string name="xp0b9yqdg3lh5i-n87_g3lh-cp-key" mz="totalProfitScoreSummary">總盈利:</string>
+  <string name="xp0b9yqdkc0c8a-n92_g3lh" mz="jackpot">彩金</string>
+  <string name="xp0b9yqdkc0c8a-n93_g3lh" mz="gameNumber">遊戲編號</string>
+  <string name="xp0b9yqdkc0c8a-n94_g3lh" mz="credit">分</string>
+  <string name="xp0b9yqdkc0c8a-n95_g3lh" mz="beforeCredit">中獎前分數</string>
+  <string name="xp0b9yqdkc0c8a-n96_g3lh" mz="afterCredit">中獎後分數</string>
+  <string name="xp0b9yqdkc0c8a-n97_g3lh" mz="date">日期</string>
+  <string name="xp0b9yqd8yql83-n46_8yql" mz="btnTicketOut">退票</string>
+  <string name="xp0b9yqd8yql83-n47_8yql" mz="btnSpin">開始</string>
+  <string name="xp0b9yqd8yql83-n45_8yql" mz="btnDoor">開門</string>
+  <string name="xp0b9yqd8yql83-n43_8yql" mz="btnScoreUp">上鍵</string>
+  <string name="xp0b9yqd8yql83-n44_8yql" mz="btnScoreDown">下鍵</string>
+  <string name="xp0b9yqd8yql84-n27_os7y-cp-key" mz="checkColor">荧幕顏色測試:</string>
+  <string name="xp0b9yqd8yql84-n27_os7y-cp-value" mz="checkColor">開始</string>
+  <string name="xp0b9yqd8yql84-n28_hfr9-cp-key" mz="touchScreen">Touch Screen:</string>
+  <string name="xp0b9yqd8yql84-n28_hfr9-cp-value" mz="touchScreen">開始</string>
+  <string name="xp0b9yqdcwuo38-n18_cwuo-cp-key" mz="coinOutScale">退票比例(票:分):</string>
+  <string name="xp0b9yqdcwuo38-n19_cwuo-cp-key" mz="coinInScale">投幣比例(幣:分):</string>
+  <string name="xp0b9yqdcwuo38-n27_os7y-cp-key" mz="scoreScale">ASBX短按比例(次:分):</string>
+  <string name="xp0b9yqdcwuo38-n25_cwuo-cp-btn" mz="flipScreen">旋轉荧幕</string>
+  <string name="xp0b9yqdcwuo38-n28_os7y-cp-btn" mz="resetMachineToFactorySettings">恢復出廠設定</string>
+  <string name="xp0b9yqdcwuo38-n29_os7y-cp-key" mz="billValidator">紙鈔機:</string>
+  <string name="xp0b9yqdcwuo38-n30_os7y-cp-key" mz="billValidatorModel">纸钞机型号:</string>
+  <string name="xp0b9yqdcwuo38-n30_os7y-cp-value" mz="billValidatorModel">AE2831 D5 &lt;img src='ui://xp0b9yqdos7y4j' width='20' height='20'/&gt;</string>
+  <string name="xp0b9yqdcwuo38-n31_os7y-cp-key" mz="printer">打印機:</string>
+  <string name="xp0b9yqdcwuo38-n32_os7y-cp-key" mz="printerModel">打印機型号:</string>
+  <string name="xp0b9yqdcwuo38-n32_os7y-cp-value" mz="printerModel">Phoenix &lt;img src='ui://xp0b9yqdos7y4i' width='20' height='20'/&gt;</string>
+  <string name="xp0b9yqdmsw23e-n37_jtgo-cp-key" mz="agentID">代理商線號:</string>
+  <string name="xp0b9yqdmsw23e-n38_jtgo-cp-key" mz="machineID">設備唯一序號:</string>
+  <string name="xp0b9yqdmsw23e-n39_jtgo-cp-key" mz="maxCoinInOutRecord">投退幣記錄最大數:</string>
+  <string name="xp0b9yqdmsw23e-n40_jtgo-cp-key" mz="maxGameRecord">游戏次記錄最大數:</string>
+  <string name="xp0b9yqdmsw23e-n41_jtgo-cp-key" mz="maxEventRecord">消息記錄最大數:</string>
+  <string name="xp0b9yqdmsw23e-n42_jtgo-cp-key" mz="maxErrorRecord">警告記錄最大數:</string>
+  <string name="xp0b9yqdmsw23e-n43_jtgo-cp-key" mz="maxBusinessDayRecord">日營收統計記錄最大次數:</string>
+  <string name="xp0b9yqdmsw23e-n32_cwuo-cp-key" mz="difficulty">難度:</string>
+  <string name="xp0b9yqdmsw23e-n34_cwuo-cp-value" mz="active">激活</string>
+  <string name="xp0b9yqdmsw23e-n44_jtgo-cp-btn" mz="changeShiftPassword">修改使用者密碼</string>
+  <string name="xp0b9yqdmsw23e-n45_jtgo-cp-btn" mz="changeManagerPassword">修改管理員密碼</string>
+  <string name="xp0b9yqdmsw23e-n46_jtgo-cp-btn" mz="changeAdminPassword">修改超級管理員密碼</string>
+  <string name="xp0b9yqdcwuo39-n31_os7y-cp-title" mz="mdJackpotOnline">聯網彩金</string>
+  <string name="xp0b9yqdcwuo39-n32_os7y-cp-key" mz="jackpotOnline">聯網彩金:</string>
+  <string name="xp0b9yqdcwuo39-n33_os7y-cp-key" mz="jackpotScoreRate">聯網彩金分值比:</string>
+  <string name="xp0b9yqdcwuo39-n34_os7y-cp-key" mz="jackpotPercent">聯網彩金比:</string>
+  <string name="xp0b9yqdcwuo39-n48_vqlx-cp-title" mz="mdJackpotGame">遊戲彩金</string>
+  <string name="xp0b9yqdcwuo39-n49_vqlx-cp-key" mz="jackpotGamePercent">遊戲彩金比:</string>
+  <string name="xp0b9yqdcwuo39-n35_os7y-cp-title" mz="mdIOT">好酷</string>
+  <string name="xp0b9yqdcwuo39-n36_os7y-cp-key" mz="iotAddresse">好酷伺服器位址:</string>
+  <string name="xp0b9yqdcwuo39-n36_os7y-cp-value" mz="iotAddresse">http://i.test.gzhaoku.com/admin/resp/firmware/query</string>
+  <string name="xp0b9yqdcwuo39-n37_os7y-cp-key" mz="iot">好酷:</string>
+  <string name="xp0b9yqdcwuo39-n38_os7y-cp-key" mz="iotAccessMethods">好酷接入方式:</string>
+  <string name="xp0b9yqdcwuo39-n38_os7y-cp-value" mz="iotAccessMethods">Mini Program &lt;img src='ui://xp0b9yqdos7y4i' width='20' height='20'/&gt;[color=#666666]666[/color]</string>
+  <string name="xp0b9yqdcwuo39-n41_os7y-cp-title" mz="mdRemoteControl">遠程控制</string>
+  <string name="xp0b9yqdcwuo39-n43_os7y-cp-key" mz="iotRemoteControl">遠程控制:</string>
+  <string name="xp0b9yqdcwuo39-n44_os7y-cp-key" mz="remoteControlSetting">遠程控制設定:</string>
+  <string name="xp0b9yqdcwuo39-n44_os7y-cp-value" mz="remoteControlSetting">192.168.3.174:1883&lt;img src='ui://xp0b9yqdos7y4j' width='20' height='20'/&gt;</string>
+  <string name="xp0b9yqdcwuo39-n45_os7y-cp-key" mz="remoteControlAccount">遠程控制帳號:</string>
+  <string name="xp0b9yqdcwuo39-n45_os7y-cp-value" mz="remoteControlAccount">tester / 123456</string>
+  <string name="xp0b9yqdcwuo39-n42_os7y-cp-title" mz="mdOther">其他</string>
+  <string name="xp0b9yqdcwuo39-n46_os7y-cp-key" mz="coinOutImmediately">即中即退:</string>
+  <string name="xp0b9yqdcwuo39-n47_os7y-cp-key" mz="checkHotfixMultipleTimes">是否多次檢查熱更新:</string>
+  <string name="xp0b9yqdi9389d-n29_os7y-cp-key" mz="billValidator">紙鈔機:</string>
+  <string name="xp0b9yqdi9389d-n30_os7y-cp-key" mz="billValidatorModel">纸钞机型号:</string>
+  <string name="xp0b9yqdi9389d-n30_os7y-cp-value" mz="billValidatorModel">AE2831 D5 &lt;img src='ui://xp0b9yqdos7y4j' width='20' height='20'/&gt;</string>
+  <string name="xp0b9yqdi93898-n29_i938-cp-key" mz="gameType">Game Type:</string>
+  <string name="xp0b9yqdi93898-n18_cwuo-cp-key" mz="coinOutScale">Search:</string>
+  <string name="xp0b9yqdi93898-n18_cwuo-cp-value" mz="coinOutScale">&lt;img src='ui://Console/icon_search' width='40' height='40' /&gt;</string>
+  <string name="xp0b9yqdi9389g-n37_os7y-cp-key" mz="useIOT">Use IOT:</string>
+  <string name="xp0b9yqdi9389g-n36_os7y-cp-key" mz="iotAddresse">好酷伺服器位址:</string>
+  <string name="xp0b9yqdi9389g-n36_os7y-cp-value" mz="iotAddresse">http://i.test.gzhaoku.com/admin/resp/firmware/query</string>
+  <string name="xp0b9yqdi9389g-n38_os7y-cp-key" mz="iotAccessMethods">好酷接入方式:</string>
+  <string name="xp0b9yqdi9389g-n38_os7y-cp-value" mz="iotAccessMethods">Mini Program &lt;img src='ui://xp0b9yqdos7y4i' width='20' height='20'/&gt;[color=#666666]666[/color]</string>
+  <string name="xp0b9yqdi93892-n18_cwuo-cp-key" mz="coinOutScale">退票比例(票:分):</string>
+  <string name="xp0b9yqdi93892-n19_cwuo-cp-key" mz="coinInScale">投幣比例(幣:分):</string>
+  <string name="xp0b9yqdi93892-n27_os7y-cp-key" mz="scoreScale">ASBX短按比例(次:分):</string>
+  <string name="xp0b9yqdi93892-n28_i938-cp-key" mz="coinOutImmediately">即中即退:</string>
+  <string name="xp0b9yqdi9389s-n32_os7y-cp-key" mz="jackpotOnline">聯網彩金:</string>
+  <string name="xp0b9yqdi9389s-n33_os7y-cp-key" mz="jackpotScoreRate">聯網彩金分值比:</string>
+  <string name="xp0b9yqdi9389s-n34_os7y-cp-key" mz="jackpotPercent">聯網彩金比:</string>
+  <string name="xp0b9yqdi9389l-n44_i938-cp-key" mz="checkHotfixMultipleTimes">是否多次檢查熱更新:</string>
+  <string name="xp0b9yqdi9389l-n45_i938-cp-key" mz="useHotfix">Use Hotfix:</string>
+  <string name="xp0b9yqdi93894-n37_jtgo-cp-key" mz="agentID">代理商線號:</string>
+  <string name="xp0b9yqdi93894-n38_jtgo-cp-key" mz="machineID">設備唯一序號:</string>
+  <string name="xp0b9yqdi93894-n55_i938-cp-btn" mz="resetMachineToFactorySettings">Reset Machine To Factory Settings</string>
+  <string name="xp0b9yqdi93894-n34_cwuo-cp-key" mz="active">Active:</string>
+  <string name="xp0b9yqdi93894-n34_cwuo-cp-value" mz="active">激活</string>
+  <string name="xp0b9yqdi93895-n39_jtgo-cp-key" mz="maxCoinInOutRecord">投退幣記錄最大數:</string>
+  <string name="xp0b9yqdi93895-n40_jtgo-cp-key" mz="maxGameRecord">游戏次記錄最大數:</string>
+  <string name="xp0b9yqdi93895-n41_jtgo-cp-key" mz="maxEventRecord">消息記錄最大數:</string>
+  <string name="xp0b9yqdi93895-n42_jtgo-cp-key" mz="maxErrorRecord">警告記錄最大數:</string>
+  <string name="xp0b9yqdi93895-n43_jtgo-cp-key" mz="maxBusinessDayRecord">日營收統計記錄最大次數:</string>
+  <string name="xp0b9yqdi9389o-n44_jtgo-cp-btn" mz="changeShiftPassword">修改使用者密碼</string>
+  <string name="xp0b9yqdi9389o-n45_jtgo-cp-btn" mz="changeManagerPassword">修改管理員密碼</string>
+  <string name="xp0b9yqdi9389o-n46_jtgo-cp-btn" mz="changeAdminPassword">修改超級管理員密碼</string>
+  <string name="xp0b9yqdi9389c-n31_os7y-cp-key" mz="usePrinter">Use Printer:</string>
+  <string name="xp0b9yqdi9389c-n32_os7y-cp-key" mz="printerModel">打印機型号:</string>
+  <string name="xp0b9yqdi9389c-n32_os7y-cp-value" mz="printerModel">Phoenix &lt;img src='ui://xp0b9yqdos7y4i' width='20' height='20'/&gt;</string>
+  <string name="xp0b9yqdi9389h-n43_os7y-cp-key" mz="useRemoteControl">Use Remote Control:</string>
+  <string name="xp0b9yqdi9389h-n44_os7y-cp-key" mz="remoteControlSetting">遠程控制設定:</string>
+  <string name="xp0b9yqdi9389h-n44_os7y-cp-value" mz="remoteControlSetting">192.168.3.174:1883&lt;img src='ui://xp0b9yqdos7y4j' width='20' height='20'/&gt;</string>
+  <string name="xp0b9yqdi9389h-n45_os7y-cp-key" mz="remoteControlAccount">遠程控制帳號:</string>
+  <string name="xp0b9yqdi9389h-n45_os7y-cp-value" mz="remoteControlAccount">tester / 123456</string>
+  <string name="xp0b9yqdi9389k-n32_os7y-cp-key" mz="useSas">Use Sas:</string>
+  <string name="xp0b9yqdi9389k-n34_os7y-cp-key" mz="sasConnection">Sas設定:</string>
+  <string name="xp0b9yqdi9389k-n50_i938-cp-key" mz="sasAccount">Sas帳號:</string>
+  <string name="xp0b9yqdi9389k-n51_i938-cp-key" mz="sasScale">Sas In Out Scale(Bill:Credit):</string>
+  <string name="xp0b9yqdi9389a-n25_cwuo-cp-btn" mz="flipScreen">旋轉荧幕</string>
+</resources>

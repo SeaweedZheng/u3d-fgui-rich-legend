@@ -1,0 +1,258 @@
+[
+  {
+    "id": 1000,
+    "key": "ER200qh",
+    "en": "BET",
+    "cn": "切換",
+    "tw": "切換",
+    "": ""
+  },
+  {
+    "id": 1001,
+    "key": "ER200dp",
+    "en": "WIN",
+    "cn": "得票",
+    "tw": "得票",
+    "": ""
+  },
+  {
+    "id": 1002,
+    "key": "ER200cp",
+    "en": "CREDIT",
+    "cn": "彩票",
+    "tw": "彩票",
+    "": ""
+  },
+  {
+    "id": 1006,
+    "key": "ER200ks",
+    "en": "SPIN",
+    "cn": "开始",
+    "tw": "開始",
+    "": ""
+  },
+  {
+    "id": 1007,
+    "key": "ER200tz",
+    "en": "STOP",
+    "cn": "停止",
+    "tw": "停止",
+    "": ""
+  },
+  {
+    "id": 1008,
+    "key": "ER200zd",
+    "en": "AUTO",
+    "cn": "自动",
+    "tw": "自動",
+    "": ""
+  },
+  {
+    "id": 1010,
+    "key": "ER200qkyz",
+    "en": "EMPERORS REIN",
+    "cn": "帝国之辉",
+    "tw": "帝國之輝",
+    "": ""
+  },
+  {
+    "id": 1012,
+    "key": "ER200bz",
+    "en": "HELP",
+    "cn": "帮助",
+    "tw": "幫助",
+    "": ""
+  },
+  {
+    "id": 1013,
+    "key": "ER200smlij01",
+    "en": "Game Jackpot",
+    "cn": "神秘累积奖1",
+    "tw": "神秘累積獎1",
+    "": ""
+  },
+  {
+    "id": 1014,
+    "key": "ER200smlij02",
+    "en": "Game Jackpot",
+    "cn": "神秘累积奖2",
+    "tw": "神秘累積獎2",
+    "": ""
+  },
+  {
+    "id": 1015,
+    "key": "ER200smlijms",
+    "en": "This game has four levels of game jackpots, ranked from high to low by score: JP1, JP2, JP3, and JP4. Game jackpots are triggered randomly and are independent of pattern combinations. Players only have the opportunity to randomly win any game jackpot when consuming participation points. <br>Free game rounds do not participate in triggering the game jackpot. <br>The triggering of game jackpot is an independent event, and its occurrence does not affect the outcome of the main game. <br>All four game jackpots adopt a dynamic accumulation mechanism, and the game jackpot score will continue to increase based on the participation points consumed by players. The system will extract a portion of the participation points from<br>according to a preset ratio and inject it into four game jackpots each time the participation points are consumed. <br>Once a certain level of game jackpot is triggered, the system will immediately issue the current score of the game jackpot and reset it to its initial value.",
+    "cn": "本游戏设有四个等级的神秘累积奖，<br>按得分分额从高到低依次为JP1、JP2、JP3、JP4。<br><br>神秘累积奖通过随机方式触发，与图案组合无关。<br><br>仅在消耗参与分时，玩家才有机会随机赢取<br>任意一个神秘累积奖。<br><br>免费游戏回合不参与神秘奖池的触发。<br>神秘累积奖的触发为独立事件，其发生不影响主游戏结果。<br><br>四个神秘奖池均采用动态累积机制，<br>奖池分数将根据玩家消耗的参与分持续增长。<br><br>系统将在每次消耗参与分时，按预设比例从<br>参与分中提取部分并注入至四个奖池。<br><br>一旦某一级别的神秘累积奖被触发，系统将立即发放该奖池的<br>当前分数，并将其重置为初始值。",
+    "tw": "本遊戲設有四個等級的神秘累積獎，<br>按得分分額從高到低依次為JP1、JP2、JP3、JP4。 <br><br>神秘累積獎通過隨機管道觸發，與圖案組合無關。 <br><br>僅在消耗參與分時，玩家才有機會隨機贏取<br>任意一個神秘累積獎。 <br><br>免費遊戲回合不參與神秘獎池的觸發。 <br>神秘累積獎的觸發為獨立事件，其發生不影響主遊戲結果。 <br><br>四個神秘獎池均採用動態累積機制，<br>獎池分數將根據玩家消耗的參與分持續增長。 <br><br>系統將在每次消耗參與分時，按預設比例從<br>參與分中選取部分並注入至四個獎池。 <br><br>一旦某一級別的神秘累積獎被觸發，系統將立即發放該獎池的<br>當前分數，並將其重置為初始值。",
+    "": ""
+  },
+  {
+    "id": 1016,
+    "key": "ER200jp1cz",
+    "en": "JP1 initial value",
+    "cn": "JP1初始值",
+    "tw": "JP1初始值",
+    "": ""
+  },
+  {
+    "id": 1017,
+    "key": "ER200jp2cz",
+    "en": "JP2 initial value",
+    "cn": "JP2初始值",
+    "tw": "JP2初始值",
+    "": ""
+  },
+  {
+    "id": 1018,
+    "key": "ER200jp3cz",
+    "en": "JP3 initial value",
+    "cn": "JP3初始值",
+    "tw": "JP3初始值",
+    "": ""
+  },
+  {
+    "id": 1019,
+    "key": "ER200jp4cz",
+    "en": "JP4 initial value",
+    "cn": "JP4初始值",
+    "tw": "JP4初始值",
+    "": ""
+  },
+  {
+    "id": 1021,
+    "key": "_ER200yebzqxcz",
+    "en": "<size=15>Balance is insufficient, please recharge first</size>",
+    "cn": "<size=15>积分不足，请先投币</size>",
+    "tw": "<size=15>積分不足，請先投幣</size>",
+    "": ""
+  },
+  {
+    "id": 1022,
+    "key": "_ER200sbwjh",
+    "en": "<size=24>Machine not activated!</size>",
+    "cn": "<size=24>设备未激活</size>",
+    "tw": "<size=24>設備未啟動</size>",
+    "": ""
+  },
+  {
+    "id": 1024,
+    "key": "_ER200smewm",
+    "en": "Scan the QR code to earn more points.",
+    "cn": "请扫描二维码，获取更多积分",
+    "tw": "請掃描二維碼，獲取更多積分",
+    "": ""
+  },
+  {
+    "id": 1026,
+    "key": "ER200tg",
+    "en": "SKIP",
+    "cn": "跳过",
+    "tw": "跳過",
+    "": ""
+  },
+  {
+    "id": 1029,
+    "key": "ER200yxbh",
+    "en": "Game Number:",
+    "cn": "游戏编号:",
+    "tw": "遊戲編號:",
+    "": ""
+  },
+  {
+    "id": 1030,
+    "key": "ER200yxrq",
+    "en": "Game Data:",
+    "cn": "游玩日期:",
+    "tw": "遊玩日期:",
+    "": ""
+  },
+  {
+    "id": 1031,
+    "key": "ER200zyz",
+    "en": "Total Bet:",
+    "cn": "押注:",
+    "tw": "押注:",
+    "": ""
+  },
+  {
+    "id": 1032,
+    "key": "ER200jcyxyb",
+    "en": "Base Game Win Coins:",
+    "cn": "基础游戏赢币:",
+    "tw": "基礎遊戲贏幣:",
+    "": ""
+  },
+  {
+    "id": 1033,
+    "key": "ER200jp1yb",
+    "en": "Jackpot1 Win Coins:",
+    "cn": "JP1彩金赢币:",
+    "tw": "JP1彩金贏幣:",
+    "": ""
+  },
+  {
+    "id": 1034,
+    "key": "ER200jp2yb",
+    "en": "Jackpot2 Win Coins:",
+    "cn": "JP2彩金硬币:",
+    "tw": "JP2彩金贏幣:",
+    "": ""
+  },
+  {
+    "id": 1035,
+    "key": "ER200jp3yb",
+    "en": "Jackpot3 Win Coins:",
+    "cn": "JP3彩金赢币:",
+    "tw": "JP3彩金贏幣:",
+    "": ""
+  },
+  {
+    "id": 1036,
+    "key": "ER200jp4yb",
+    "en": "Jackpot4 Win Coins:",
+    "cn": "JP4彩金硬币:",
+    "tw": "JP4彩金贏幣:",
+    "": ""
+  },
+  {
+    "id": 1037,
+    "key": "ER200dqs",
+    "en": "Ball Drop Count:",
+    "cn": "掉球数量:",
+    "tw": "掉球數量:",
+    "": ""
+  },
+  {
+    "id": 1038,
+    "key": "ER200smfyx",
+    "en": "Is Free Spin:",
+    "cn": "是免费游戏:",
+    "tw": "是免费游戏:",
+    "": ""
+  },
+  {
+    "id": 1039,
+    "key": "ER200mfyxzcs",
+    "en": "Free Spin Total Times:",
+    "cn": "免费游戏总局数:",
+    "tw": "免费游戏总局数:",
+    "": ""
+  },
+  {
+    "id": 1040,
+    "key": "ER200mfyxdqcs",
+    "en": "Free Spin Current Times:",
+    "cn": "免费游戏当前局数:",
+    "tw": "免費遊戲當前局數:",
+    "": ""
+  },
+  {
+    "id": 1041,
+    "key": "ER200yxmyxjl",
+    "en": "{0} Game Recall {1} of {2}",
+    "cn": "{0} 游戏记录 {1} / {2}",
+    "tw": "{0} 遊戲記錄 {1} / {2}",
+    "": ""
+  }
+]
