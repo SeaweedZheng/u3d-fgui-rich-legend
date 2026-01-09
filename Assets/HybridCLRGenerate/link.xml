@@ -76,7 +76,7 @@
     <type fullname="FileUtils" preserve="all" />
     <type fullname="GOFind" preserve="all" />
     <type fullname="GOFindTag" preserve="all" />
-    <type fullname="GlobalData" preserve="all" />
+    <type fullname="GlobalModel" preserve="all" />
     <type fullname="LobbyGamesManager" preserve="all" />
     <type fullname="ModuleDownloadManager" preserve="all" />
     <type fullname="PageLaunch" preserve="all" />

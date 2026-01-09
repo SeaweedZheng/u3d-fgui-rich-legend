@@ -1,12 +1,12 @@
 {
   "name": "Total",
-  "updated_at": 1767790517908,
+  "updated_at": 1767873259215,
   "hotfix_key": "hf_debug_android_20251216143338",
-  "hotfix_version": "1.0.18",
-  "hash": "a3f7c675b2d59f7284891470f4890908",
+  "hotfix_version": "1.0.20",
+  "hash": "6609b02892339dfd88c67bac455138ea",
   "asset_bundle": {
     "manifest": {
-      "hash": "b16b18755a546d5a9646339d7f8a1f30",
+      "hash": "a9c85ab8061f0c8550b79e845d05f0cf",
       "size_bytes": 7296
     },
     "bundles": {
@@ -899,8 +899,8 @@
         "size_bytes": 324429
       },
       "lobbys/lobby01/fguis.unity3d": {
-        "hash": "3e9d4d9e7827bde29953e2b9072c3284",
-        "size_bytes": 1474988
+        "hash": "1779e3574aa65d49e549071ebfc8bd9a",
+        "size_bytes": 1479668
       }
     }
   },
@@ -960,13 +960,13 @@
   },
   "asset_dll": {
     "Base.dll.bytes": {
-      "hash": "da47980e1c571e3ffd8fa0ac62c41ea0",
+      "hash": "89730fcdd6d15ee83af83b3cbcbb9ed9",
       "size_bytes": 169472,
       "level": 0
     },
     "Main.dll.bytes": {
-      "hash": "2c6ed7e2beeb74522aec28c00411e6a3",
-      "size_bytes": 1023488,
+      "hash": "6b498a0a0a50286ce4c99ec6625ca2d3",
+      "size_bytes": 1024000,
       "level": 1
     }
   },

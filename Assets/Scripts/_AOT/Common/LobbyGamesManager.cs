@@ -67,13 +67,55 @@ public  class LobbyGamesManager
 
 
 
+    /// <summary>
+    /// 远端游戏信息文件
+    /// </summary>
+    /// <remarks>
+    /// * 本地没有的话，获取SA里的数据
+    /// * 不支持用户进行修改
+    /// 
+    /// </remarks>
+    public JArray lobbyGamesInfoSever => _lobbyGamesInfoSever;
+    JArray _lobbyGamesInfoSever = null;
+
+
+    /// <summary>
+    /// 本地游戏信息文件，支持用户进行修改。
+    /// </summary>
+    /// <remarks>
+    /// * 以服务器游戏信息文件为基础
+    /// </remarks>
+    public JArray lobbyGamesInfoLocal
+    {
+        get
+        {
+            if (_lobbyGamesInfoLocal == null)
+            {
+                string jsn = PlayerPrefs.GetString(PARAM_LOBBY_GAMES, JsonConvert.SerializeObject(lobbyGamesInfoSever));
+                _lobbyGamesInfoLocal = JArray.Parse(jsn);
+            }
+            return _lobbyGamesInfoLocal;
+        }
+        set
+        {
+            _lobbyGamesInfoLocal = value;
+        }
+    }
+    JArray _lobbyGamesInfoLocal = null;
+    const string PARAM_LOBBY_GAMES = nameof(PARAM_LOBBY_GAMES);
+
+
+
     const string assetLobbyGameFile = "Assets/AstBackup/Lobbys/Game Info/lobby_games.json";
+
+
+
 
     public  void LoadLobbyGamesInfoWhenHotfix(Action<object[]> onFinishCallback = null)
     {
 
 
-        string pthTemp = PathHelper.GetTempAstBackupLOCPTH(assetLobbyGameFile);
+        string pthTemp = PathHelper.GetTempAssetBackupLOCPTH(assetLobbyGameFile);
         string pthLocal = PathHelper.GetAssetBackupLOCPTH(assetLobbyGameFile);
 
         if (File.Exists(pthTemp))
@@ -133,42 +175,6 @@ public  class LobbyGamesManager
         onFinishCallback?.Invoke();
     }
 
-    /// <summary>
-    /// 远端游戏信息文件
-    /// </summary>
-    /// <remarks>
-    /// * 本地没有的话，获取SA里的数据
-    /// * 不支持用户进行修改
-    /// 
-    /// </remarks>
-    public JArray lobbyGamesInfoSever => _lobbyGamesInfoSever;
-    JArray _lobbyGamesInfoSever = null;
-
-
-    /// <summary>
-    /// 本地游戏信息文件，支持用户进行修改。
-    /// </summary>
-    /// <remarks>
-    /// * 以服务器游戏信息文件为基础
-    /// </remarks>
-    public JArray lobbyGamesInfoLocal
-    {
-        get
-        {
-            if (_lobbyGamesInfoLocal == null)
-            {
-                string jsn = PlayerPrefs.GetString(PARAM_LOBBY_GAMES, JsonConvert.SerializeObject(lobbyGamesInfoSever));
-                _lobbyGamesInfoLocal = JArray.Parse(jsn);
-            }
-            return _lobbyGamesInfoLocal;
-        }
-        set
-        {
-            _lobbyGamesInfoLocal = value;
-        }
-    }
-    JArray _lobbyGamesInfoLocal = null;
-    const string PARAM_LOBBY_GAMES = nameof(PARAM_LOBBY_GAMES);
 
 
 

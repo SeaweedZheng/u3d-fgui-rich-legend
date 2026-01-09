@@ -1,12 +1,12 @@
 {
   "name": "Main",
-  "updated_at": 1767790517908,
+  "updated_at": 1767873259215,
   "hotfix_key": "hf_debug_android_20251216143338",
-  "hotfix_version": "1.0.18",
-  "hash": "582905032b4e282835f0cfe3b325180f",
+  "hotfix_version": "1.0.20",
+  "hash": "b9abd354fc34d1a7820f7a1dc197ceb7",
   "asset_bundle": {
     "manifest": {
-      "hash": "b16b18755a546d5a9646339d7f8a1f30",
+      "hash": "a9c85ab8061f0c8550b79e845d05f0cf",
       "size_bytes": 7296
     },
     "bundles": {
@@ -63,13 +63,13 @@
   "asset_backup": {},
   "asset_dll": {
     "Base.dll.bytes": {
-      "hash": "da47980e1c571e3ffd8fa0ac62c41ea0",
+      "hash": "89730fcdd6d15ee83af83b3cbcbb9ed9",
       "size_bytes": 169472,
       "level": 0
     },
     "Main.dll.bytes": {
-      "hash": "2c6ed7e2beeb74522aec28c00411e6a3",
-      "size_bytes": 1023488,
+      "hash": "6b498a0a0a50286ce4c99ec6625ca2d3",
+      "size_bytes": 1024000,
       "level": 1
     }
   },

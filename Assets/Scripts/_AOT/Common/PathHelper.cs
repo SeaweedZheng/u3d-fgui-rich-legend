@@ -88,7 +88,7 @@ public static class PathHelper
 
 
     /// <summary> 这个网路下载路劲 （是动态获取的！）</summary>
-    public static string hotfixDirWEBURL => GlobalData.autoHotfixUrl;
+    public static string hotfixDirWEBURL => GlobalModel.autoHotfixUrl;
 
     public static string hotfixDirLOCPTH => Application.persistentDataPath + "/Hotfix";
     /// <summary> hotfix下载资源临时缓存目录 </summary>
@@ -195,7 +195,7 @@ public static class PathHelper
     public static string astBackupDirPROJPTH => Application.dataPath + $"/{backupFolderName}";
 
 
-    public static string GetTempAstBackupLOCPTH(string nodeName) => Path.Combine(tmpBackupDirLOCPTH, nodeName);
+    public static string GetTempAssetBackupLOCPTH(string nodeName) => Path.Combine(tmpBackupDirLOCPTH, nodeName);
 
     /*
     public static string GetAstBackupWEBURL(string nodeName = "Cpp Dll/mscatch.dll.bytes") //

@@ -33,9 +33,9 @@ public class ModulesLoader : MonoBehaviour
 
         yield return ModulesVersionCheck.Instance.DoHotfix(null);
 
-        Debug.Log($"autoHotfixUrl = {GlobalData.autoHotfixUrl}");
-        Debug.Log($"hofixKey = {GlobalData.hotfixKey}");
-        Debug.Log($"hofixVersion = {GlobalData.hotfixVersion}");
+        Debug.Log($"autoHotfixUrl = {GlobalModel.autoHotfixUrl}");
+        Debug.Log($"hofixKey = {GlobalModel.hotfixKey}");
+        Debug.Log($"hofixVersion = {GlobalModel.hotfixVersion}");
 
         PageLaunch.Instance.RemoveProgress(LoadingProgressMod.COPY_SA_HOTFIX_DLL);
         PageLaunch.Instance.RemoveProgress(LoadingProgressMod.COPY_SA_ASSET_BUNDLE);
@@ -65,7 +65,7 @@ public class ModulesLoader : MonoBehaviour
 
         #region 加载热更程序集到 "程序集对象"中
 
-        List<string> hotfixDlls = DllHelper.Instance.GetDllNameNoSuffixList(GlobalData.version);
+        List<string> hotfixDlls = DllHelper.Instance.GetDllNameNoSuffixList(GlobalModel.version);
 
         Assembly ass = null;
 

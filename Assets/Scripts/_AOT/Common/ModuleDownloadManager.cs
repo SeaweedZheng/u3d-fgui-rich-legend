@@ -262,7 +262,7 @@ public partial class ModuleDownloadManager : MonoBehaviour
                 yield return DownloadAssetOnce(
                     PathHelper.GetAssetBackupWEBURL(kv.Key),
                     targetHash,
-                    PathHelper.GetTempAstBackupLOCPTH(kv.Key),
+                    PathHelper.GetTempAssetBackupLOCPTH(kv.Key),
                     (str) => { }, errorFunc);
             }
         }

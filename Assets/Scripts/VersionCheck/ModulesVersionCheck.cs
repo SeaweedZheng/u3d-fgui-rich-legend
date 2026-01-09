@@ -98,7 +98,7 @@ public class ModulesVersionCheck : MonoBehaviour
         try
         {
             versionText = File.ReadAllText(PathHelper.versionLOCPTH);
-            GlobalData.version = JObject.Parse(versionText);
+            GlobalModel.version = JObject.Parse(versionText);
         }
         catch (Exception ex)
         {
@@ -119,7 +119,7 @@ public class ModulesVersionCheck : MonoBehaviour
         try
         {
             mainModVersionText = File.ReadAllText(PathHelper.mainModVersionLOCPTH);
-            GlobalData.mainModVersion = JObject.Parse(mainModVersionText);
+            GlobalModel.mainModVersion = JObject.Parse(mainModVersionText);
         }
         catch (Exception ex)
         {
@@ -136,18 +136,18 @@ public class ModulesVersionCheck : MonoBehaviour
 
 
         // 获取总版本文件信息
-        GlobalData.totalVersion = null;
-        GlobalData.autoHotfixUrl = "";
+        GlobalModel.totalVersion = null;
+        GlobalModel.autoHotfixUrl = "";
 
         if (File.Exists(PathHelper.totalVersionLOCPTH))
         {
             try
             {
                 totalVersionText = File.ReadAllText(PathHelper.totalVersionLOCPTH);  //【存在bug】 这里total文件是个空！！
-                GlobalData.totalVersion = JObject.Parse(totalVersionText);
+                GlobalModel.totalVersion = JObject.Parse(totalVersionText);
 
                 JObject targetTotalVersionItem = null;
-                JArray lst = GlobalData.totalVersion["data"] as JArray;
+                JArray lst = GlobalModel.totalVersion["data"] as JArray;
                 for (int i = 0; i < lst.Count; i++)
                 {
                     string appKey = lst[i]["app_key"].ToObject<string>();
@@ -160,7 +160,7 @@ public class ModulesVersionCheck : MonoBehaviour
 
                 if (targetTotalVersionItem != null)
                 {
-                    GlobalData.autoHotfixUrl = FileUtils.GetDirWebUrl(PathHelper.totalVersionWEBURL, targetTotalVersionItem["hotfix_url"].ToObject<string>());
+                    GlobalModel.autoHotfixUrl = FileUtils.GetDirWebUrl(PathHelper.totalVersionWEBURL, targetTotalVersionItem["hotfix_url"].ToObject<string>());
                 }
                 else
                 {
@@ -261,7 +261,7 @@ public class ModulesVersionCheck : MonoBehaviour
                 PathHelper.versionSAPTH,
                 (obj) =>
                 {
-                    GlobalData.version = JObject.Parse((string)obj);
+                    GlobalModel.version = JObject.Parse((string)obj);
                 }, null);
 
 
@@ -269,7 +269,7 @@ public class ModulesVersionCheck : MonoBehaviour
                 PathHelper.mainModVersionSAPTH,
                 (obj) =>
                 {
-                    GlobalData.mainModVersion = JObject.Parse((string)obj);
+                    GlobalModel.mainModVersion = JObject.Parse((string)obj);
                 }, null);
 
             Debug.Log($"is use streaming assets version");
@@ -279,7 +279,7 @@ public class ModulesVersionCheck : MonoBehaviour
         }
 
 
-        bool isFirstInstall = GlobalData.isFirstInstall;
+        bool isFirstInstall = GlobalModel.isFirstInstall;
 
         // 首次装包拷贝文件
         if (isFirstInstall || !File.Exists(PathHelper.mainModVersionLOCPTH) || isLastHotfixThrowErr)
@@ -305,7 +305,7 @@ public class ModulesVersionCheck : MonoBehaviour
         /// 【获取版本信息】多次请求，避免机台上电后，wifi要延时才链接。
         Debug.LogWarning($"{PREFIX_TIP} getting web version files fails");
         bool isGetWebVersionSuccess = false;
-        int count = GlobalData.hotfixRequestCount;
+        int count = GlobalModel.hotfixRequestCount;
         int i = 0;
         while (true)
         {
@@ -332,7 +332,7 @@ public class ModulesVersionCheck : MonoBehaviour
         else
         {
 
-            string localVersionVER = GlobalData.mainModVersion["hotfix_version"].Value<string>();
+            string localVersionVER = GlobalModel.mainModVersion["hotfix_version"].Value<string>();
             string webVersionVER = webMainModVersionFileNode["hotfix_version"].Value<string>();
             Debug.Log($"local main mod version file ver:{localVersionVER}  --  web main mod version file ver:{webVersionVER}");
             int[] localVersions = GetVersions(localVersionVER);
@@ -530,8 +530,8 @@ public class ModulesVersionCheck : MonoBehaviour
 
 
                         // 重新获取本地配置文件
-                        GlobalData.mainModVersion = JObject.Parse(File.ReadAllText(PathHelper.mainModVersionLOCPTH));
-                        GlobalData.version = JObject.Parse(File.ReadAllText(PathHelper.versionLOCPTH));
+                        GlobalModel.mainModVersion = JObject.Parse(File.ReadAllText(PathHelper.mainModVersionLOCPTH));
+                        GlobalModel.version = JObject.Parse(File.ReadAllText(PathHelper.versionLOCPTH));
 
                         // 保存
                         LobbyGamesManager.Instance.SaveLobbyGameInfoAndHash();
@@ -790,7 +790,7 @@ public class ModulesVersionCheck : MonoBehaviour
     private IEnumerator DeleteUnuseAssetDll()
     {
 
-        JObject hotfixDlls = GlobalData.version["asset_dll"] as JObject;
+        JObject hotfixDlls = GlobalModel.version["asset_dll"] as JObject;
 
         List<string> targetPathLst = new List<string>();  //获取普通包路劲 xxx.unity3d  和  xxx.unity3d.manifest
         targetPathLst.AddRange(GetTargetFilePath(PathHelper.hotfixDirLOCPTH, ".dll.bytes"));
@@ -832,7 +832,7 @@ public class ModulesVersionCheck : MonoBehaviour
     private IEnumerator DeleteUnuseAssetBackup()
     {
 
-        JObject assetBackup = GlobalData.version["asset_backup"] as JObject;
+        JObject assetBackup = GlobalModel.version["asset_backup"] as JObject;
 
         List<string> targetPathLst = new List<string>();  //获取普通包路劲 xxx.unity3d  和  xxx.unity3d.manifest
         targetPathLst.AddRange(GetTargetFilePath(PathHelper.hotfixDirLOCPTH, ".*"));
@@ -886,10 +886,10 @@ public class ModulesVersionCheck : MonoBehaviour
         bool isNext = false;
 
         // 所有资源版本
-        GlobalData.streamingAssetsVersion = null;
+        GlobalModel.streamingAssetsVersion = null;
         yield return FileUtils.ReadStreamingAsset<string>(PathHelper.versionSAPTH, (obj) =>
         {
-            GlobalData.streamingAssetsVersion = JObject.Parse((string)obj);
+            GlobalModel.streamingAssetsVersion = JObject.Parse((string)obj);
         }, (err) =>
         {
             throw new System.Exception(err);
@@ -897,10 +897,10 @@ public class ModulesVersionCheck : MonoBehaviour
 
 
         // 主模块版本
-        GlobalData.streamingAssetsMainModVersion = null;
+        GlobalModel.streamingAssetsMainModVersion = null;
         yield return FileUtils.ReadStreamingAsset<string>(PathHelper.mainModVersionSAPTH, (obj) =>
         {
-            GlobalData.streamingAssetsMainModVersion = JObject.Parse((string)obj);
+            GlobalModel.streamingAssetsMainModVersion = JObject.Parse((string)obj);
         }, (err) =>
         {
             throw new System.Exception(err);
@@ -996,7 +996,7 @@ public class ModulesVersionCheck : MonoBehaviour
 
 
         // 所有文件复制到本地
-        JObject versionSAObj = GlobalData.streamingAssetsVersion;
+        JObject versionSAObj = GlobalModel.streamingAssetsVersion;
 
         if (versionSAObj != null)
         {
@@ -1104,7 +1104,7 @@ public class ModulesVersionCheck : MonoBehaviour
 
 
         // 最后才拷贝“主模块的mod版文件”
-        if (GlobalData.streamingAssetsMainModVersion  != null)
+        if (GlobalModel.streamingAssetsMainModVersion  != null)
         {
             PageLaunch.Instance.RefreshProgressUIMsg($"copy main mod version file to cache: {PathHelper.mainModVersionLOCPTH}");
             Debug.Log("copy version");
@@ -1184,15 +1184,15 @@ public class ModulesVersionCheck : MonoBehaviour
             {
                 string tvStr = reqTotalVersion.downloadHandler.text;
 
-                GlobalData.totalVersion = JObject.Parse(tvStr);
+                GlobalModel.totalVersion = JObject.Parse(tvStr);
 
                 // 拷贝版本文件(写入文件时，可能断电重启，导致写入数据有问题)
                 FileUtils.WriteAllBytes(PathHelper.totalVersionLOCPTH, reqTotalVersion.downloadHandler.data);
 
                 JObject targetTotalVersionItem = null;
-                if (GlobalData.totalVersion != null)
+                if (GlobalModel.totalVersion != null)
                 {
-                    JArray lst = GlobalData.totalVersion["data"] as JArray;
+                    JArray lst = GlobalModel.totalVersion["data"] as JArray;
                     for (int i = 0; i < lst.Count; i++)
                     {
                         string appKey = lst[i]["app_key"].ToObject<string>();
@@ -1206,7 +1206,7 @@ public class ModulesVersionCheck : MonoBehaviour
 
                 if (targetTotalVersionItem != null)
                 {
-                    GlobalData.autoHotfixUrl = FileUtils.GetDirWebUrl(PathHelper.totalVersionWEBURL, targetTotalVersionItem["hotfix_url"].ToObject<string>());
+                    GlobalModel.autoHotfixUrl = FileUtils.GetDirWebUrl(PathHelper.totalVersionWEBURL, targetTotalVersionItem["hotfix_url"].ToObject<string>());
 
 
                     PageLaunch.Instance.Next(LoadingProgressMod.CHECK_WEB_VERSION, $"get web version");
