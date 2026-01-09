@@ -322,8 +322,17 @@ public class Main
         //if(!ApplicationSettings.Instance.isRelease)  Stage.touchScreen = false;
 
 
+
+        //Fgui的通用设置
+        FguiSettingsController.Instance.Enable();
+
+
         #endregion
         EventCenter.Instance.EventTrigger(GlobalEvent.ON_INIT_SETTINGS_FINISH_EVENT);
+
+
+
+
 
         OpenGame();
     }

@@ -4,6 +4,7 @@ using SlotMaker;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Lobby01
 {
@@ -118,31 +119,32 @@ namespace Lobby01
 
                 });
 
-                GButton gButton = btnItem.GetChild("like").asButton;
-                gButton.selected = LobbyGamesManager.Instance.GetLocalValue<bool>(gameId, "like");
-                gButton.onChanged.Clear();
-                gButton.onChanged.Add((EventContext context) =>
+                GButton btnLike = btnItem.GetChild("like").asButton;
+                btnLike.selected = LobbyGamesManager.Instance.GetLocalValue<bool>(gameId, "like");
+                btnLike.onChanged.Clear();
+                btnLike.onChanged.Add((EventContext context) =>
                 {
-                    LobbyGamesManager.Instance.SetLocalValue<bool>(gameId,"", gButton.selected);
+                    LobbyGamesManager.Instance.SetLocalValue<bool>(gameId,"", btnLike.selected);
 
                     // 2. 阻止事件向下穿透（核心代码）
                     //context.StopPropagation(); // 停止事件冒泡(不起作用)
                 });
-                gButton.onClick.Set((EventContext context) =>
+                btnLike.onClick.Set((EventContext context) =>
                 {
-                    GameSoundHelper.Instance.PlaySoundEff(GameMaker.SoundKey.NormalClick);
-
+                    //GameSoundHelper.Instance.PlaySoundEff(GameMaker.SoundKey.NormalClick);
                     // 2. 阻止事件向下穿透（核心代码）
                     context.StopPropagation(); // 停止事件冒泡(不起作用)
                 });
+                btnLike.sound = null;  // 关掉默认按钮声音
 
 
 
+                btnItem.sound = null;  // 关掉默认按钮声音
                 btnItem.onClick.Set(() =>
                 {
                     MaskPopupHandler.Instance.OpenPopup();
 
-                    GameSoundHelper.Instance.StopMusic();
+                    GameSoundHelper.Instance.StopMusic(); //关掉背景音乐
                     GameSoundHelper.Instance.PlaySoundEff(SoundKey.EnterGame);
 
                     string enterPageName = LobbyGamesManager.Instance.GetSeverValue<string>(gameId, "enter_page");
