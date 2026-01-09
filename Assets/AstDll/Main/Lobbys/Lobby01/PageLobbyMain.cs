@@ -1,5 +1,6 @@
 using FairyGUI;
 using GameMaker;
+using SlotMaker;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
@@ -47,6 +48,11 @@ namespace Lobby01
 
             // 添加事件监听
 
+            //EventCenter.Instance.AddEventListener<EventData>(MetaUIEvent.ON_CREDIT_EVENT.);
+
+
+            creditCtr.Enable();
+
             InitParam();
         }
 
@@ -55,6 +61,8 @@ namespace Lobby01
         {
 
             // 删除事件监听
+
+            creditCtr.Disable();
 
             base.OnClose(data);
         }
@@ -66,9 +74,11 @@ namespace Lobby01
 
         GList glstGames;
 
-        GComponent comButtom;
+        GComponent comButtom, comSidebar;
 
         Controller ctrSound;
+
+        CreditController creditCtr = new CreditController();
         public override void InitParam()
         {
 
@@ -140,7 +150,8 @@ namespace Lobby01
 
 
             comButtom = this.contentPane.GetChild("buttom").asCom;
-            GButton btnSound = comButtom.GetChild("btnMore").asCom.GetChild("sound").asButton;
+            GComponent comMenu = comButtom.GetChild("btnMore").asCom.GetChild("menu").asCom;
+            GButton btnSound = comMenu.GetChild("sound").asButton;
             ctrSound = btnSound.GetController("c1");
             ctrSound.selectedIndex = SBoxModel.Instance.soundLevel;
             btnSound.onClick.Set((EventContext context) =>
@@ -156,32 +167,51 @@ namespace Lobby01
             });
 
 
-            /*
-            // btnClose =  this.contentPane.GetChild("btnExit").asButton;
-            btnClose = this.contentPane.GetChild("navBottom").asCom.GetChild("btnExit").asButton;
-            btnClose.onClick.Clear();
-            btnClose.onClick.Add(() =>
-            {
-                //DebugUtils.Log("i am here 123");
-                CloseSelf(null);
-                //  CloseSelf(new EventData("Exit"));
-            });
-            */
 
-            /* 
-            if (inParams != null)
-            {   
-                Dictionary<string, object> argDic = null;
-                argDic = (Dictionary<string, object>)inParams.value;
-                title = (string)argDic["title"];
-                isPlaintext = (bool)argDic["isPlaintext"];
-                if (argDic.ContainsKey("content"))
-                {
-                    input = (string)argDic["content"];
-                }
-            }
-           */
+            // 侧边栏折叠按钮
+            comSidebar = this.contentPane.GetChild("sidebar").asCom;
+            GButton btnFold = comSidebar.GetChild("btnFold").asButton;
+            btnFold.onClick.Set((EventContext context) =>
+            {
+                // 2. 阻止事件向下穿透（核心代码）
+                context.StopPropagation(); // 停止事件冒泡
+            });
+            btnFold.onChanged.Set(() =>
+            {
+                comSidebar.GetTransition(btnFold.selected ?  "unfold": "fold").Play();
+            });
+            btnFold.selected = false;
+
+
+
+
+            creditCtr.InitParam(comButtom.GetChild("credit").asTextField);
+
         }
+
+
+
+        void OnCreditEvent(EventData res)
+        {
+            if (res.name == MetaUIEvent.UpdateNaviCredit)
+            {
+                UpdateNaviCredit data = res.value as  UpdateNaviCredit;
+            }
+        }
+
+
+
+
+        /*
+        EventCenter.Instance.EventTrigger<EventData>(MetaUIEvent.ON_CREDIT_EVENT,
+new EventData<UpdateNaviCredit>(MetaUIEvent.UpdateNaviCredit,
+new UpdateNaviCredit()
+        {
+            isAnim = SyncCreditAnim(isAnim),
+    fromCredit = fromCredit,
+    toCredit = MainModel.Instance.myCredit
+}));
+        */
     }
 
 }
