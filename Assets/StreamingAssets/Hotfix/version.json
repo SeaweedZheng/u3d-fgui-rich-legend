@@ -1,13 +1,13 @@
 {
   "name": "Total",
-  "updated_at": 1767928687474,
+  "updated_at": 1767951958392,
   "hotfix_key": "hf_debug_android_20251216143338",
-  "hotfix_version": "1.0.23",
-  "hash": "f6379ed6489a7a2837ed5372beed22c4",
+  "hotfix_version": "1.0.25",
+  "hash": "2f792085db079ac9d0d15113ae4a42e0",
   "asset_bundle": {
     "manifest": {
-      "hash": "0ba7454758ca3445107abb488481873d",
-      "size_bytes": 7297
+      "hash": "729f68c470b135331cedcee92874e57e",
+      "size_bytes": 7385
     },
     "bundles": {
       "_common/game maker/abs/g152/game icon/game avatar 152.unity3d": {
@@ -899,8 +899,20 @@
         "size_bytes": 324429
       },
       "lobbys/lobby01/fguis.unity3d": {
-        "hash": "1779e3574aa65d49e549071ebfc8bd9a",
-        "size_bytes": 1479668
+        "hash": "d91cdffd4de0e0aa6374ff2170bd166c",
+        "size_bytes": 1477909
+      },
+      "lobbys/lobby01/sounds/bgm_lobby(slots3).unity3d": {
+        "hash": "a7843585acadcb4ac3e6fe7c657c0b86",
+        "size_bytes": 838710
+      },
+      "lobbys/lobby01/sounds/bgm_lobby.unity3d": {
+        "hash": "19aaffd986cda4a9cca852b063db23c3",
+        "size_bytes": 890499
+      },
+      "lobbys/lobby01/sounds/ui_game_select.unity3d": {
+        "hash": "a2b3abe21ea54386d2ba64fc372aa8c2",
+        "size_bytes": 202917
       }
     }
   },

@@ -68,7 +68,10 @@ namespace Lobby01
         }
 
 
-        // public override void OnTop() { DebugUtils.Log($"i am top {this.name}"); }
+        public override void OnTop() {
+
+            GameSoundHelper.Instance.PlayMusicSingle(SoundKey.LobbyBG1);
+        }
 
         GButton btnClose;
 
@@ -127,6 +130,8 @@ namespace Lobby01
                 });
                 gButton.onClick.Set((EventContext context) =>
                 {
+                    GameSoundHelper.Instance.PlaySoundEff(GameMaker.SoundKey.NormalClick);
+
                     // 2. 阻止事件向下穿透（核心代码）
                     context.StopPropagation(); // 停止事件冒泡(不起作用)
                 });
@@ -136,6 +141,9 @@ namespace Lobby01
                 btnItem.onClick.Set(() =>
                 {
                     MaskPopupHandler.Instance.OpenPopup();
+
+                    GameSoundHelper.Instance.StopMusic();
+                    GameSoundHelper.Instance.PlaySoundEff(SoundKey.EnterGame);
 
                     string enterPageName = LobbyGamesManager.Instance.GetSeverValue<string>(gameId, "enter_page");
                     PageName pn = (PageName)Enum.Parse(typeof(PageName), enterPageName);
@@ -156,6 +164,7 @@ namespace Lobby01
             ctrSound.selectedIndex = SBoxModel.Instance.soundLevel;
             btnSound.onClick.Set((EventContext context) =>
             {
+                GameSoundHelper.Instance.PlaySoundEff(GameMaker.SoundKey.NormalClick);
 
                 if (++SBoxModel.Instance.soundLevel > 3)
                     SBoxModel.Instance.soundLevel = 0;
@@ -173,6 +182,7 @@ namespace Lobby01
             GButton btnFold = comSidebar.GetChild("btnFold").asButton;
             btnFold.onClick.Set((EventContext context) =>
             {
+                GameSoundHelper.Instance.PlaySoundEff(GameMaker.SoundKey.NormalClick);
                 // 2. 阻止事件向下穿透（核心代码）
                 context.StopPropagation(); // 停止事件冒泡
             });
