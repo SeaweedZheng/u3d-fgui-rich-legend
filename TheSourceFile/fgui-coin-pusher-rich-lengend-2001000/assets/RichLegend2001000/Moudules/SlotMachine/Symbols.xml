@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="158,408">
+  <displayList>
+    <component id="n10_plep" name="symbol0" src="plep3" fileName="Moudules/SlotMachine/Symbol.xml" xy="0,-136"/>
+    <component id="n11_plep" name="symbol1" src="plep3" fileName="Moudules/SlotMachine/Symbol.xml" xy="0,0" size="158,136"/>
+    <component id="n12_plep" name="symbol2" src="plep3" fileName="Moudules/SlotMachine/Symbol.xml" xy="0,136" size="158,136"/>
+    <component id="n13_plep" name="symbol3" src="plep3" fileName="Moudules/SlotMachine/Symbol.xml" xy="0,272" size="158,136"/>
+    <component id="n14_plep" name="symbol4" src="plep3" fileName="Moudules/SlotMachine/Symbol.xml" xy="0,408" size="158,136"/>
+    <component id="n15_plep" name="symbol5" src="plep3" fileName="Moudules/SlotMachine/Symbol.xml" xy="0,544" size="158,136"/>
+    <component id="n16_plep" name="symbol6" src="plep3" fileName="Moudules/SlotMachine/Symbol.xml" xy="0,680" size="158,136"/>
+    <component id="n17_plep" name="symbol7" src="plep3" fileName="Moudules/SlotMachine/Symbol.xml" xy="0,816" size="158,136"/>
+  </displayList>
+</component>

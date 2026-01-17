@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="82,82" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0">
+    <action type="play_transition" fromPage="" toPage="0" transition="Help"/>
+    <action type="play_transition" fromPage="" toPage="1" transition="Back"/>
+  </controller>
+  <displayList>
+    <image id="n0_ioi7" name="n0" src="ioi7g6" fileName="Images/Button/btn_bg.png" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n6_ioi7" name="n6" xy="41,41" pivot="0.5,0.5" anchor="true" size="32,58" url="ui://01yywggtioi7hq" autoSize="true"/>
+    <component id="n5_ioi7" name="untouch" src="ioi7ic" fileName="Components/Mask/UntouchCircle24.xml" xy="0,0" visible="false"/>
+    <component id="n7_x0w1" name="menu" src="ioi7hg" fileName="Moudules/PanelMenu.xml" xy="0,-295"/>
+  </displayList>
+  <Button mode="Check"/>
+  <transition name="Help">
+    <item time="0" type="Icon" target="n6_ioi7" value="ui://01yywggtioi7hq"/>
+    <item time="0" type="Visible" target="n7_x0w1" value="false"/>
+  </transition>
+  <transition name="Back">
+    <item time="0" type="Icon" target="n6_ioi7" value="ui://01yywggtioi7hp"/>
+    <item time="0" type="Visible" target="n7_x0w1" value="true"/>
+  </transition>
+</component>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="128,136">
+  <displayList>
+    <loader id="n0_tpfc" name="icon" xy="64,68" pivot="0.5,0.5" anchor="true" size="158,136" scale="0.5,0.5" url="ui://adoe8w7d10cf011k" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <movieclip id="n3_10cf0" name="border" src="10cf012q" fileName="Images/PageGameMain/BorderEffect/BorderEffect.jta" xy="64,68" pivot="0.5,0.5" anchor="true" scale="1.1,1.1" visible="false"/>
+    <component id="n1_tpfc" name="n1" src="tpfchm" fileName="Moudules/Panel/ItemCredit.xml" xy="31,118">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+  <transition name="hit">
+    <item time="0" type="XY" target="n0_tpfc" tween="true" startValue="64,68" endValue="64,40" duration="12" repeat="-1" yoyo="true"/>
+    <item time="0" type="XY" target="n3_10cf0" tween="true" startValue="64,68.5" endValue="64,40" duration="12" repeat="-1" yoyo="true"/>
+  </transition>
+  <customProperty target="icon" propertyId="1" label="图标"/>
+</component>

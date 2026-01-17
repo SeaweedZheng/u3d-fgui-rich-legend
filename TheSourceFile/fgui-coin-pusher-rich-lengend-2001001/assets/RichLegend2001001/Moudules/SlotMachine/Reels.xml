@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="574,474">
+  <displayList>
+    <component id="n0_plep" name="reel1" src="plep4" fileName="Moudules/SlotMachine/Reel.xml" xy="0,0"/>
+    <component id="n1_plep" name="reel2" src="plep4" fileName="Moudules/SlotMachine/Reel.xml" xy="208,0"/>
+    <component id="n2_plep" name="reel3" src="plep4" fileName="Moudules/SlotMachine/Reel.xml" xy="416,0"/>
+  </displayList>
+</component>

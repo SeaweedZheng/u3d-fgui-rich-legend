@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="82,266">
+  <displayList>
+    <component id="n3_x0w1" name="btnExit" src="ioi7ie" fileName="Components/Button/ButtonIntroduce.xml" xy="0,0">
+      <property target="icon" propertyId="1" value="ui://01yywggtx0w1xjp"/>
+    </component>
+    <component id="n1_ioi7" name="btnSound" src="ioi7if" fileName="Components/ButtonSound.xml" xy="0,92"/>
+    <component id="n0_ioi7" name="btnPayTable" src="ioi7ie" fileName="Components/Button/ButtonIntroduce.xml" xy="0,184"/>
+  </displayList>
+</component>

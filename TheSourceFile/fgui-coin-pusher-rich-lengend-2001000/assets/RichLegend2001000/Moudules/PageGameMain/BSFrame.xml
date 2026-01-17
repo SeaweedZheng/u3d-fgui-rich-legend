@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="818,582">
+  <displayList>
+    <image id="n1_plep" name="n1" src="plep2" fileName="Images/PageGameMain/FG/frame01.png" xy="0,0">
+      <relation target="" sidePair="center-center,middle-middle%"/>
+    </image>
+  </displayList>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="574,474">
+  <displayList>
+    <movieclip id="n1_r49x" name="line1" src="r49x131" fileName="Images/PageGameMain/LineEffect/LineEffect.jta" xy="287,95" pivot="0.5,0.5" anchor="true" visible="false"/>
+    <movieclip id="n0_r49x" name="line2" src="r49x131" fileName="Images/PageGameMain/LineEffect/LineEffect.jta" xy="287,236" pivot="0.5,0.5" anchor="true" visible="false"/>
+    <movieclip id="n2_r49x" name="line3" src="r49x131" fileName="Images/PageGameMain/LineEffect/LineEffect.jta" xy="287,379" pivot="0.5,0.5" anchor="true" visible="false"/>
+    <movieclip id="n3_r49x" name="line4" src="r49x131" fileName="Images/PageGameMain/LineEffect/LineEffect.jta" xy="95,236" pivot="0.5,0.5" anchor="true" visible="false" rotation="90"/>
+    <movieclip id="n4_r49x" name="line5" src="r49x131" fileName="Images/PageGameMain/LineEffect/LineEffect.jta" xy="287,236" pivot="0.5,0.5" anchor="true" visible="false" rotation="90"/>
+    <movieclip id="n5_r49x" name="line6" src="r49x131" fileName="Images/PageGameMain/LineEffect/LineEffect.jta" xy="479,236" pivot="0.5,0.5" anchor="true" visible="false" rotation="90"/>
+    <movieclip id="n6_r49x" name="line7" src="r49x131" fileName="Images/PageGameMain/LineEffect/LineEffect.jta" xy="287,236" pivot="0.5,0.5" anchor="true" visible="false" rotation="36"/>
+    <movieclip id="n7_r49x" name="line8" src="r49x131" fileName="Images/PageGameMain/LineEffect/LineEffect.jta" xy="287,236" pivot="0.5,0.5" anchor="true" visible="false" rotation="144"/>
+  </displayList>
+</component>

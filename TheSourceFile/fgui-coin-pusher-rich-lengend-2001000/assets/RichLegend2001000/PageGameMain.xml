@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1080,1920" designImage="ui://8bdy3xtlplep1" designImageOffsetX="28" designImageOffsetY="1152">
+  <displayList>
+    <image id="n4_plep" name="n4" src="j4eb2" fileName="Images/PageGameMain/BG/bg.png" xy="28,1152"/>
+    <component id="n0_plep" name="BSFrame" src="plep0" fileName="Moudules/PageGameMain/BSFrame.xml" xy="98,1226"/>
+    <component id="n2_plep" name="slotMachine" src="plep7" fileName="Moudules/SlotMachine/SlotMachine.xml" xy="287,1367"/>
+    <component id="n3_plep" name="panel" src="plepb" fileName="Moudules/Panel.xml" xy="28,1741"/>
+  </displayList>
+</component>

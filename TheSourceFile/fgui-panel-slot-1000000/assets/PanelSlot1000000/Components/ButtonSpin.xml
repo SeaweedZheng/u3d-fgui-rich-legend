@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="152,152" mask="n4_ioi7">
+  <controller name="button" pages="0,spin,1,stop,2,auto,5,untouchable" selected="0">
+    <action type="play_transition" fromPage="" toPage="0" transition="stop"/>
+    <action type="play_transition" fromPage="" toPage="1" transition="spin"/>
+    <action type="play_transition" fromPage="" toPage="2" transition="auto"/>
+    <action type="play_transition" fromPage="" toPage="5" transition="untouchable"/>
+  </controller>
+  <displayList>
+    <image id="n4_ioi7" name="mask" src="ioi7gy" fileName="Images/Button/icon_play.png" xy="0,0"/>
+    <loader id="n0_ioi7" name="n0" xy="0,0" size="152,152" url="ui://01yywggtioi7gy" autoSize="true"/>
+    <component id="n2_ioi7" name="anchorSpin" src="ioi7i4" fileName="Components/AnchorSpin.xml" xy="75,75"/>
+    <loader id="n1_ioi7" name="n1" xy="89,107" pivot="0.5,0.5" anchor="true" size="129,65" url="ui://01yywggtioi7gz" autoSize="true"/>
+    <component id="n6_x0w1" name="untouch" src="ioi7i1" fileName="Components/Untouchable.xml" xy="0,0" size="152,152" visible="false">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+  <transition name="spin">
+    <item time="0" type="Icon" target="n0_ioi7" value="ui://01yywggtioi7gy"/>
+    <item time="0" type="Icon" target="n1_ioi7" value="ui://01yywggtioi7gz"/>
+    <item time="0" type="Visible" target="n6_x0w1" value="false"/>
+  </transition>
+  <transition name="stop">
+    <item time="0" type="Icon" target="n0_ioi7" value="ui://01yywggtioi7h0"/>
+    <item time="0" type="Icon" target="n1_ioi7" value="ui://01yywggtioi7h1"/>
+    <item time="0" type="Visible" target="n6_x0w1" value="false"/>
+  </transition>
+  <transition name="auto">
+    <item time="0" type="Icon" target="n0_ioi7" value="ui://01yywggtioi7h2"/>
+    <item time="0" type="Icon" target="n1_ioi7" value="ui://01yywggtioi7h3"/>
+    <item time="0" type="Visible" target="n6_x0w1" value="false"/>
+  </transition>
+  <transition name="untouchable">
+    <item time="0" type="Visible" target="n6_x0w1" value="true"/>
+  </transition>
+</component>

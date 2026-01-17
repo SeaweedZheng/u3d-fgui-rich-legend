@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1024,179">
+  <displayList>
+    <image id="n3_plep" name="n3" src="plepa" fileName="Images/Panel/head_img_bg.png" xy="0,0"/>
+    <movieclip id="n4_tpfc" name="n4" src="tpfc1s" fileName="Images/PageGameMain/SymbolEffects/SymbolAppear1/SymbolAppear1.jta" xy="6,53"/>
+    <movieclip id="n5_tpfc" name="n5" src="tpfca5" fileName="Images/PageGameMain/SymbolEffects/SymbolAppear2/SymbolAppear2.jta" xy="165,53"/>
+  </displayList>
+</component>

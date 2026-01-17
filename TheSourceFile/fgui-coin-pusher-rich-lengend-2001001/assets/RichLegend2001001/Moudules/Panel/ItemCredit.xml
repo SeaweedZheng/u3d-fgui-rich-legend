@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="60,27">
+  <displayList>
+    <image id="n1_tpfc" name="n1" src="plepc" fileName="Images/Panel/frame_times.png" xy="0,0"/>
+    <text id="n2_r49x" name="n2" xy="6,1" size="47,26" fontSize="18" color="#ffff00" align="center" autoSize="shrink" singleLine="true" text="789"/>
+  </displayList>
+</component>

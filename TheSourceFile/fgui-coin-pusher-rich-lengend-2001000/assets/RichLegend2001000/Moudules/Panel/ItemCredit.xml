@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="65,30">
+  <displayList>
+    <image id="n1_tpfc" name="n1" src="plepc" fileName="Images/Panel/frame_times.png" xy="0,0"/>
+  </displayList>
+</component>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="158,136">
+  <displayList>
+    <loader id="n0_tpfc" name="icon" xy="0,0" size="158,136" url="ui://8bdy3xtltpfchj" align="center" vAlign="middle">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n1_tpfc" name="n1" src="tpfchm" fileName="Moudules/Panel/ItemCredit.xml" xy="46,120"/>
+  </displayList>
+  <customProperty target="icon" propertyId="1" label="图标"/>
+</component>
