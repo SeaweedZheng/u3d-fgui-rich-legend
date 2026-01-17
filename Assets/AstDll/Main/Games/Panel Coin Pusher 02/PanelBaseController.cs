@@ -116,7 +116,7 @@ namespace PusherMaker
             if (_data != null)
                 _goAnchorPanel = _data.value as GComponent;
             else if (MainModel.Instance.contentMD != null)
-                _goAnchorPanel = MainModel.Instance.contentMD.goAnthorPanel;
+                _goAnchorPanel = MainModel.Instance.contentMD.goAnchorPanel;
 
             if (_goAnchorPanel == null)
             {

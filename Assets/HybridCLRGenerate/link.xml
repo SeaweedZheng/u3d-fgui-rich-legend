@@ -33,6 +33,7 @@
     <type fullname="FairyGUI.HitTestMode" preserve="all" />
     <type fullname="FairyGUI.InputEvent" preserve="all" />
     <type fullname="FairyGUI.ListItemRenderer" preserve="all" />
+    <type fullname="FairyGUI.NAudioClip" preserve="all" />
     <type fullname="FairyGUI.NTexture" preserve="all" />
     <type fullname="FairyGUI.PackageItem" preserve="all" />
     <type fullname="FairyGUI.PlayCompleteCallback" preserve="all" />
@@ -44,6 +45,7 @@
     <type fullname="FairyGUI.TransitionHook" preserve="all" />
     <type fullname="FairyGUI.TranslationHelper" preserve="all" />
     <type fullname="FairyGUI.TweenValue" preserve="all" />
+    <type fullname="FairyGUI.UIConfig" preserve="all" />
     <type fullname="FairyGUI.UIPackage" preserve="all" />
     <type fullname="FairyGUI.UIPanel" preserve="all" />
     <type fullname="FairyGUI.Utils.XML" preserve="all" />

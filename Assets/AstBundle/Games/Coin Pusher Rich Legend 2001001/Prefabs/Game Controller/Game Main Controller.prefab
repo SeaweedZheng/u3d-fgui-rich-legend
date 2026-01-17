@@ -1,0 +1,327 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4767127056582089575
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5186950988054571753}
+  m_Layer: 0
+  m_Name: Game Main Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5186950988054571753
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4767127056582089575}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5047258371372125990}
+  - {fileID: 8573171301839230268}
+  - {fileID: 2758414746007780007}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4926383600468671094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5047258371372125990}
+  - component: {fileID: 9193150592340023631}
+  m_Layer: 0
+  m_Name: Slot Machine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5047258371372125990
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4926383600468671094}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5186950988054571753}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9193150592340023631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4926383600468671094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59804b2f8411856488f3131de2396088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isStopImmediately: 0
+--- !u!1 &6341406006266280803
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8573171301839230268}
+  m_Layer: 0
+  m_Name: Blackboard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8573171301839230268
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6341406006266280803}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 693388889952624519}
+  m_Father: {fileID: 5186950988054571753}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7305151089425872865
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 693388889952624519}
+  - component: {fileID: 4696035793337444}
+  m_Layer: 0
+  m_Name: Content Model
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &693388889952624519
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7305151089425872865}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8573171301839230268}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4696035793337444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7305151089425872865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ce2907a80cb284da00a50f8f315a6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isAuto: 0
+  _isSpin: 0
+  _isRequestToStop: 0
+  _isRequestToRealCreditWhenStop: 0
+  _totalPlaySpins: 1
+  _gameState: Idle
+  curReelStripsIndex: BS
+  nextReelStripsIndex: BS
+  totalEarnCoins: 0
+  baseGameWinCoins: 0
+  freeSpinTotalWinCoins: 0
+  response: 
+  strDeckRowCol: 
+  winList: []
+  winFreeSpinTriggerOrAddCopy:
+    earnCredit: 0
+    multiplier: 1
+    lineNumber: -1
+    symbolNumber: -1
+    cells: []
+    customData: 
+  isReelsSlowMotion: 0
+  isFreeSpinTrigger: 0
+  isFreeSpinResult: 0
+  freeSpinAddNum: 0
+  isFreeSpinAdd: 0
+  m_showFreeSpinRemainTime: 0
+  isBonus1: 0
+  hitBallCount: 0
+  creditBefore: 0
+  creditAfter: 0
+  curGameCreatTimeMS: 0
+  curGameGuid: 
+  freeSpinTriggerGuid: 
+  curGameNumber: 0
+  gameNumberFreeSpinTrigger: 0
+  isHitJackpotGame: 0
+  m_UIGrandJP:
+    name: JPGrand
+    id: 0
+    nowCredit: 69000
+    curCredit: 69204
+    maxCredit: 11100000
+    minCredit: 0
+  m_UIMegaJP:
+    name: JPMega
+    id: 1
+    nowCredit: 15000
+    curCredit: 15134
+    maxCredit: 2500000
+    minCredit: 0
+  m_UIMajorJP:
+    name: JPMajor
+    id: 1
+    nowCredit: 15000
+    curCredit: 15134
+    maxCredit: 2500000
+    minCredit: 0
+  m_UIMinorJP:
+    name: JPMinor
+    id: 2
+    nowCredit: 240000
+    curCredit: 244073
+    maxCredit: 300000
+    minCredit: 0
+  m_UIMiniJP:
+    name: JPMini
+    id: 3
+    nowCredit: 10000
+    curCredit: 10581
+    maxCredit: 30000
+    minCredit: 0
+  isHitJpGame3JpGame4: 0
+  isHitJpGame1JpGame2: 0
+  _betIndex: 0
+  m_BtnSpinState: Stop
+  m_TotalBet: 0
+  m_SelectLine: 0
+  m_ApostarCredit: 0
+  m_PayTableSymbolWin:
+  - symbol: 0
+    x3: 0
+    x4: 0
+    x5: 0
+  - symbol: 1
+    x3: 2
+    x4: 0
+    x5: 0
+  - symbol: 2
+    x3: 1
+    x4: 4
+    x5: 10
+  - symbol: 3
+    x3: 0.6
+    x4: 2
+    x5: 6
+  - symbol: 4
+    x3: 0.5
+    x4: 1
+    x5: 2
+  - symbol: 5
+    x3: 0.3
+    x4: 0.6
+    x5: 1.6
+  - symbol: 6
+    x3: 0.2
+    x4: 0.3
+    x5: 1
+  - symbol: 7
+    x3: 0.16
+    x4: 0.2
+    x5: 0.6
+  - symbol: 8
+    x3: 0.16
+    x4: 0.2
+    x5: 0.6
+  - symbol: 9
+    x3: 0.1
+    x4: 0.2
+    x5: 0.4
+  - symbol: 10
+    x3: 0.1
+    x4: 0.2
+    x5: 0.4
+  - symbol: 11
+    x3: 0.1
+    x4: 0.2
+    x5: 0.4
+  _winMultipleList: []
+--- !u!1 &8647178422006671389
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2758414746007780007}
+  - component: {fileID: 4113739018421999976}
+  m_Layer: 0
+  m_Name: Panel Slot 1000000
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2758414746007780007
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8647178422006671389}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5186950988054571753}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4113739018421999976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8647178422006671389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fcbde343c42dd745b1b17b8a8de520e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contentIndex: 0
+  VolumeLevel: 0

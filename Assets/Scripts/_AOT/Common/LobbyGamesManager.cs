@@ -192,7 +192,7 @@ public  class LobbyGamesManager
     }
 
 
-    string GetKeysHash()
+    string GetSeverHash()
     {
         int hash = JsonConvert.SerializeObject(lobbyGamesInfoSever).GetHashCode();
         return $"{hash}";
@@ -212,13 +212,18 @@ public  class LobbyGamesManager
         */
     }
 
-
+    string GetLocHash()
+    {
+        int hash = JsonConvert.SerializeObject(lobbyGamesInfoLocal).GetHashCode();
+        return $"{hash}";
+    }
 
     string curHash = "";
     public void ChangeLocalInfo(Action onChangeCallback)
     {
-        curHash = GetKeysHash();
-        string lastHash = PlayerPrefs.GetString(PARAM_LOBBY_GAMES_KEYS_HASH, curHash);
+        curHash = GetSeverHash();
+
+        string lastHash = PlayerPrefs.GetString(PARAM_LOBBY_GAMES_KEYS_HASH, GetLocHash());
         if (curHash != lastHash)
         {
             JArray newInfo = JArray.Parse(JsonConvert.SerializeObject(lobbyGamesInfoSever));  //拷贝
@@ -251,7 +256,7 @@ public  class LobbyGamesManager
         }
     }
 
-
+#if false
     public void SyncLocalInfo()
     {
         /*
@@ -295,6 +300,8 @@ public  class LobbyGamesManager
             PlayerPrefs.SetString(PARAM_LOBBY_GAMES_KEYS_HASH, curHash);
         });
     }
+#endif
+
     const string PARAM_LOBBY_GAMES_KEYS_HASH = nameof(PARAM_LOBBY_GAMES_KEYS_HASH);
 
 
@@ -373,8 +380,11 @@ public  class LobbyGamesManager
 
     }
 
+    /*
+    public bool HasLocalKey(int gameId, string key)
+    {
 
-
+    }*/
 
     public T GetLocalValue<T>(int gameId, string key) //where T : class
     {

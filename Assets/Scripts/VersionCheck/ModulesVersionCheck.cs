@@ -274,6 +274,13 @@ public class ModulesVersionCheck : MonoBehaviour
 
             Debug.Log($"is use streaming assets version");
             // 回调
+
+
+            // StreamingAssets里文件改变，也要同步本地大厅游戏信息
+            LobbyGamesManager.Instance.ChangeLocalInfo(()=>{
+                LobbyGamesManager.Instance.SaveLobbyGameInfoAndHash();
+            });
+
             proxyCallback?.Invoke();
             yield break;
         }

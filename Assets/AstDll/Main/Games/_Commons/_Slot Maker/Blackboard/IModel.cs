@@ -29,7 +29,7 @@ namespace SlotMaker
         public int remainPlaySpins { get; }
 
 
-        public GComponent goAnthorPanel { get; set; }
+        public GComponent goAnchorPanel { get; set; }
 
         //public GComponent mainPanel { get; set; }
 

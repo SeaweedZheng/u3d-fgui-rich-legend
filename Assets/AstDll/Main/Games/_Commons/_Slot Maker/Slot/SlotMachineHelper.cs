@@ -294,7 +294,7 @@ public class SlotMachineHelper:MonoBehaviour
     void ClearTween(int reelIndex)
     {
         if (reelTweenLst[reelIndex] != null)
-            GTween.Kill(reelTweenLst[reelIndex]);
+            reelTweenLst[reelIndex].Kill();  //GTween.Kill(reelTweenLst[reelIndex]);
         reelTweenLst[reelIndex] = null;
     }
 

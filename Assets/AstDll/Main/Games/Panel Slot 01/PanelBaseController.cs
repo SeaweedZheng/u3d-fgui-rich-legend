@@ -70,7 +70,7 @@ namespace SlotMaker
             if (res != null)
                 _goAnchorPanel = res.value as GComponent;
             else if (MainModel.Instance.contentMD != null)
-                _goAnchorPanel = MainModel.Instance.contentMD.goAnthorPanel;
+                _goAnchorPanel = MainModel.Instance.contentMD.goAnchorPanel;
 
             if (_goAnchorPanel == null)
             {
@@ -128,7 +128,7 @@ namespace SlotMaker
 
         protected virtual void InitParam()
         {
-            gOwnerPanel = MainModel.Instance.contentMD.goAnthorPanel.asCom.GetChild("icon").asLoader.component;
+            gOwnerPanel = MainModel.Instance.contentMD.goAnchorPanel.asCom.GetChild("icon").asLoader.component;
             setPanel = gOwnerPanel.GetChild("setPanel").asCom;
             gOwnerPanel.GetChild("credit").asTextField.text = MainModel.Instance.myCredit.ToString(); //SBoxModel.Instance.myCredit.ToString();
             win = gOwnerPanel.GetChild("win").asTextField;

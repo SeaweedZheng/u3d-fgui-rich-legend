@@ -41,6 +41,7 @@ public class MonoSingleton<T> : MonoBehaviour where T : MonoBehaviour
                     }
                     else
                     {
+                        //Debug.LogError($"i am (Singleton) {typeof(T).ToString()}");
                         GameObject singleton = new GameObject();
                         _instance = singleton.AddComponent<T>();
                         singleton.name = "(Singleton) " + typeof(T).ToString();

@@ -13,13 +13,13 @@
   },
   {
     "id": 1001,
-    "modules_name": "RL201",
+    "modules_name": "RL2001001",
     "name": "富翁传奇",
-    "asset_bundle": "Assets/AstBundle/Games/Coin Pusher Rich Legend 201",
+    "asset_bundle": "Assets/AstBundle/Games/Coin Pusher Rich Legend 2001001",
     "asset_backup": "",
     "asset_dll": "",
     "dependencies": "Main",
-    "save_pth": "Assets/StreamingAssets/Hotfix/Modules/RL201",
+    "save_pth": "Assets/StreamingAssets/Hotfix/Modules/RL2001001",
     "level": 1,
     "pre_packaged": true
   }

@@ -124,7 +124,7 @@ namespace Lobby01
                 btnLike.onChanged.Clear();
                 btnLike.onChanged.Add((EventContext context) =>
                 {
-                    LobbyGamesManager.Instance.SetLocalValue<bool>(gameId,"", btnLike.selected);
+                    LobbyGamesManager.Instance.SetLocalValue<bool>(gameId, "like", btnLike.selected);
 
                     // 2. 阻止事件向下穿透（核心代码）
                     //context.StopPropagation(); // 停止事件冒泡(不起作用)
