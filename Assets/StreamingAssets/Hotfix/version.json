@@ -1,13 +1,13 @@
 {
   "name": "Total",
-  "updated_at": 1773491795193,
+  "updated_at": 1773661225148,
   "hotfix_key": "hf_debug_android_20251216143338",
-  "hotfix_version": "1.0.255",
-  "hash": "b54b1b58e20f0c43f7cf211d84b839e7",
+  "hotfix_version": "1.0.262",
+  "hash": "44f54a4a73e45bd8a01c3811aac1a13d",
   "asset_bundle": {
     "manifest": {
-      "hash": "5fb22e3ee7bf9146500c0a3cdbdb8dc4",
-      "size_bytes": 8808
+      "hash": "7a3124f78ac6ea46b346626cbe6b15da",
+      "size_bytes": 8807
     },
     "bundles": {
       "_commons/common 99000000/fguis.unity3d": {
@@ -163,8 +163,8 @@
         "size_bytes": 6783
       },
       "consoles/console slot 98000000/fguis.unity3d": {
-        "hash": "47311544bba5b1241f6ce5e07080797b",
-        "size_bytes": 399250
+        "hash": "04154ab56f7c4cfda5f4c019d042f1f9",
+        "size_bytes": 410045
       },
       "games/coin pusher emperors rein 200/abs/datas/slot_machine_config_bouns1.unity3d": {
         "hash": "1d2c4a977b07cdbf0057143f817afbcb",
@@ -1153,6 +1153,118 @@
     }
   },
   "asset_backup": {
+    "Consoles/Game Info/G2001000/Symbols/symbol0.png": {
+      "hash": "55b5d6851f96af8e16f0fce9dc63f16c",
+      "size_bytes": 39659
+    },
+    "Consoles/Game Info/G2001000/Symbols/symbol1.png": {
+      "hash": "9ede94edc49ae03dcb9a16670e4daf0c",
+      "size_bytes": 38446
+    },
+    "Consoles/Game Info/G2001000/Symbols/symbol10.png": {
+      "hash": "230c740fd5851026382e79c43d5fe440",
+      "size_bytes": 47098
+    },
+    "Consoles/Game Info/G2001000/Symbols/symbol11.png": {
+      "hash": "186e7d8fd3e804e7afd481be75e7a0f9",
+      "size_bytes": 55336
+    },
+    "Consoles/Game Info/G2001000/Symbols/symbol12.png": {
+      "hash": "383d3940141b04f3ecfc3cdc301abe1d",
+      "size_bytes": 72600
+    },
+    "Consoles/Game Info/G2001000/Symbols/symbol13.png": {
+      "hash": "9faad18c2fe09b6bc3ca816734fec95a",
+      "size_bytes": 38761
+    },
+    "Consoles/Game Info/G2001000/Symbols/symbol2.png": {
+      "hash": "9e6e17242677aa26ae57af0418175d2d",
+      "size_bytes": 38575
+    },
+    "Consoles/Game Info/G2001000/Symbols/symbol3.png": {
+      "hash": "3cc3c40718f3c0f7d9b15c67a9a9cb1b",
+      "size_bytes": 31981
+    },
+    "Consoles/Game Info/G2001000/Symbols/symbol4.png": {
+      "hash": "3b309ce6b7725ff4203553e77264f7c2",
+      "size_bytes": 38688
+    },
+    "Consoles/Game Info/G2001000/Symbols/symbol5.png": {
+      "hash": "15acdfd69a6fe4818024d47f594ceb0a",
+      "size_bytes": 39187
+    },
+    "Consoles/Game Info/G2001000/Symbols/symbol6.png": {
+      "hash": "7956dc4fcd702c2d4bf7cc46265d9925",
+      "size_bytes": 39169
+    },
+    "Consoles/Game Info/G2001000/Symbols/symbol7.png": {
+      "hash": "e8d8b822fb1ee95c9c01f97d2008532f",
+      "size_bytes": 39198
+    },
+    "Consoles/Game Info/G2001000/Symbols/symbol8.png": {
+      "hash": "42754803b20425ffd78e09797f7cd681",
+      "size_bytes": 36190
+    },
+    "Consoles/Game Info/G2001000/Symbols/symbol9.png": {
+      "hash": "00455a952a741b8553281b2192c99a51",
+      "size_bytes": 24346
+    },
+    "Consoles/Game Info/G2001001/Symbols/symbol0.png": {
+      "hash": "31b1dbe9a3283e23cd6e06ec5f5f90eb",
+      "size_bytes": 120383
+    },
+    "Consoles/Game Info/G2001001/Symbols/symbol1.png": {
+      "hash": "f49fe3ab7ae7b0b69040072af8056b71",
+      "size_bytes": 104799
+    },
+    "Consoles/Game Info/G2001001/Symbols/symbol10.png": {
+      "hash": "0877996b2b4ef69168631e8264397d0b",
+      "size_bytes": 106722
+    },
+    "Consoles/Game Info/G2001001/Symbols/symbol11.png": {
+      "hash": "b047801f28759e222b77112ea96d27f5",
+      "size_bytes": 121738
+    },
+    "Consoles/Game Info/G2001001/Symbols/symbol12.png": {
+      "hash": "607741b5ec2bd0288d67523cc741333f",
+      "size_bytes": 190012
+    },
+    "Consoles/Game Info/G2001001/Symbols/symbol13.png": {
+      "hash": "fdca9dd2202f46809c139f1c8485a387",
+      "size_bytes": 75739
+    },
+    "Consoles/Game Info/G2001001/Symbols/symbol2.png": {
+      "hash": "90a5a5d4d67fdcc36d3b302c87d66318",
+      "size_bytes": 98623
+    },
+    "Consoles/Game Info/G2001001/Symbols/symbol3.png": {
+      "hash": "d5d3210741d5a08523e278ee2d0dd56d",
+      "size_bytes": 77479
+    },
+    "Consoles/Game Info/G2001001/Symbols/symbol4.png": {
+      "hash": "d2ac6ca200d68ab24559c45d1b0efd2b",
+      "size_bytes": 107406
+    },
+    "Consoles/Game Info/G2001001/Symbols/symbol5.png": {
+      "hash": "8374e81522645faa7b37c54e8c9cdc2c",
+      "size_bytes": 124925
+    },
+    "Consoles/Game Info/G2001001/Symbols/symbol6.png": {
+      "hash": "95cf2d0852c1108b3ba231a78c99010d",
+      "size_bytes": 113500
+    },
+    "Consoles/Game Info/G2001001/Symbols/symbol7.png": {
+      "hash": "6316e950b55ccb0567577d3502b5684a",
+      "size_bytes": 136049
+    },
+    "Consoles/Game Info/G2001001/Symbols/symbol8.png": {
+      "hash": "9c7b05a05d2a125c0734bcb16a4788be",
+      "size_bytes": 85968
+    },
+    "Consoles/Game Info/G2001001/Symbols/symbol9.png": {
+      "hash": "646752a10a9573f6a0986b9f93733500",
+      "size_bytes": 66322
+    },
     "Lobbys/Game Info/lobby_games.json": {
       "hash": "894a340a34ef3e40944d3009c2af5535",
       "size_bytes": 3368

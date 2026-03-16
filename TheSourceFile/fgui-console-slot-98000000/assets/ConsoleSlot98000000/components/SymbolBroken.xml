@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="160,160">
+  <displayList>
+    <image id="n0_t5jt" name="n0" src="t5jtak" fileName="images/symbols/broken.png" xy="80,80" pivot="0.5,0.5" anchor="true" scale="0.8,0.8">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n1_t5jt" name="n1" xy="24,35" size="112,90" fontSize="60" align="center" vAlign="middle" autoSize="none" text="15">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

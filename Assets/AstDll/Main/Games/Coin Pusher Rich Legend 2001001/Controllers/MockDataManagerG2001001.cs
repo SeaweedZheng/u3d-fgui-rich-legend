@@ -340,7 +340,7 @@ namespace CoinPusherRichLegend2001001
 
 
             //通用模板
-            GameHistoryUITemplateCoinPusher1 templateData = new GameHistoryUITemplateCoinPusher1()
+            TemplateDataGameRecordCoinPusher1 templateData = new TemplateDataGameRecordCoinPusher1()
             {
                 deckRowCol = ContentModel.Instance.strDeckRowCol,
                 gameUid = ContentModel.Instance.curGameGuid,
@@ -359,9 +359,29 @@ namespace CoinPusherRichLegend2001001
                 freeSpinCurNumber = ContentModel.Instance.freeSpinPlayTimes,
                 freeSpinAddCount = ContentModel.Instance.freeSpinAddNum,
 
-                detail = "【测试】 seat:{0} reward:{1}##【测试】 seat:{0} reward:{1}",
-                args = "1,50##2,100",
+               // detail = "【测试】 seat:{0} reward:{1}##【测试】 seat:{0} reward:{1}",
+               // args = "1,50##2,100",
             };
+
+            if (ContentModel.Instance.winList.Count > 0)
+            {
+                string detailStr = "", argsStr = "";
+                for (int i = 0; i < ContentModel.Instance.winList.Count; i++)
+                {
+                    SymbolWin sw = ContentModel.Instance.winList[i];
+                    if (i > 0)
+                    {
+                        detailStr += "##";
+                        argsStr += "##";
+                    }
+                    detailStr += "hit line {0}, reward coins {1}";
+                    argsStr += $"{sw.lineNumber},{sw.earnCredit}";
+                }
+
+                templateData.detail = detailStr;
+                templateData.args = argsStr;
+            }
+         
 
 
 
@@ -374,7 +394,7 @@ namespace CoinPusherRichLegend2001001
                 game_uid = ContentModel.Instance.curGameGuid,
                 created_at = ContentModel.Instance.curGameCreatTimeMS,
                 respond = ContentModel.Instance.response,
-                template_name = nameof(GameHistoryUITemplateCoinPusher1),
+                template_name = nameof(TemplateDataGameRecordCoinPusher1),
                 //template_data = JsonConvert.SerializeObject(templateData),
             };
 

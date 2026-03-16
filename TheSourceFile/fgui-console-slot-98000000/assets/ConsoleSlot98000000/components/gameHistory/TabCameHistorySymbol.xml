@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="160,160">
   <displayList>
-    <loader id="n7_npu5" name="n7" xy="0,0" size="160,160" url="ui://xp0b9yqdh3mk2" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <loader id="n7_npu5" name="icon" xy="0,0" size="160,160" url="ui://xp0b9yqdh3mk2" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
   </displayList>
 </component>

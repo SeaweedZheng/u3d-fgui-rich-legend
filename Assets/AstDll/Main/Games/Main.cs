@@ -355,6 +355,7 @@ public class Main
 #if false
         PageManager.Instance.OpenPage(PageName.PusherEmperorsReinPopupERGameLoading);
 #else
+        //PageManager.Instance.OpenPage(PageName.ConsoleSlot98000000PageConsoleMain);
         PageManager.Instance.OpenPage(PageName.Lobby89000000PageLobbyMain);
 #endif
         //PageManager.Instance.OpenPage(PageName.SlotFanBeiChaoRenPopupLoading);

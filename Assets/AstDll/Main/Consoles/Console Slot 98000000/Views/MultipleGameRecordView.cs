@@ -1,12 +1,15 @@
 using FairyGUI;
 using Newtonsoft.Json;
+using SlotMaker;
 using System;
-using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
+using System.IO;
+
 namespace ConsoleSlot98000000
 {
-    public class MultipleGameRecordView : IVMultipleGameRecord
+    public partial class MultipleGameRecordView : IVMultipleGameRecord
     {
         GComponent ui;
 
@@ -16,9 +19,14 @@ namespace ConsoleSlot98000000
 
         GRichTextField txtSearchValue;
 
+
+        GTextField txtTest;
         public void InitParam(GComponent u)
         {
             ui = u;
+
+
+            txtTest = ui.GetChild("test").asTextField;
 
             goSearch = ui.GetChild("search").asCom;
             txtSearchValue = goSearch.GetChild("value").asRichTextField;
@@ -44,17 +52,17 @@ namespace ConsoleSlot98000000
             SelectGameRecordFilterInfo newFilterInfo = new SelectGameRecordFilterInfo();
 
             if (JsonConvert.SerializeObject(newFilterInfo) !=
-                JsonConvert.SerializeObject(curFilterInfo))
+                JsonConvert.SerializeObject(_curSelectFilterInfo))
             {
                 txtSearchValue.text = $"#{I18nMgr.T("All")}";
-                curFilterInfo = newFilterInfo;
+                _curSelectFilterInfo = newFilterInfo;
                 SelectGameRecordPageInfo pageInfo = new SelectGameRecordPageInfo()
                 {
                     totalCountPerPage = totalCountPerPage,
                     selectNumberPage = 1,
                 };
 
-                onSelectGameRecord(curFilterInfo, pageInfo);
+                onSelectGameRecord(_curSelectFilterInfo, pageInfo);
             }
         }
 
@@ -68,7 +76,7 @@ namespace ConsoleSlot98000000
             op = new InParamItemSelectOption();
             op.selectType = nameof(totalGameFilterOptions.gameTypes);
             op.selectName = I18nMgr.T("Game Type:");
-            op.selectKey = curFilterInfo.selectedIndexGameType.ToString();
+            op.selectKey = _curSelectFilterInfo.selectedIndexGameType.ToString();
             op.selectContent.Add("-1", I18nMgr.T("All"));
             for (int i = 0; i < totalGameFilterOptions.gameTypes.Count; i++)
             {
@@ -80,7 +88,7 @@ namespace ConsoleSlot98000000
             op = new InParamItemSelectOption();
             op.selectType = nameof(totalGameFilterOptions.gameIds);
             op.selectName = I18nMgr.T("Game ID:");
-            op.selectKey = curFilterInfo.selectedIndexGameId.ToString();
+            op.selectKey = _curSelectFilterInfo.selectedIndexGameId.ToString();
             op.selectContent.Add("-1", I18nMgr.T("All"));
             for (int i=0;i< totalGameFilterOptions.gameIds.Count; i++)
             {
@@ -91,7 +99,7 @@ namespace ConsoleSlot98000000
             op = new InParamItemSelectOption();
             op.selectType = nameof(totalGameFilterOptions.turnTypes);
             op.selectName = I18nMgr.T("Turn Type:");
-            op.selectKey = curFilterInfo.selectedIndexTurnType.ToString();
+            op.selectKey = _curSelectFilterInfo.selectedIndexTurnType.ToString();
             op.selectContent.Add("-1", I18nMgr.T("All"));
             for (int i = 0; i < totalGameFilterOptions.turnTypes.Count; i++)
             {
@@ -102,7 +110,7 @@ namespace ConsoleSlot98000000
             op = new InParamItemSelectOption();
             op.selectType = nameof(totalGameFilterOptions.hitJackpotTypes);
             op.selectName = I18nMgr.T("Hit Jackpot Types:");
-            op.selectKey = curFilterInfo.selectedIndexHitJackpotTypes.ToString();
+            op.selectKey = _curSelectFilterInfo.selectedIndexHitJackpotTypes.ToString();
             op.selectContent.Add("-1", I18nMgr.T("All"));
             for (int i = 0; i < totalGameFilterOptions.hitJackpotTypes.Count; i++)
             {
@@ -113,7 +121,7 @@ namespace ConsoleSlot98000000
             op = new InParamItemSelectOption();
             op.selectType = nameof(totalGameFilterOptions.hitBonusTypes);
             op.selectName = I18nMgr.T("Hit Bonus Types:");
-            op.selectKey = curFilterInfo.selectedIndexHitBonusTypes.ToString();
+            op.selectKey = _curSelectFilterInfo.selectedIndexHitBonusTypes.ToString();
             op.selectContent.Add("-1", I18nMgr.T("All"));
             for (int i = 0; i < totalGameFilterOptions.hitBonusTypes.Count; i++)
             {
@@ -124,7 +132,7 @@ namespace ConsoleSlot98000000
             op = new InParamItemSelectOption();
             op.selectType = nameof(totalGameFilterOptions.fullDates);
             op.selectName = I18nMgr.T("Date:");
-            op.selectKey = curFilterInfo.selectedIndexDate.ToString();
+            op.selectKey = _curSelectFilterInfo.selectedIndexDate.ToString();
             op.selectContent.Add("-1", I18nMgr.T("All"));
             for (int i = 0; i < totalGameFilterOptions.fullDates.Count; i++)
             {
@@ -219,7 +227,7 @@ namespace ConsoleSlot98000000
                             break;
                     }
                 }
-                curFilterInfo = filterInfo;
+                _curSelectFilterInfo = filterInfo;
 
                 txtSearchValue.text = string.IsNullOrEmpty(showFilterName)? $"#{I18nMgr.T("All")}" : "#"+ showFilterName;
 
@@ -228,7 +236,7 @@ namespace ConsoleSlot98000000
                     totalCountPerPage = totalCountPerPage,
                     selectNumberPage = 1,
                 };
-                onSelectGameRecord(curFilterInfo, pageInfo);
+                onSelectGameRecord(_curSelectFilterInfo, pageInfo);
             }
 
         }
@@ -241,24 +249,25 @@ namespace ConsoleSlot98000000
 
         public void ClearAll()
         {
-            selectNumberPage = 1;
             totalGameFilterOptions = null;
         }
 
 
 
 
+        public SelectGameRecordFilterInfo curSelectFilterInfo { get => _curSelectFilterInfo; }
+        SelectGameRecordFilterInfo _curSelectFilterInfo;
 
-        SelectGameRecordFilterInfo curFilterInfo;
         TotalGameFilterOptions totalGameFilterOptions;
         public const int totalCountPerPage = 1;
-        public int selectNumberPage = 1;
+
         public SelectGameRecordPageInfo SetDefaultSelect()
         {
+            _curSelectFilterInfo = new SelectGameRecordFilterInfo();
             return new SelectGameRecordPageInfo()
             {
                 totalCountPerPage = totalCountPerPage,
-                selectNumberPage = selectNumberPage,
+                selectNumberPage = 1,
             };
         }
 
@@ -268,11 +277,72 @@ namespace ConsoleSlot98000000
             totalGameFilterOptions = Filter;
         }
 
+
+        SelectGameRecordPageResult curGameRecordPageResult;
         public void SetContent(SelectGameRecordPageResult content)
         {
+            txtTest.text = "";
+            if (content.pageItems.Count > 0)
+            {
+                TableGameRecordItem data = content.pageItems[0];
 
+                txtTest.text = JsonConvert.SerializeObject(data); //测试数据显示
+
+                if (!string.IsNullOrEmpty(data.template_name))
+                {
+                    switch (TemplateUIGameRecordUtils.GetUITemplateName(data.template_name))
+                    {
+                        case nameof(TemplateUIGameRecord001):
+                            {
+                                TemplateUIGameRecord001 templateCtrl =  new TemplateUIGameRecord001();
+                                templateCtrl.InitParam(gldGameRecord, data, content.totalPageCount, content.selectNumberPage);
+                            }
+                            break;
+                    }
+                 }
+
+            }
+
+
+            curGameRecordPageResult = content;
+            onChangeNavBottomTitle?.Invoke(curPageIndex, pageCount);
         }
+
     }
+
+
+
+
+    public partial class MultipleGameRecordView : IVTable
+    {
+
+        public int curPageIndex
+        {
+            get => curGameRecordPageResult.selectNumberPage -1;
+        }
+
+
+        public int pageCount
+        {
+            get => curGameRecordPageResult.totalPageCount;
+        }
+
+        public void OnClickPrev()
+        {
+            onClickPrev?.Invoke();
+        }
+        public void OnClickNext()
+        {
+            onClickNext?.Invoke();
+        }
+
+        public event Action<int, int> onChangeNavBottomTitle;
+    }
+
+
+
+
+
 
 
 }

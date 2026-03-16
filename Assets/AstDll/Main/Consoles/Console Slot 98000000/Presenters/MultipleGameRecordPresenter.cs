@@ -2,26 +2,24 @@ using System;
 
 public interface IVMultipleGameRecord
 {
-    event Action<SelectGameRecordFilterInfo, SelectGameRecordPageInfo> onSelectGameRecord;  //游戏类型，游戏id,本局类型，中奖类型，开始时间，结束时间
+    event Action<SelectGameRecordFilterInfo, SelectGameRecordPageInfo> onSelectGameRecord;  //游戏选择类型，分页数据
 
     event Action onClickNext;
     event Action onClickPrev;
-
-    //int totalCountPerPage { get; }
-    //int selectNumberPage { get; }
 
     /// <summary>
     /// 清除所有内容（包括：页尾、内容、日期）
     /// </summary>
     void ClearAll();
 
-    /// <summary>
-    /// 设置为默认的游戏内容选择
-    /// </summary>
-    /// <returns></returns>
+    /// <summary> 设置为默认的游戏内容选择 </summary>
     SelectGameRecordPageInfo SetDefaultSelect();
 
-    //void SetToAll
+    /// <summary> 当前已选的过滤条件  </summary>
+    SelectGameRecordFilterInfo curSelectFilterInfo { get; }
+
+
+    /// <summary> 总的可选过滤条件  </summary>
     void SetTotalGameFilterOptions(TotalGameFilterOptions Filter);
     //void SetSelectDateIndex(int index);
     void SetContent(SelectGameRecordPageResult content);
@@ -32,15 +30,10 @@ public class MultipleGameRecordPresenter
 
     IVMultipleGameRecord _view;
 
-
     const string FORMAT_DATE_DAY = "yyyy-MM-dd";
 
-    //TableGameRecordItem curGame;
-
-    TotalGameFilterOptions totalGameRecordFilter;
-    SelectGameRecordFilterInfo curFilterInfo;
     SelectGameRecordPageInfo curPageInfo;
-    int totalPageCont = 0;
+    int _totalPageCont = 0;
 
     public void InitParam(IVMultipleGameRecord view)
     {
@@ -62,16 +55,15 @@ public class MultipleGameRecordPresenter
 
     void OnSelectGameRecord(SelectGameRecordFilterInfo select, SelectGameRecordPageInfo pageInfo)
     {
-        curFilterInfo = select;
         curPageInfo = pageInfo;
-        GetGameRecord(select, pageInfo);
+        _GetGameRecord(select, pageInfo);
     }
 
-    void GetGameRecord(SelectGameRecordFilterInfo select, SelectGameRecordPageInfo pageInfo)
+    void _GetGameRecord(SelectGameRecordFilterInfo select, SelectGameRecordPageInfo pageInfo)
     {
         GameRecordFilterManager.Instance.GetGameRecord(select, pageInfo, (result) =>
         {
-            totalPageCont = result.totalPageCount;
+            _totalPageCont = result.totalPageCount;
             _view.SetContent(result);
         });
     }
@@ -79,32 +71,28 @@ public class MultipleGameRecordPresenter
 
     void InitView()
     {
-        GameRecordFilterManager.Instance.GetAllFilterOptions((res) =>
+        GameRecordFilterManager.Instance.GetAllFilterOptions((totalGameFilterOption) =>
         {
-            totalGameRecordFilter = res;
-
-            _view.SetTotalGameFilterOptions(totalGameRecordFilter);
+            _view.SetTotalGameFilterOptions(totalGameFilterOption);
             _view.ClearAll();
 
             curPageInfo = _view.SetDefaultSelect();
-            curFilterInfo = null;
-            GetGameRecord(curFilterInfo, curPageInfo);
+
+            _GetGameRecord(_view.curSelectFilterInfo, curPageInfo);
         });
     }
 
 
-    TotalGameFilterOptions totalGameFilterOptions;
-
-
+  
     private void OnClickNextPage()
     {
-        if (curPageInfo.selectNumberPage + 1 > totalPageCont)
+        if (curPageInfo.selectNumberPage + 1 > _totalPageCont)
             return;
 
         curPageInfo.selectNumberPage++;
 
 
-        GetGameRecord(curFilterInfo, curPageInfo);
+        _GetGameRecord(_view.curSelectFilterInfo, curPageInfo);
     }
 
     private void OnClickPrevPage()
@@ -114,7 +102,7 @@ public class MultipleGameRecordPresenter
 
         curPageInfo.selectNumberPage--;
 
-        GetGameRecord(curFilterInfo, curPageInfo);
+        _GetGameRecord(_view.curSelectFilterInfo, curPageInfo);
     }
 }
 

@@ -550,9 +550,14 @@ public class SelectGameRecordPageInfo
 
 public class SelectGameRecordPageResult
 {
+    /// <summary> 总共多少条 </summary>
     public int totalCount = 0;
+    /// <summary> 每页多少条 </summary>
     public int totalCountPerPage = 1;
+    /// <summary> 选择第几页 </summary>
     public int selectNumberPage = 0;
+    /// <summary> 总共多少页 </summary>
     public int totalPageCount = 0;
+    /// <summary> 每页内容 </summary>
     public List<TableGameRecordItem> pageItems;
 }

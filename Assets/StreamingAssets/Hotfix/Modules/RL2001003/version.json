@@ -1,13 +1,13 @@
 {
   "name": "RL2001003",
-  "updated_at": 1773491795193,
+  "updated_at": 1773661225148,
   "hotfix_key": "hf_debug_android_20251216143338",
-  "hotfix_version": "1.0.255",
-  "hash": "56d41822a9ec479612ac49e7bbc7ce2f",
+  "hotfix_version": "1.0.262",
+  "hash": "83a7a5db9beed13432bc8bd7b1fd4f77",
   "asset_bundle": {
     "manifest": {
-      "hash": "5fb22e3ee7bf9146500c0a3cdbdb8dc4",
-      "size_bytes": 8808
+      "hash": "7a3124f78ac6ea46b346626cbe6b15da",
+      "size_bytes": 8807
     },
     "bundles": {
       "games/coin pusher rich legend 2001003/abs/datas/slot_machine_config.unity3d": {
@@ -108,8 +108,8 @@
   "asset_dll": {},
   "dependencies": {
     "Main": {
-      "hash": "61d2d12218fa98e297cb2a14f02ab28d",
-      "hotfix_version": "1.0.255"
+      "hash": "b99275e73f9b43b17037b3705cb34421",
+      "hotfix_version": "1.0.262"
     }
   }
 }

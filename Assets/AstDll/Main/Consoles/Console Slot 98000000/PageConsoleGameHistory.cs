@@ -34,11 +34,13 @@ namespace ConsoleSlot98000000
         GComponent goNavBottom;
 
         JackpotRecordView jpRecordView = new JackpotRecordView();
-        JackpotRecordPresenter jpRecordCtrl = new JackpotRecordPresenter();
+        JackpotRecordPresenter jpRecordPresenter = new JackpotRecordPresenter();
 
         MultipleGameRecordView multipleGameRecordView = new MultipleGameRecordView();
         MultipleGameRecordPresenter multipleGameRecordPresenter = new MultipleGameRecordPresenter();
 
+
+        IVTable tabGameRecordView => multipleGameRecordView;
         IVTable tabJpRecordView => jpRecordView;
 
         public override void InitParam()
@@ -63,9 +65,11 @@ namespace ConsoleSlot98000000
             multipleGameRecordView.InitParam(tabs.GetChild("game").asCom);
             multipleGameRecordPresenter.InitParam(multipleGameRecordView);
 
+            multipleGameRecordView.onChangeNavBottomTitle -= OnChangeNavButtomTitle;
+            multipleGameRecordView.onChangeNavBottomTitle += OnChangeNavButtomTitle;
 
             jpRecordView.InitParam(tabs.GetChild("jackpot").asCom);
-            jpRecordCtrl.InitParam(jpRecordView);
+            jpRecordPresenter.InitParam(jpRecordView);
 
             jpRecordView.onChangeNavBottomTitle -= OnChangeNavButtomTitle;
             jpRecordView.onChangeNavBottomTitle += OnChangeNavButtomTitle;
@@ -93,8 +97,9 @@ namespace ConsoleSlot98000000
         {
             if(myController.selectedIndex == 0)
             {
-                
-            }else if (myController.selectedIndex == 1)
+                tabGameRecordView.OnClickPrev();
+            }
+            else if (myController.selectedIndex == 1)
             {
                 tabJpRecordView.OnClickPrev();
             }
@@ -106,7 +111,7 @@ namespace ConsoleSlot98000000
         {
             if (myController.selectedIndex == 0)
             {
-
+                tabGameRecordView.OnClickNext();
             }
             else if (myController.selectedIndex == 1)
             {
@@ -126,12 +131,12 @@ namespace ConsoleSlot98000000
             string title = "";
             if (myController.selectedIndex == 0)
             {
-                title = string.Format(I18nMgr.T("Game History, Page {0} of {1}"), tabJpRecordView.curPageIndex, tabJpRecordView.pageCount);
+                title = string.Format(I18nMgr.T("Game History, Page {0} of {1}"), tabGameRecordView.curPageIndex + 1, tabGameRecordView.pageCount);
   
             }
             else if (myController.selectedIndex == 1)
             {
-                title = string.Format(I18nMgr.T("Jackpot History, Page {0} of {1}"), tabJpRecordView.curPageIndex, tabJpRecordView.pageCount);
+                title = string.Format(I18nMgr.T("Jackpot History, Page {0} of {1}"), tabJpRecordView.curPageIndex + 1, tabJpRecordView.pageCount);
        
                 //goNavBottom.GetChild("title").asTextField.text = tabJpRecordView.GetNavBottomTitle();
             }
