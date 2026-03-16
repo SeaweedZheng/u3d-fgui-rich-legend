@@ -112,6 +112,28 @@ namespace SlotMaker
             return rowcol01;
         }
 
+        public static List<List<int>> GetDeckRCdByRCs(string strDeckRowCol = "1,1,1,1,1#2,2,6,2,2#3,3,3,3,3")
+        {
+
+            string[] rows = strDeckRowCol.Split('#');
+            //int rowNum = rows.Length;
+            //int colNum = rows[0].Split(',').Length;
+
+            List<List<int>> rowcolLst = new List<List<int>>();
+
+            foreach (string row in rows)
+            {
+                List<int> _row = new List<int>();
+                string[] cols = row.Split(',');
+                foreach (string col in cols)
+                {
+                    _row.Add(int.Parse(col));
+                }
+                rowcolLst.Add(_row);
+            }
+
+            return rowcolLst;
+        }
 
         public static List<List<int>> GetDeckCRdByCRl(int[] deckColRow, int colCount, int rowCount)
         {

@@ -54,11 +54,11 @@
     <component id="cwuo2j" name="ItemBetLst.xml" path="/moudules/" exported="true"/>
     <component id="cwuo2k" name="ItemBetLstItem.xml" path="/moudules/" exported="true"/>
     <component id="cwuo2p" name="ItemCategoryNav.xml" path="/moudules/" exported="true"/>
-    <component id="cwuo38" name="PCMSTabInOut.xml" path="/tabs/" exported="true"/>
-    <component id="cwuo39" name="PCMSTabProgressive.xml" path="/tabs/" exported="true"/>
+    <component id="cwuo38" name="PCMSTabInOut.xml" path="/moudules/tabs/" exported="true"/>
+    <component id="cwuo39" name="PCMSTabProgressive.xml" path="/moudules/tabs/" exported="true"/>
     <component id="cwuo3a" name="ItemLongButton.xml" path="/moudules/" exported="true"/>
     <component id="jtgo3d" name="ItemButton005.xml" path="/moudules/" exported="true"/>
-    <component id="msw23e" name="PCMSTabMachine.xml" path="/tabs/" exported="true"/>
+    <component id="msw23e" name="PCMSTabMachine.xml" path="/moudules/tabs/" exported="true"/>
     <component id="os7y3f" name="test.xml" path="/moudules/" exported="true"/>
     <image id="os7y3g" name="icon_language.png" path="/images/mian/icons/" exported="true"/>
     <image id="os7y3h" name="icon_lang_cn.png" path="/images/mian/lang/" exported="true"/>
@@ -103,7 +103,7 @@
     <component id="vjfj51" name="PopupConsoleCoder.xml" path="/" exported="true"/>
     <component id="vjfj52" name="ItemCustomInput002.xml" path="/moudules/" exported="true"/>
     <component id="g3lh53" name="PageConsoleBusinessRecord.xml" path="/" exported="true"/>
-    <component id="g3lh54" name="PCBRTabBusiness.xml" path="/tabs/" exported="true"/>
+    <component id="g3lh54" name="PCBRTabBusiness.xml" path="/moudules/tabs/" exported="true"/>
     <component id="g3lh55" name="ItemTitleContent.xml" path="/moudules/" exported="true"/>
     <component id="g3lh56" name="ItemTitleName02.xml" path="/moudules/" exported="true"/>
     <component id="g3lh58" name="ItemDateSelect.xml" path="/moudules/" exported="true"/>
@@ -112,7 +112,7 @@
     <component id="g3lh5e" name="DefaultComboBox.xml" path="/components/" exported="true"/>
     <image id="g3lh5f" name="icon_tick.png" path="/images/buttons/" exported="true"/>
     <component id="g3lh5g" name="ItemTip.xml" path="/moudules/" exported="true"/>
-    <component id="g3lh5i" name="PCBRTabCoin.xml" path="/tabs/" exported="true"/>
+    <component id="g3lh5i" name="PCBRTabCoin.xml" path="/moudules/tabs/" exported="true"/>
     <component id="g3lh5k" name="ItemCoinInOutItem.xml" path="/moudules/"/>
     <component id="g3lh5m" name="PageConsoleGameInformation.xml" path="/" exported="true"/>
     <component id="g3lh5n" name="ItemProducedBy.xml" path="/moudules/" exported="true"/>
@@ -171,10 +171,10 @@
     <component id="sgiq7p" name="DrawLineFG.xml" path="/components/"/>
     <component id="8qkf7q" name="ButtonCalendarYearMonth.xml" path="/components/" exported="true"/>
     <component id="u8xf7r" name="PageConsoleLogRecord.xml" path="/" exported="true"/>
-    <component id="u8xf7s" name="PCLRTabEvent.xml" path="/tabs/" exported="true"/>
+    <component id="u8xf7s" name="PCLRTabEvent.xml" path="/moudules/tabs/" exported="true"/>
     <component id="u8xf7t" name="ItemLogRecordEvent.xml" path="/moudules/"/>
     <component id="u8xf7u" name="ItemLogRecordError.xml" path="/moudules/"/>
-    <component id="u8xf7v" name="PCLRTabError.xml" path="/tabs/" exported="true"/>
+    <component id="u8xf7v" name="PCLRTabError.xml" path="/moudules/tabs/" exported="true"/>
     <component id="u8xf7w" name="CompLogRcordDetail.xml" path="/components/"/>
     <image id="u8xf1" name="s10.png.jpg" path="/bbundleDefaultScrollbars/images/" duplicatePadding="true"/>
     <image id="u8xf3" name="s6.png.jpg" path="/bbundleDefaultScrollbars/images/" duplicatePadding="true"/>
@@ -194,16 +194,16 @@
     <component id="u8xff" name="GripButton_VT.xml" path="/bbundleDefaultScrollbars/components/scrollbars/"/>
     <component id="pv437x" name="ItemCustomKeyboard5.xml" path="/moudules/" exported="true"/>
     <component id="8yql7z" name="PageConsoleAdmin.xml" path="/" exported="true"/>
-    <component id="8yql80" name="PCATabDebug.xml" path="/tabs/" exported="true"/>
+    <component id="8yql80" name="PCATabDebug.xml" path="/moudules/tabs/" exported="true"/>
     <component id="8yql82" name="PageConsoleHardwareTest.xml" path="/" exported="true"/>
-    <component id="8yql83" name="PCHTTabButton.xml" path="/tabs/" exported="true"/>
-    <component id="8yql84" name="PCHTTabScreen.xml" path="/tabs/" exported="true"/>
+    <component id="8yql83" name="PCHTTabButton.xml" path="/moudules/tabs/" exported="true"/>
+    <component id="8yql84" name="PCHTTabScreen.xml" path="/moudules/tabs/" exported="true"/>
     <component id="8yql85" name="ButtonTestButton.xml" path="/components/"/>
     <component id="8yql87" name="PageConsoleCheckScreenColor.xml" path="/" exported="true"/>
     <component id="kc0c88" name="PopupConsoleNotice.xml" path="/" exported="true"/>
     <component id="kc0c89" name="PageConsoleGameHistory.xml" path="/" exported="true"/>
-    <component id="kc0c8a" name="PCGHTabJackpot.xml" path="/tabs/" exported="true"/>
-    <component id="kc0c8b" name="PCGHTabGame.xml" path="/tabs/" exported="true"/>
+    <component id="kc0c8a" name="PCGHTabJackpot.xml" path="/moudules/tabs/" exported="true"/>
+    <component id="kc0c8b" name="PCGHTabGame.xml" path="/moudules/tabs/" exported="true"/>
     <component id="hzti8d" name="ItemLobbyGames.xml" path="/moudules/"/>
     <image id="hzti8e" name="Slot Image Small BCB.png" path="/images/avatars/"/>
     <component id="hzti8f" name="ItemTitleToggle.xml" path="/moudules/" exported="true"/>
@@ -225,37 +225,37 @@
     <image id="i9388z" name="icon_recharge.png" path="/images/settings/"/>
     <image id="i93890" name="icon_in_out.png" path="/images/settings/"/>
     <component id="i93891" name="PageConsoleSettingsInOut.xml" path="/" exported="true"/>
-    <component id="i93892" name="PCSTabInOut.xml" path="/tabs/" exported="true"/>
+    <component id="i93892" name="PCSTabInOut.xml" path="/moudules/tabs/" exported="true"/>
     <component id="i93893" name="PageConsoleSettingsMachine.xml" path="/" exported="true"/>
-    <component id="i93894" name="PCSTabMachineId.xml" path="/tabs/" exported="true"/>
-    <component id="i93895" name="PCSTabMachineRecord.xml" path="/tabs/" exported="true"/>
+    <component id="i93894" name="PCSTabMachineId.xml" path="/moudules/tabs/" exported="true"/>
+    <component id="i93895" name="PCSTabMachineRecord.xml" path="/moudules/tabs/" exported="true"/>
     <image id="i93896" name="icon_record.png" path="/images/settings/"/>
     <component id="i93897" name="PageConsoleSettingsGames.xml" path="/" exported="true"/>
-    <component id="i93898" name="PCSTabGames.xml" path="/tabs/" exported="true"/>
+    <component id="i93898" name="PCSTabGames.xml" path="/moudules/tabs/" exported="true"/>
     <component id="i93899" name="PageConsoleSettingsScreen.xml" path="/" exported="true"/>
-    <component id="i9389a" name="PCSTabScreen.xml" path="/tabs/" exported="true"/>
+    <component id="i9389a" name="PCSTabScreen.xml" path="/moudules/tabs/" exported="true"/>
     <component id="i9389b" name="PageConsoleSettingsPrinter.xml" path="/" exported="true"/>
-    <component id="i9389c" name="PCSTabPrinter.xml" path="/tabs/" exported="true"/>
-    <component id="i9389d" name="PCSTabBillValidator.xml" path="/tabs/" exported="true"/>
+    <component id="i9389c" name="PCSTabPrinter.xml" path="/moudules/tabs/" exported="true"/>
+    <component id="i9389d" name="PCSTabBillValidator.xml" path="/moudules/tabs/" exported="true"/>
     <component id="i9389e" name="PageConsoleSettingsBillValidator.xml" path="/" exported="true"/>
     <component id="i9389f" name="PageConsoleSettingsIOT.xml" path="/" exported="true"/>
-    <component id="i9389g" name="PCSTabIOT.xml" path="/tabs/" exported="true"/>
-    <component id="i9389h" name="PCSTabRemoteControl.xml" path="/tabs/" exported="true"/>
+    <component id="i9389g" name="PCSTabIOT.xml" path="/moudules/tabs/" exported="true"/>
+    <component id="i9389h" name="PCSTabRemoteControl.xml" path="/moudules/tabs/" exported="true"/>
     <component id="i9389i" name="PageConsoleSettingsRemoteControl.xml" path="/" exported="true"/>
     <component id="i9389j" name="PageConsoleSettingsSas.xml" path="/" exported="true"/>
-    <component id="i9389k" name="PCSTabSas.xml" path="/tabs/" exported="true"/>
-    <component id="i9389l" name="PCSTabMachineHotfix.xml" path="/tabs/" exported="true"/>
+    <component id="i9389k" name="PCSTabSas.xml" path="/moudules/tabs/" exported="true"/>
+    <component id="i9389l" name="PCSTabMachineHotfix.xml" path="/moudules/tabs/" exported="true"/>
     <image id="i9389m" name="icon_download.png" path="/images/settings/"/>
     <image id="i9389n" name="icon_user.png" path="/images/settings/"/>
-    <component id="i9389o" name="PCSTabMachineUser.xml" path="/tabs/" exported="true"/>
+    <component id="i9389o" name="PCSTabMachineUser.xml" path="/moudules/tabs/" exported="true"/>
     <image id="i9389p" name="icon_atm.png" path="/images/settings/"/>
     <image id="i9389q" name="icon_jackpot_150.png" path="/images/settings/"/>
     <component id="i9389r" name="PageConsoleSettingsJackpotOnline.xml" path="/" exported="true"/>
-    <component id="i9389s" name="PCSTabJackpotOnline.xml" path="/tabs/" exported="true"/>
+    <component id="i9389s" name="PCSTabJackpotOnline.xml" path="/moudules/tabs/" exported="true"/>
     <component id="i9389t" name="PageConsoleSettingsRecord.xml" path="/" exported="true"/>
     <image id="i9389u" name="icon_super_admin_2.png" path="/images/mian/icons/" exported="true"/>
     <image id="i9389v" name="icon_warring.png" path="/images/nav/icons/" exported="true"/>
-    <component id="i9389w" name="PCATabModuleDisplayPermissions.xml" path="/tabs/" exported="true"/>
+    <component id="i9389w" name="PCATabModuleDisplayPermissions.xml" path="/moudules/tabs/" exported="true"/>
     <image id="i9389x" name="icon_settings_004.png" path="/images/mian/icons/"/>
     <component id="i9389y" name="ItemDisplayPermissions.xml" path="/moudules/"/>
     <image id="i9389z" name="square_frame_32x32_2.png" path="/images/buttons/"/>
@@ -271,7 +271,7 @@
     <component id="ocpfaa" name="ButtonSquare808080.xml" path="/components/" exported="true"/>
     <component id="ocpfab" name="PopupConsoleMoneyBoxRedeem.xml" path="/" exported="true"/>
     <image id="ocpfac" name="icon_credit.png" path="/images/buttons/icons/"/>
-    <component id="h3mk0" name="TabGameHistoryUITemplate001.xml" path="/tabs/" exported="true"/>
+    <component id="h3mk0" name="TemplateUIGameRecord001.xml" path="/moudules/Templates/" exported="true"/>
     <component id="h3mk1" name="TabCameHistorySymbol.xml" path="/components/gameHistory/"/>
     <component id="h3mk3" name="TabGameHistoryItem.xml" path="/components/gameHistory/"/>
     <image id="h3mk2" name="symbol1_king.png" path="/images/symbols/"/>
@@ -281,6 +281,8 @@
     <component id="ixbzah" name="ItemClassifySelect.xml" path="/moudules/" exported="true"/>
     <component id="84zuai" name="ItemDateSelectResult002.xml" path="/moudules/" exported="true"/>
     <component id="ip0jaj" name="ButtonDelete.xml" path="/components/"/>
+    <image id="t5jtak" name="broken.png" path="/images/symbols/"/>
+    <component id="t5jtal" name="SymbolBroken.xml" path="/components/" exported="true"/>
   </resources>
   <publish name="" path="../../Assets/AstBundle/Consoles/Console Slot 98000000/FGUIs" packageCount="2" genCode="true">
     <atlas name="Default" index="0"/>

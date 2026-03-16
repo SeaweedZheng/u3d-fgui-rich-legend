@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 
 
-public class JackpotRecordView : IVJackpotRecord, IVTable
+public partial class JackpotRecordView : IVJackpotRecord
 {
     GComponent goContent;
     GComboBox combDate;
@@ -106,8 +106,9 @@ public class JackpotRecordView : IVJackpotRecord, IVTable
         int index = combDate.selectedIndex;
         onSelectDate?.Invoke(index);
     }
-
-
+}
+public partial class JackpotRecordView : IVTable
+{
     #region IVTable
     public int curPageIndex => _curPageIndex;
     public int pageCount => _pageCount;

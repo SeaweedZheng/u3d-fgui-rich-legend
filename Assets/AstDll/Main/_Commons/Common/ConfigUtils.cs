@@ -1,9 +1,10 @@
 using GameMaker;
 using System.Collections;
 using System.Collections.Generic;
+using System.Reflection;
 using UnityEngine;
 
-public class ConfigUtils
+public partial class ConfigUtils
 {
 
 
@@ -56,4 +57,11 @@ public class ConfigUtils
         //PathHelper.GetAstBackupWEBURL($"Assets/AstBackup/Games/G{gameId}/Game Avatar/Game Avatar {gameId}.png");
 
     public static string curGameAvararWebUrl => GetGameAvararWebUrl(curGameId);
+
+}
+
+// 拉霸机的参数
+public partial class ConfigUtils
+{
+    public static string GetSlotSymbolAssetPth(int gameId, int symbolNumber) => $"Assets/AstBackup/Consoles/Game Info/G{gameId}/Symbols/symbol{symbolNumber}.png";
 }
