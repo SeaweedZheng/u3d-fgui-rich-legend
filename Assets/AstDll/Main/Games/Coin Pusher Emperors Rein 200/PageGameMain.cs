@@ -746,7 +746,7 @@ namespace PusherEmperorsRein
                 GComponent gSlotMachine = this.contentPane.GetChild("slotMachine").asCom;
                 GComponent gReels = gSlotMachine.GetChild("reels").asCom;
                 gSlotCover = gSlotMachine.asCom.GetChild("slotCover").asCom;
-                gPlayLines = gSlotMachine.asCom.GetChild("playLines").asCom;
+                gPlayLines = gSlotMachine.asCom.GetChild("payLines").asCom;
                 gFrame = contentPane.GetChild("anchorFrame").asCom;
                 slotMachineCtrl.Init(gSlotCover, gPlayLines, gReels, gFrame, fguiPoolHelper, gObjectPoolHelper);
 
@@ -762,7 +762,7 @@ namespace PusherEmperorsRein
             GComponent gSlotMachine = contentPane.GetChild("slotMachine").asCom;
             GComponent gReels = gSlotMachine.GetChild("reels").asCom;
             gSlotCover = gSlotMachine.asCom.GetChild("slotCover").asCom;
-            gPlayLines = gSlotMachine.asCom.GetChild("playLines").asCom;
+            gPlayLines = gSlotMachine.asCom.GetChild("payLines").asCom;
             gFrame = contentPane.GetChild("anchorFrame").asCom;
             slotMachineCtrl.Init(gSlotCover, gPlayLines, gReels, gFrame, fguiPoolHelper, gObjectPoolHelper);
             /*

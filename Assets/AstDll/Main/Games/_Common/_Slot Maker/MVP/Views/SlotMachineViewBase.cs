@@ -64,7 +64,7 @@ public class SlotMachineViewBase : IVSlotMachine
         this.goAnchorSymbolEffect = gAnchorSymbolEffect;
 
         goSotCover = ui.GetChild("slotCover").asCom;
-        goPayLines = ui.GetChild("playLines").asCom;
+        goPayLines = ui.GetChild("payLines").asCom;
         goReels = ui.GetChild("reels").asCom;
 
 

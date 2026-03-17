@@ -787,7 +787,7 @@
     <component id="plep6" name="Reels.xml" path="/Moudules/PageGameMain/SlotMachine/"/>
     <component id="plep7" name="SlotMachine.xml" path="/Moudules/PageGameMain/SlotMachine/"/>
     <component id="plep8" name="SlotCover.xml" path="/Moudules/PageGameMain/SlotMachine/"/>
-    <component id="plep9" name="PlayLines.xml" path="/Moudules/PageGameMain/SlotMachine/"/>
+    <component id="plep9" name="PayLines.xml" path="/Moudules/PageGameMain/SlotMachine/"/>
     <component id="ho3t0" name="PageGameMain.xml" path="/" exported="true"/>
     <component id="e8ib13h" name="AnchorDefault.xml" path="/Moudules/"/>
     <image id="e8ib13i" name="example_panel1.png" path="/Examples/"/>

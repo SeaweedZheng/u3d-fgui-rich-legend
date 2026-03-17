@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1000,
+    "modules_name": "Main",
+    "name": "主包",
+    "asset_bundle": "Assets/AstBundle/_Commons#Assets/AstBundle/_Datas#Assets/AstBundle/Consoles#Assets/AstBundle/Lobbys#Assets/AstBundle/Games/Panel Coin Pusher 1001000#Assets/AstBundle/Games/Panel Slot 1000000",
+    "asset_backup": "Assets/AstBackup/_Commons#Assets/AstBackup/Lobbys",
+    "asset_dll": "Base#Main",
+    "dependencies": "",
+    "save_pth": "Assets/StreamingAssets/Hotfix/Modules/Main",
+    "level": 0,
+    "include_in_build": true
+  },
+  {
+    "id": 1001,
+    "modules_name": "RL2001001",
+    "name": "富翁传奇",
+    "asset_bundle": "Assets/AstBundle/Games/Coin Pusher Rich Legend 2001001",
+    "asset_backup": "",
+    "asset_dll": "",
+    "dependencies": "Main",
+    "save_pth": "Assets/StreamingAssets/Hotfix/Modules/RL2001001",
+    "level": 1,
+    "include_in_build": true
+  },
+  {
+    "id": 1002,
+    "modules_name": "RL2001000",
+    "name": "富翁传奇",
+    "asset_bundle": "Assets/AstBundle/Games/Coin Pusher Rich Legend 2001000",
+    "asset_backup": "",
+    "asset_dll": "",
+    "dependencies": "Main",
+    "save_pth": "Assets/StreamingAssets/Hotfix/Modules/RL2001000",
+    "level": 1,
+    "include_in_build": false
+  },
+  {
+    "id": 1003,
+    "modules_name": "RL2001003",
+    "name": "富翁传奇",
+    "asset_bundle": "Assets/AstBundle/Games/Coin Pusher Rich Legend 2001003",
+    "asset_backup": "",
+    "asset_dll": "",
+    "dependencies": "Main",
+    "save_pth": "Assets/StreamingAssets/Hotfix/Modules/RL2001003",
+    "level": 1,
+    "include_in_build": false
+  }
+]

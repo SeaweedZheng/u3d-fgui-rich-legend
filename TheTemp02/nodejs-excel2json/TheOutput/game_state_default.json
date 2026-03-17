@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1000,
+    "game_name": "GOOD FORTUNE RETURNS",
+    "game_id": 200,
+    "des": "帝国之辉",
+    "module_name": "ER200",
+    "like": false,
+    "save": false,
+    "active": true,
+    "update_at_launch": true,
+    "update_at_launch_once": false
+  },
+  {
+    "id": 1001,
+    "game_name": "RICH LEGEND",
+    "game_id": 201,
+    "des": "富翁传奇",
+    "module_name": "FL201",
+    "like": false,
+    "save": false,
+    "active": true,
+    "update_at_launch": true,
+    "update_at_launch_once": false
+  }
+]

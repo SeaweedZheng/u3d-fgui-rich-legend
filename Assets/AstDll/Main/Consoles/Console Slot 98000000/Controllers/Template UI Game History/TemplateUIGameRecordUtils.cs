@@ -14,7 +14,7 @@ namespace ConsoleSlot98000000
             {
                 case nameof(TemplateDataGameRecordSlot1):
                 case nameof(TemplateDataGameRecordCoinPusher1):
-                    return nameof(TemplateUIGameRecord001);
+                    return nameof(TemplateUIGameRecordSlot001);
                 default:
                     DebugUtils.LogError($"cant not find template of {clsName}");
                     return clsName;

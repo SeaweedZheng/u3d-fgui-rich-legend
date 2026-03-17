@@ -9,9 +9,9 @@ using System.IO;
 
 namespace ConsoleSlot98000000
 {
-    public class TemplateUIGameRecord001
+    public class TemplateUIGameRecordSlot001
     {
-        public const string templateUrl = "ui://ConsoleSlot98000000/TemplateUIGameRecord001";
+        public const string templateUrl = "ui://ConsoleSlot98000000/TemplateUIGameRecordSlot001";
 
         int totalPageCount;
         int curPageNumber;

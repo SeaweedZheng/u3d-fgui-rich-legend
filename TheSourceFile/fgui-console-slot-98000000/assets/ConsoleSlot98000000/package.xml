@@ -271,7 +271,7 @@
     <component id="ocpfaa" name="ButtonSquare808080.xml" path="/components/" exported="true"/>
     <component id="ocpfab" name="PopupConsoleMoneyBoxRedeem.xml" path="/" exported="true"/>
     <image id="ocpfac" name="icon_credit.png" path="/images/buttons/icons/"/>
-    <component id="h3mk0" name="TemplateUIGameRecord001.xml" path="/moudules/Templates/" exported="true"/>
+    <component id="h3mk0" name="TemplateUIGameRecordSlot001.xml" path="/moudules/Templates/" exported="true"/>
     <component id="h3mk1" name="TabCameHistorySymbol.xml" path="/components/gameHistory/"/>
     <component id="h3mk3" name="TabGameHistoryItem.xml" path="/components/gameHistory/"/>
     <image id="h3mk2" name="symbol1_king.png" path="/images/symbols/"/>

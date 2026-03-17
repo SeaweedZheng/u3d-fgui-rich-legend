@@ -1,13 +1,13 @@
 {
   "name": "RL2001000",
-  "updated_at": 1773733486534,
+  "updated_at": 1773745155883,
   "hotfix_key": "hf_debug_android_20251216143338",
-  "hotfix_version": "1.0.267",
-  "hash": "de2bb3701c66fef6368dc38c4ce39e58",
+  "hotfix_version": "1.0.272",
+  "hash": "5b64f1d69dfe2c14bc63ad321a2de111",
   "asset_bundle": {
     "manifest": {
-      "hash": "98d86f6614594ec6668045ae875264ba",
-      "size_bytes": 8807
+      "hash": "455c4eede519babe80f7652b9f9a355a",
+      "size_bytes": 8809
     },
     "bundles": {
       "games/coin pusher rich legend 2001000/abs/datas/slot_machine_config.unity3d": {
@@ -67,8 +67,8 @@
         "size_bytes": 945
       },
       "games/coin pusher rich legend 2001000/fguis.unity3d": {
-        "hash": "1dcb7e0534e262cd673f7345012a6b5a",
-        "size_bytes": 35225910
+        "hash": "585b45ebb25b6ec0a23971766662a370",
+        "size_bytes": 35225995
       },
       "games/coin pusher rich legend 2001000/prefabs/game controller/game main controller.unity3d": {
         "hash": "2f3897220376a23d3576f04ee1b5686f",
@@ -80,8 +80,8 @@
   "asset_dll": {},
   "dependencies": {
     "Main": {
-      "hash": "ded2f6e9a3ede7392eda5b84c1ffff3a",
-      "hotfix_version": "1.0.267"
+      "hash": "70bc42c144ac847994b68c03491374f6",
+      "hotfix_version": "1.0.272"
     }
   }
 }
