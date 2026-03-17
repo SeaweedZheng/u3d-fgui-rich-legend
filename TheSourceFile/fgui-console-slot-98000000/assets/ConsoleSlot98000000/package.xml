@@ -283,6 +283,8 @@
     <component id="ip0jaj" name="ButtonDelete.xml" path="/components/"/>
     <image id="t5jtak" name="broken.png" path="/images/symbols/"/>
     <component id="t5jtal" name="SymbolBroken.xml" path="/components/" exported="true"/>
+    <component id="y6a9am" name="ItemLobbyGamesTip.xml" path="/moudules/"/>
+    <component id="y6a9an" name="LobbyGameStateTip.xml" path="/moudules/"/>
   </resources>
   <publish name="" path="../../Assets/AstBundle/Consoles/Console Slot 98000000/FGUIs" packageCount="2" genCode="true">
     <atlas name="Default" index="0"/>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1000,228">
+  <displayList>
+    <component id="n60_y6a9" name="info" src="hzti8d" fileName="moudules/ItemLobbyGames.xml" xy="0,0"/>
+    <component id="n62_y6a9" name="tip" src="y6a9an" fileName="moudules/LobbyGameStateTip.xml" xy="0,64" visible="false" touchable="false"/>
+  </displayList>
+</component>

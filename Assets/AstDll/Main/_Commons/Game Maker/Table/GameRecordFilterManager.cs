@@ -169,8 +169,8 @@ public class GameRecordFilterManager : Singleton<GameRecordFilterManager>
 
         if (!isAll)
         {
-            gameType = select.selectedIndexGameId == SelectGameRecordFilterInfo.ALL ? null :
-                totalGameRecordFilter.gameTypes[select.selectedIndexGameId];
+            gameType = select.selectedIndexGameType == SelectGameRecordFilterInfo.ALL ? null :
+                totalGameRecordFilter.gameTypes[select.selectedIndexGameType];
 
             gameId = null;
             if (select.selectedIndexGameId != SelectGameRecordFilterInfo.ALL )
@@ -256,12 +256,10 @@ public class GameRecordFilterManager : Singleton<GameRecordFilterManager>
             {
                 sql = sql + $" WHERE {filterCondition}"; // WHERE type
             }
-            DebugUtils.Log(sql);
+            
+            // DebugUtils.LogError(sql);
             using (var command1 = new SqliteCommand(sql, connect))
             {
-                //int totalCount = (int)command1.ExecuteScalar(); // 【BUG】SQLite 的 COUNT(*) 函数返回值的实际类型是 long（64 位整数），而非 int（32 位整数）；
-                //onFinishCallback?.Invoke(filterCondition, totalCount);
-
 
                 // 修复核心：先转为long，再转int（或直接用long接收）
                 object result = command1.ExecuteScalar();
@@ -275,7 +273,7 @@ public class GameRecordFilterManager : Singleton<GameRecordFilterManager>
                     // 第二步：再转为int（如需兼容大数值，可直接用long接收）
                     totalCount = Convert.ToInt32(countLong);
                 }
-                DebugUtils.LogError($"【Test】filterCondition={filterCondition} ; totalCount={totalCount} ");
+                // DebugUtils.LogError($"【Test】filterCondition={filterCondition} ; totalCount={totalCount} ");
                 onFinishCallback?.Invoke(filterCondition, totalCount);
             }
         });
@@ -332,6 +330,7 @@ public class GameRecordFilterManager : Singleton<GameRecordFilterManager>
                 sql += $" LIMIT {pageInfo.totalCountPerPage}";
                 sql += $" OFFSET {offset}";
 
+                // DebugUtils.LogError(sql);
                 SQLiteHelper.Instance.ExecuteQueryAfterOpenDB(sql, (SqliteDataReader sdr) =>
                 {
                     List<TableGameRecordItem> resGameRecord = new List<TableGameRecordItem>();
@@ -559,5 +558,5 @@ public class SelectGameRecordPageResult
     /// <summary> 总共多少页 </summary>
     public int totalPageCount = 0;
     /// <summary> 每页内容 </summary>
-    public List<TableGameRecordItem> pageItems;
+    public List<TableGameRecordItem> pageItems = new List<TableGameRecordItem>();
 }

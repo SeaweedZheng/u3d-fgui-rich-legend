@@ -17,13 +17,15 @@ public class SettingLobbyGamesView : IVSettingLobbyGames, IVTable
     List<GComponent> comGames = new List<GComponent>();
 
     GButton btnSearch;
+    GLabel glabTip;
 
     GComboBox combSelect;
 
     List<string> selectionList;
-    public void InitParam(GComponent comp)
+    public void InitParam(GComponent g)
     {
-        btnSearch = comp.GetChild("search").asCom.GetChild("value").asButton;
+        GComponent goCoontent = g;
+        btnSearch = goCoontent.GetChild("search").asCom.GetChild("value").asButton;
         btnSearch.onClick.Clear();
         btnSearch.onClick.Add(() =>
         {
@@ -31,14 +33,14 @@ public class SettingLobbyGamesView : IVSettingLobbyGames, IVTable
             // 选择弹窗
         });
 
-        combSelect = comp.GetChild("gameType").asCom.GetChild("value").asComboBox;
+        combSelect = goCoontent.GetChild("gameType").asCom.GetChild("value").asComboBox;
         combSelect.onChanged.Clear();
         combSelect.onChanged.Add(OnSelect);
 
         comGames.Clear();
         for (int i=0; i<4; i++)
         {
-            comGames.Add(comp.GetChild($"game{i}").asCom);
+            comGames.Add(goCoontent.GetChild($"game{i}").asCom);
         }
     }
 
@@ -92,13 +94,19 @@ public class SettingLobbyGamesView : IVSettingLobbyGames, IVTable
         for  (int i=0; i< content.Count; i++)
         {
             GComponent goItem = comGames[i];
-
             goItem.visible = true;
 
-            // 整体变灰色，不可触摸(服务器标明，不可访问)
-            goItem.grayed = !content[i].isAvailable;
-            goItem.touchable = content[i].isAvailable;
 
+            GLabel glabTip = goItem.GetChild("tip").asLabel;
+
+            GComponent goInfo = goItem.GetChild("info").asCom;
+
+            // 整体变灰色，不可触摸(服务器标明，不可访问)
+            goInfo.grayed = !content[i].isAvailable;
+            goInfo.touchable = content[i].isAvailable;
+
+            // 添加提示
+            glabTip.visible = !content[i].isAvailable;
 
             // 加载头像
             string pth = Application.isEditor ?
@@ -107,19 +115,19 @@ public class SettingLobbyGamesView : IVSettingLobbyGames, IVTable
             FileLoaderManager.Instance.LoadImageAsTexture(pth, (Texture2D texture) =>
             {
                 NTexture nTexture = new NTexture(texture);
-                GLoader icon = goItem.GetChild("avatar").asLoader;
+                GLoader icon = goInfo.GetChild("avatar").asLoader;
                 icon.texture = nTexture;                                 
                 icon.fill = FillType.ScaleFree;      // 等比缩放，可能留白                                       
             });
 
             int gameId = content[i].gameId;
-            goItem.GetChild("name").asCom.GetChild("value").asTextField.text = content[i].gameName;
-            goItem.GetChild("gameType").asCom.GetChild("value").asTextField.text = content[i].gameType;
-            goItem.GetChild("gameId").asCom.GetChild("value").asTextField.text = content[i].gameId.ToString();
-            goItem.GetChild("verSoftware").asCom.GetChild("value").asTextField.text = content[i].gameSoftwareVer.ToString();
-            goItem.GetChild("verAlgorithm").asCom.GetChild("value").asTextField.text = content[i].gameAlgorithmVer.ToString();
+            goInfo.GetChild("name").asCom.GetChild("value").asTextField.text = content[i].gameName;
+            goInfo.GetChild("gameType").asCom.GetChild("value").asTextField.text = content[i].gameType;
+            goInfo.GetChild("gameId").asCom.GetChild("value").asTextField.text = content[i].gameId.ToString();
+            goInfo.GetChild("verSoftware").asCom.GetChild("value").asTextField.text = content[i].gameSoftwareVer.ToString();
+            goInfo.GetChild("verAlgorithm").asCom.GetChild("value").asTextField.text = content[i].gameAlgorithmVer.ToString();
 
-            GButton btnUpdateAtLaunch = goItem.GetChild("updateAtLaunch").asCom.GetChild("toggle").asButton;
+            GButton btnUpdateAtLaunch = goInfo.GetChild("updateAtLaunch").asCom.GetChild("toggle").asButton;
             btnUpdateAtLaunch.selected = content[i].updateAtlaunch;
             btnUpdateAtLaunch.onChanged.Clear();
             btnUpdateAtLaunch.onChanged.Add(() =>
@@ -127,14 +135,14 @@ public class SettingLobbyGamesView : IVSettingLobbyGames, IVTable
                 onChangeUpdateAtLaunch?.Invoke(gameId, btnUpdateAtLaunch.selected);
             });
 
-            GButton btnStartUpdate = comGames[i].GetChild("startUpdate").asCom.GetChild("value").asButton;
+            GButton btnStartUpdate = goInfo.GetChild("startUpdate").asCom.GetChild("value").asButton;
             btnStartUpdate.onClick.Clear();
             btnStartUpdate.onClick.Add(() =>
             {
                 onClickStartUpdate?.Invoke(gameId);
             });
 
-            GButton btnActive = goItem.GetChild("active").asCom.GetChild("value").asButton;
+            GButton btnActive = goInfo.GetChild("active").asCom.GetChild("value").asButton;
             btnActive.onClick.Clear();
             btnActive.onClick.Add(() =>
             {
