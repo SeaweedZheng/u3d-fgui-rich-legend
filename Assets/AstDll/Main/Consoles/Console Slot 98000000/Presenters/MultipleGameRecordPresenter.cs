@@ -56,6 +56,7 @@ public class MultipleGameRecordPresenter
     void OnSelectGameRecord(SelectGameRecordFilterInfo select, SelectGameRecordPageInfo pageInfo)
     {
         curPageInfo = pageInfo;
+        _view.ClearAll();
         _GetGameRecord(select, pageInfo);
     }
 
@@ -73,8 +74,9 @@ public class MultipleGameRecordPresenter
     {
         GameRecordFilterManager.Instance.GetAllFilterOptions((totalGameFilterOption) =>
         {
-            _view.SetTotalGameFilterOptions(totalGameFilterOption);
+
             _view.ClearAll();
+            _view.SetTotalGameFilterOptions(totalGameFilterOption);
 
             curPageInfo = _view.SetDefaultSelect();
 

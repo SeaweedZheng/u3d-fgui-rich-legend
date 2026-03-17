@@ -23,6 +23,5 @@
       <relation target="" sidePair="width-width,bottom-bottom"/>
       <property target="title" propertyId="0" value="Event Record, Page 1 of 1"/>
     </component>
-    <component id="n33_ixbz" name="n33" src="glrj1i" fileName="PageConsoleMachineSettings.xml" xy="-483,-741"/>
   </displayList>
 </component>

@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using System.Linq;
 
 
 
@@ -36,6 +37,7 @@ namespace ConsoleSlot98000000
     {
         public const string pkgName = "ConsoleSlot98000000";
         public const string resName = "PopupConsoleSearch";
+        public override PageType pageType => PageType.Overlay;
 
         protected override void OnInit()
         {
@@ -63,22 +65,6 @@ namespace ConsoleSlot98000000
             // 添加事件监听
 
             InitParam();
-
-            new InParamsPopupConsoleSearch()
-            {
-                title = "",
-                options = new List<InParamItemSelectOption>()
-                {
-                    new InParamItemSelectOption()
-                    {
-                        selectType = "select",
-                        selectContent = new Dictionary<string, string>()
-                        {
-                            //[]=
-                        }
-                    }
-                }
-            };
         }
 
 
@@ -93,12 +79,15 @@ namespace ConsoleSlot98000000
 
         // public override void OnTop() { DebugUtils.Log($"i am top {this.name}"); }
 
-        GButton btnClose;
+        GButton btnClose, btnConfirm;
 
 
 
+        GRichTextField txtTitle;
+        GList glstOptions;
 
 
+        Dictionary<string, string> selectResult = new Dictionary<string, string>();
         public override void InitParam()
         {
 
@@ -111,15 +100,33 @@ namespace ConsoleSlot98000000
 
             if (!isOpen) return;
 
-            // btnClose =  this.contentPane.GetChild("btnExit").asButton;
-            btnClose = this.contentPane.GetChild("navBottom").asCom.GetChild("btnExit").asButton;
+
+
+            btnClose =  this.contentPane.GetChild("btnExit").asButton;
+            // btnClose = this.contentPane.GetChild("navBottom").asCom.GetChild("btnExit").asButton;
             btnClose.onClick.Clear();
             btnClose.onClick.Add(() =>
             {
-                //DebugUtils.Log("i am here 123");
                 CloseSelf(null);
-                //  CloseSelf(new EventData("Exit"));
             });
+
+
+            btnConfirm = this.contentPane.GetChild("btnConfirm").asButton;
+
+            btnConfirm.onClick.Clear();
+            btnConfirm.onClick.Add(() =>
+            {
+                CloseSelf(new OutParamsPopupConsoleSearch()
+                {
+                    selectResult = selectResult
+                });
+            });
+
+            txtTitle = this.contentPane.GetChild("title").asRichTextField;
+
+            glstOptions = this.contentPane.GetChild("options").asList;
+
+
 
 
             if (inParams != null)
@@ -128,18 +135,42 @@ namespace ConsoleSlot98000000
                 var inp = inParams as InParamsPopupConsoleSearch;
 
 
-                /*
-                Dictionary<string, object> argDic = null;
-                argDic = (Dictionary<string, object>)inParams.value;
-                //title = (string)argDic["title"];
-                //isPlaintext = (bool)argDic["isPlaintext"];
-                if (argDic.ContainsKey("content"))
-                {
-                    //input = (string)argDic["content"];
-                }
-                */
+                txtTitle.text = inp.title;
+
+                glstOptions.itemRenderer = (int index, GObject obj) => {
+
+                    InParamItemSelectOption data = inp.options[index];
+
+                    GComponent goItem = obj as GComponent;
+                    goItem.GetChild("key").asRichTextField.text = data.selectName;
+
+                    GComboBox gcb = goItem.GetChild("value").asComboBox;
+
+                    gcb.items = data.selectContent.Values.ToArray();
+                    gcb.values = data.selectContent.Keys.ToArray();
+                    gcb.onChanged.Clear();
+                    gcb.onChanged.Add((EventContext context) =>
+                    {
+                        GComboBox sender = context.sender as GComboBox;
+                        OnSelect(data.selectType , sender.value);
+                    });
+
+                    gcb.selectedIndex = data.selectContent.Keys.ToList().IndexOf(data.selectKey);
+                };
+                glstOptions.numItems = inp.options.Count;
+
             }
          
+        }
+
+
+         void OnSelect(string selectType , string selectKey)
+        {
+            if (!selectResult.ContainsKey(selectType))
+            {
+                selectResult.Add(selectType, "");
+            }
+            selectResult[selectType] = selectKey;
         }
 
         public void OnPreLoaded()

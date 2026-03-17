@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1000,100" extention="Label">
+  <displayList>
+    <graph id="n62_y6a9" name="n62" xy="0,0" size="1000,100" type="rect" lineSize="0" fillColor="#bf347591"/>
+    <text id="n61_y6a9" name="title" xy="50,0" size="900,100" fontSize="30" color="#ff0000" align="center" vAlign="middle" autoSize="none" singleLine="true" text="The game is under maintenance. Please stay tuned."/>
+  </displayList>
+</component>

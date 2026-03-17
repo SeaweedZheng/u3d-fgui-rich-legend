@@ -1,12 +1,12 @@
 {
   "name": "RL2001003",
-  "updated_at": 1773661225148,
+  "updated_at": 1773733486534,
   "hotfix_key": "hf_debug_android_20251216143338",
-  "hotfix_version": "1.0.262",
-  "hash": "83a7a5db9beed13432bc8bd7b1fd4f77",
+  "hotfix_version": "1.0.267",
+  "hash": "60fe3210d8d60ecfe7d758166aece8bc",
   "asset_bundle": {
     "manifest": {
-      "hash": "7a3124f78ac6ea46b346626cbe6b15da",
+      "hash": "98d86f6614594ec6668045ae875264ba",
       "size_bytes": 8807
     },
     "bundles": {
@@ -108,8 +108,8 @@
   "asset_dll": {},
   "dependencies": {
     "Main": {
-      "hash": "b99275e73f9b43b17037b3705cb34421",
-      "hotfix_version": "1.0.262"
+      "hash": "ded2f6e9a3ede7392eda5b84c1ffff3a",
+      "hotfix_version": "1.0.267"
     }
   }
 }

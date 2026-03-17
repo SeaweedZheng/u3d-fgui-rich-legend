@@ -31,7 +31,7 @@ namespace ConsoleSlot98000000
             goSearch = ui.GetChild("search").asCom;
             txtSearchValue = goSearch.GetChild("value").asRichTextField;
             txtSearchValue.onClick.Clear();
-            txtSearchValue.onClick.Add(OnShearchGameRecorf);
+            txtSearchValue.onClick.Add(OnSearchGameRecord);
             txtSearchValue.text = $"#{I18nMgr.T("All")}";
 
             GComponent goDelete = goSearch.GetChild("delete").asCom;
@@ -48,7 +48,7 @@ namespace ConsoleSlot98000000
 
         void OnClickButtonDelete()
         {
-            DebugUtils.LogError($"【Test】:清除");
+            //DebugUtils.LogError($"【Test】:清除");
             SelectGameRecordFilterInfo newFilterInfo = new SelectGameRecordFilterInfo();
 
             if (JsonConvert.SerializeObject(newFilterInfo) !=
@@ -67,9 +67,9 @@ namespace ConsoleSlot98000000
         }
 
 
-        async void OnShearchGameRecorf()
+        async void OnSearchGameRecord()
         {
-            DebugUtils.LogError($"【Test】:点击查找");
+            // DebugUtils.LogError($"【Test】:点击查找");
             List<InParamItemSelectOption> options = new List<InParamItemSelectOption>();
             InParamItemSelectOption op;
 
@@ -138,6 +138,9 @@ namespace ConsoleSlot98000000
             {
                 op.selectContent.Add(i.ToString(), I18nMgr.T(totalGameFilterOptions.fullDates[i])); //"id:200"
             }
+            options.Add(op);
+
+            //DebugUtils.LogError($"InParamItemSelectOption: {JsonConvert.SerializeObject(options)}");
 
 
             OutParamsBase res = await PageManager.Instance.OpenPageAsync(PageName.ConsoleSlot98000000PopupConsoleSearch,
@@ -148,9 +151,11 @@ namespace ConsoleSlot98000000
                 });
             if (res != null && res.code == 0)
             {
-                string showFilterName = "";
+                List<string> showFilterNames = new List<string> { };
 
                 var result = res as OutParamsPopupConsoleSearch;
+
+                // DebugUtils.LogError($"【Test】selectResult = {JsonConvert.SerializeObject(result.selectResult)}");
 
                 SelectGameRecordFilterInfo filterInfo = new SelectGameRecordFilterInfo();
 
@@ -164,7 +169,7 @@ namespace ConsoleSlot98000000
                                 filterInfo.selectedIndexGameType = selIndex;
                                 if (selIndex != -1)
                                 {
-                                    showFilterName += I18nMgr.T(totalGameFilterOptions.gameTypes[selIndex]); 
+                                    showFilterNames.Add(I18nMgr.T(totalGameFilterOptions.gameTypes[selIndex])); 
                                 }
                             }
                             break;
@@ -174,8 +179,7 @@ namespace ConsoleSlot98000000
                                 filterInfo.selectedIndexGameId =  selIndex;
                                 if (selIndex != -1)
                                 {
-                                    showFilterName += "/";
-                                    showFilterName += totalGameFilterOptions.gameIds[selIndex].ToString();
+                                    showFilterNames.Add(totalGameFilterOptions.gameIds[selIndex].ToString());
                                 }
                             }
                             break;
@@ -185,8 +189,7 @@ namespace ConsoleSlot98000000
                                 filterInfo.selectedIndexTurnType = selIndex;
                                 if (selIndex != -1)
                                 {
-                                    showFilterName += "/";
-                                    showFilterName += I18nMgr.T(totalGameFilterOptions.turnTypes[selIndex]);
+                                    showFilterNames.Add(I18nMgr.T(totalGameFilterOptions.turnTypes[selIndex]));
                                 }
                             }
                             break;
@@ -196,8 +199,7 @@ namespace ConsoleSlot98000000
                                 filterInfo.selectedIndexHitJackpotTypes = selIndex;
                                 if (selIndex != -1)
                                 {
-                                    showFilterName += "/";
-                                    showFilterName += I18nMgr.T(totalGameFilterOptions.hitJackpotTypes[selIndex]);
+                                    showFilterNames.Add(I18nMgr.T(totalGameFilterOptions.hitJackpotTypes[selIndex]));
                                 }
                             }
  
@@ -208,8 +210,7 @@ namespace ConsoleSlot98000000
                                 filterInfo.selectedIndexHitBonusTypes = selIndex;
                                 if (selIndex != -1)
                                 {
-                                    showFilterName += "/";
-                                    showFilterName += I18nMgr.T(totalGameFilterOptions.hitBonusTypes[selIndex]);
+                                    showFilterNames.Add(I18nMgr.T(totalGameFilterOptions.hitBonusTypes[selIndex]));
                                 }
                             }
 
@@ -220,8 +221,7 @@ namespace ConsoleSlot98000000
                                 filterInfo.selectedIndexDate = selIndex;
                                 if (selIndex != -1)
                                 {
-                                    showFilterName += "/";
-                                    showFilterName += totalGameFilterOptions.fullDates[selIndex];
+                                    showFilterNames.Add(totalGameFilterOptions.fullDates[selIndex]);
                                 }
                             }
                             break;
@@ -229,7 +229,9 @@ namespace ConsoleSlot98000000
                 }
                 _curSelectFilterInfo = filterInfo;
 
-                txtSearchValue.text = string.IsNullOrEmpty(showFilterName)? $"#{I18nMgr.T("All")}" : "#"+ showFilterName;
+                //DebugUtils.LogError($"【Test】SelectGameRecordFilterInfo = {JsonConvert.SerializeObject(_curSelectFilterInfo)}");
+
+                txtSearchValue.text = showFilterNames.Count == 0 ? $"#{I18nMgr.T("All")}" : "#"+ string.Join(";", showFilterNames); 
 
                 SelectGameRecordPageInfo pageInfo = new SelectGameRecordPageInfo()
                 {
@@ -249,7 +251,7 @@ namespace ConsoleSlot98000000
 
         public void ClearAll()
         {
-            totalGameFilterOptions = null;
+            gldGameRecord.url = null;
         }
 
 
