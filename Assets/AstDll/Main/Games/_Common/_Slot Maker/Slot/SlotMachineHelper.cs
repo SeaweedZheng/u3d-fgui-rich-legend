@@ -65,7 +65,7 @@ public class SlotMachineHelper:MonoBehaviour
         this.slotMachine = slotMachine;
         goReels = slotMachine.GetChild("reels").asCom;
         goSlotCover = slotMachine.GetChild("slotCover").asCom;
-        goPayLines = slotMachine.GetChild("playLines").asCom;
+        goPayLines = slotMachine.GetChild("payLines").asCom;
 
 
         goSlotCover.visible = false;

@@ -294,9 +294,9 @@ namespace ConsoleSlot98000000
                 {
                     switch (TemplateUIGameRecordUtils.GetUITemplateName(data.template_name))
                     {
-                        case nameof(TemplateUIGameRecord001):
+                        case nameof(TemplateUIGameRecordSlot001):
                             {
-                                TemplateUIGameRecord001 templateCtrl =  new TemplateUIGameRecord001();
+                                TemplateUIGameRecordSlot001 templateCtrl =  new TemplateUIGameRecordSlot001();
                                 templateCtrl.InitParam(gldGameRecord, data, content.totalPageCount, content.selectNumberPage);
                             }
                             break;

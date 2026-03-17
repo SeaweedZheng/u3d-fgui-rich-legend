@@ -1,13 +1,13 @@
 {
   "name": "Total",
-  "updated_at": 1773733486534,
+  "updated_at": 1773745155883,
   "hotfix_key": "hf_debug_android_20251216143338",
-  "hotfix_version": "1.0.267",
-  "hash": "03314a3b78a012886c0ca163f6856ad4",
+  "hotfix_version": "1.0.272",
+  "hash": "6eba9a9b1187e21c07e0a47f2cb10cc9",
   "asset_bundle": {
     "manifest": {
-      "hash": "98d86f6614594ec6668045ae875264ba",
-      "size_bytes": 8807
+      "hash": "455c4eede519babe80f7652b9f9a355a",
+      "size_bytes": 8809
     },
     "bundles": {
       "_commons/common 99000000/fguis.unity3d": {
@@ -163,8 +163,8 @@
         "size_bytes": 6783
       },
       "consoles/console slot 98000000/fguis.unity3d": {
-        "hash": "7d30433b86da90605e86919ac0ba072f",
-        "size_bytes": 410233
+        "hash": "d3411fb782b29740cc7302b65a14efa0",
+        "size_bytes": 410220
       },
       "games/coin pusher emperors rein 200/abs/datas/slot_machine_config_bouns1.unity3d": {
         "hash": "1d2c4a977b07cdbf0057143f817afbcb",
@@ -931,8 +931,8 @@
         "size_bytes": 945
       },
       "games/coin pusher rich legend 2001000/fguis.unity3d": {
-        "hash": "1dcb7e0534e262cd673f7345012a6b5a",
-        "size_bytes": 35225910
+        "hash": "585b45ebb25b6ec0a23971766662a370",
+        "size_bytes": 35225995
       },
       "games/coin pusher rich legend 2001000/prefabs/game controller/game main controller.unity3d": {
         "hash": "2f3897220376a23d3576f04ee1b5686f",
@@ -995,8 +995,8 @@
         "size_bytes": 944
       },
       "games/coin pusher rich legend 2001001/fguis.unity3d": {
-        "hash": "4ee31d9c6774309f99b0dfa925c74227",
-        "size_bytes": 73486687
+        "hash": "33a221100596e898a136fe505a55e990",
+        "size_bytes": 73486931
       },
       "games/coin pusher rich legend 2001001/prefabs/game controller/game main controller.unity3d": {
         "hash": "fd9c1a1639f9163fc3eb41dfe64aeee6",
@@ -1087,8 +1087,8 @@
         "size_bytes": 947
       },
       "games/coin pusher rich legend 2001003/fguis.unity3d": {
-        "hash": "b47c553bbc9703f659da900396e71686",
-        "size_bytes": 69556676
+        "hash": "978663bdc01eb0df6b540466f22c32de",
+        "size_bytes": 62653428
       },
       "games/coin pusher rich legend 2001003/prefabs/game controller/game main controller.unity3d": {
         "hash": "60851590b7356bf15f9f9435c5be10e8",
@@ -1264,6 +1264,66 @@
     "Consoles/Game Info/G2001001/Symbols/symbol9.png": {
       "hash": "646752a10a9573f6a0986b9f93733500",
       "size_bytes": 66322
+    },
+    "Consoles/Game Info/G2001003/Symbols/symbol1.png": {
+      "hash": "332fe5ce5f6b3453ee60c44db44311b3",
+      "size_bytes": 64315
+    },
+    "Consoles/Game Info/G2001003/Symbols/symbol10.png": {
+      "hash": "050c8ba0dd6eb8c8b29f03c8eb6bc1dd",
+      "size_bytes": 131081
+    },
+    "Consoles/Game Info/G2001003/Symbols/symbol11.png": {
+      "hash": "23ce2fb9b5a59d53bd6957f933ed8715",
+      "size_bytes": 91889
+    },
+    "Consoles/Game Info/G2001003/Symbols/symbol12.png": {
+      "hash": "66cface553afe170d3312e3f740f86ad",
+      "size_bytes": 61207
+    },
+    "Consoles/Game Info/G2001003/Symbols/symbol13.png": {
+      "hash": "c47018ea7a0c62111a176c90a2e8b7dc",
+      "size_bytes": 119164
+    },
+    "Consoles/Game Info/G2001003/Symbols/symbol14.png": {
+      "hash": "d4a89b116a12474ae3d6288d5d6a5ae2",
+      "size_bytes": 144278
+    },
+    "Consoles/Game Info/G2001003/Symbols/symbol15.png": {
+      "hash": "84255df7fbbe6137d0f809f081b802af",
+      "size_bytes": 111743
+    },
+    "Consoles/Game Info/G2001003/Symbols/symbol2.png": {
+      "hash": "ccb17441b73f98e7783a343a8882cc2e",
+      "size_bytes": 107397
+    },
+    "Consoles/Game Info/G2001003/Symbols/symbol3.png": {
+      "hash": "bcb3a5aab4fe33e888f32809c03d7018",
+      "size_bytes": 96570
+    },
+    "Consoles/Game Info/G2001003/Symbols/symbol4.png": {
+      "hash": "d6e02f7eef5ede0fb4577a63b934cc8e",
+      "size_bytes": 90513
+    },
+    "Consoles/Game Info/G2001003/Symbols/symbol5.png": {
+      "hash": "84fde0e5258532cd71620277b160542d",
+      "size_bytes": 81549
+    },
+    "Consoles/Game Info/G2001003/Symbols/symbol6.png": {
+      "hash": "7391d477574dec4751139db1add82832",
+      "size_bytes": 101172
+    },
+    "Consoles/Game Info/G2001003/Symbols/symbol7.png": {
+      "hash": "4937abd487943aadd316bcdadc65c3ba",
+      "size_bytes": 90232
+    },
+    "Consoles/Game Info/G2001003/Symbols/symbol8.png": {
+      "hash": "559ad57c1efbbdda235cbb4bbedca0ce",
+      "size_bytes": 129191
+    },
+    "Consoles/Game Info/G2001003/Symbols/symbol9.png": {
+      "hash": "3c88587db08b4968b8eb0a99706148d1",
+      "size_bytes": 149711
     },
     "Lobbys/Game Info/lobby_games.json": {
       "hash": "894a340a34ef3e40944d3009c2af5535",

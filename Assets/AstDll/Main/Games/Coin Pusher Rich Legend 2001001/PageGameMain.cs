@@ -288,7 +288,7 @@ namespace CoinPusherRichLegend2001001
 
             GComponent goAnchorSymbolEffect = this.contentPane.GetChild("anchorSymbolEffect").asCom;
             //GComponent goAnchorSymbolEffect = goSlotMachine.GetChild("slotCover").asCom;  //在画线下
-            //GComponent goAnchorSymbolEffect = goSlotMachine.GetChild("playLines").asCom; //在画线上
+            //GComponent goAnchorSymbolEffect = goSlotMachine.GetChild("payLines").asCom; //在画线上
             SlotMachineView.InitParam(goSlotMachine, goAnchorSymbolEffect, smConfig);
             slotMachineCtrl.InitParam(SlotMachineView, smConfig, true);
 

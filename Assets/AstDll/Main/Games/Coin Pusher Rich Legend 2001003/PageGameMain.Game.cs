@@ -771,17 +771,17 @@ namespace CoinPusherRichLegend2001003
             // 解析数据
             MockDataManagerG2001003.Instance.ParseSlotSpin(totalBet, resNode, jpGameRes);
 
-        
+
             // 数据入库
-            //MachineDataG200Controller.Instance.TestRecord();
+            MockDataManagerG2001003.Instance.Record();
 
             // 游戏彩金滚轮
             SetUIJackpotGameReel();
 
 
             // 数据上报
-            //MachineDataG200Controller.Instance.Report();
-     
+            //MockDataManagerG2001003.Instance.Report();
+
 
             if (successCallback != null)
                 successCallback.Invoke();

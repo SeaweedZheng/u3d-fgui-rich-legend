@@ -1,0 +1,14 @@
+[
+{
+	"from_pth": "../nodejs-excel2json/TheOutput/module_package_settings.json",
+	"to_pth": "../../Assets/Editor/Builder/module_package_settings.json"
+},
+{
+	"from_pth": "../nodejs-excel2json/TheOutput/lobby_games.json",
+	"to_pth": "../../Assets/AstBackup/Lobbys/Game Info/lobby_games.json"
+},
+{
+	"from_pth": "../nodejs-excel2json/TheOutput/console_display_permissions.json",
+	"to_pth": "../../Assets/AstBundle/_Commons/Common/ABs/Datas/console_display_permissions.json"
+}
+]

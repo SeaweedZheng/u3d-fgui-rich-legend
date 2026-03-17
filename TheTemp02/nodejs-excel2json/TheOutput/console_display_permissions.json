@@ -1,0 +1,145 @@
+[
+  {
+    "id": 1000,
+    "key": "settingMachine",
+    "name": "Machine:",
+    "release_has": true,
+    "debug_has": true,
+    "staff_display": false,
+    "manager_display": true,
+    "admin_display": true,
+    "display_permissions_change": false
+  },
+  {
+    "id": 1001,
+    "key": "settingGames",
+    "name": "Games:",
+    "release_has": true,
+    "debug_has": true,
+    "staff_display": false,
+    "manager_display": true,
+    "admin_display": true,
+    "display_permissions_change": false
+  },
+  {
+    "id": 1002,
+    "key": "settingInOut",
+    "name": "IN-OUT:",
+    "release_has": true,
+    "debug_has": true,
+    "staff_display": false,
+    "manager_display": true,
+    "admin_display": true,
+    "display_permissions_change": false
+  },
+  {
+    "id": 1003,
+    "key": "settingRecord",
+    "name": "Record:",
+    "release_has": true,
+    "debug_has": true,
+    "staff_display": false,
+    "manager_display": true,
+    "admin_display": true,
+    "display_permissions_change": false
+  },
+  {
+    "id": 1004,
+    "key": "settingScreen",
+    "name": "Screen:",
+    "release_has": true,
+    "debug_has": true,
+    "staff_display": false,
+    "manager_display": true,
+    "admin_display": true,
+    "display_permissions_change": false
+  },
+  {
+    "id": 1005,
+    "key": "settingBillValidator",
+    "name": "Bill Validator:",
+    "release_has": true,
+    "debug_has": true,
+    "staff_display": false,
+    "manager_display": true,
+    "admin_display": true,
+    "display_permissions_change": true
+  },
+  {
+    "id": 1006,
+    "key": "settingPrinter",
+    "name": "Printer:",
+    "release_has": true,
+    "debug_has": true,
+    "staff_display": false,
+    "manager_display": true,
+    "admin_display": true,
+    "display_permissions_change": true
+  },
+  {
+    "id": 1007,
+    "key": "settingRemoteControl",
+    "name": "Remote Control:",
+    "release_has": true,
+    "debug_has": true,
+    "staff_display": false,
+    "manager_display": true,
+    "admin_display": true,
+    "display_permissions_change": true
+  },
+  {
+    "id": 1008,
+    "key": "settingIOT",
+    "name": "IOT:",
+    "release_has": false,
+    "debug_has": true,
+    "staff_display": false,
+    "manager_display": false,
+    "admin_display": true,
+    "display_permissions_change": true
+  },
+  {
+    "id": 1009,
+    "key": "settingSas",
+    "name": "Sas:",
+    "release_has": false,
+    "debug_has": true,
+    "staff_display": false,
+    "manager_display": false,
+    "admin_display": true,
+    "display_permissions_change": true
+  },
+  {
+    "id": 1010,
+    "key": "settingJackpotOnline",
+    "name": "Jackpot Online:",
+    "release_has": true,
+    "debug_has": true,
+    "staff_display": false,
+    "manager_display": false,
+    "admin_display": true,
+    "display_permissions_change": true
+  },
+  {
+    "id": 1011,
+    "key": "settingATM",
+    "name": "ATM:",
+    "release_has": false,
+    "debug_has": true,
+    "staff_display": false,
+    "manager_display": false,
+    "admin_display": true,
+    "display_permissions_change": true
+  },
+  {
+    "id": 1012,
+    "key": "settingDigitCounter",
+    "name": "Digit Counter:",
+    "release_has": true,
+    "debug_has": true,
+    "staff_display": false,
+    "manager_display": true,
+    "admin_display": true,
+    "display_permissions_change": true
+  }
+]
