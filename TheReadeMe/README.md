@@ -33,8 +33,8 @@ Animator
 ---- Base
 		Slot Machine (模块)
 		 -- Reels
-				Reel (1)
-					Symbols
+				Reel (1)       // 用来加遮罩的
+					Symbols    // 用来加tween动画
 						Symbol Move (1)
 						Symbol (1)
 						Symbol (2)
