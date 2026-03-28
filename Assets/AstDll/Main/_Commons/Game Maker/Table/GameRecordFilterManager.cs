@@ -49,7 +49,7 @@ public class GameRecordFilterManager : Singleton<GameRecordFilterManager>
             callback?.Invoke();
         });
 
-        _GetDistinctFullDates((val) =>
+        GetDistinctFullDates((val) =>
         {
             filterValues.fullDates = val;
             callback?.Invoke();
@@ -123,7 +123,7 @@ public class GameRecordFilterManager : Singleton<GameRecordFilterManager>
     }
 
     const string FORMAT_DATE_DAY = "yyyy-MM-dd";
-    private void _GetDistinctFullDates(Action<List<string>> onFinishCallback)
+    public void GetDistinctFullDates(Action<List<string>> onFinishCallback)
     {
         List<string> fullDates = new List<string>();
 

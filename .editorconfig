@@ -3,8 +3,17 @@ root = true
 
 # c# 文件
 [*.cs]
-
 charset = utf-8
+
+[*.json]
+charset = utf-8
+
+[*.txt]
+charset = utf-8
+
+[*.md]
+charset = utf-8
+
 
 #### Core EditorConfig 选项 ####
 
