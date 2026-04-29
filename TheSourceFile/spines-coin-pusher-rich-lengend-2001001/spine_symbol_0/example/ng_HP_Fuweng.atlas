@@ -1,0 +1,97 @@
+
+ng_HP_Fuweng.png
+size: 2048, 2048
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+fuwen6_1_000
+  rotate: false
+  xy: 1042, 862
+  size: 294, 270
+  orig: 300, 300
+  offset: 0, 17
+  index: -1
+fuwen_1
+  rotate: false
+  xy: 1005, 394
+  size: 76, 45
+  orig: 77, 45
+  offset: 1, 0
+  index: -1
+fuwen_2
+  rotate: false
+  xy: 1821, 1042
+  size: 86, 90
+  orig: 86, 90
+  offset: 0, 0
+  index: -1
+fuwen_3
+  rotate: true
+  xy: 1005, 441
+  size: 216, 157
+  orig: 216, 157
+  offset: 0, 0
+  index: -1
+fuwen_4
+  rotate: false
+  xy: 1207, 796
+  size: 87, 64
+  orig: 87, 64
+  offset: 0, 0
+  index: -1
+fuwen_5
+  rotate: true
+  xy: 1946, 1926
+  size: 119, 71
+  orig: 119, 71
+  offset: 0, 0
+  index: -1
+fuwen_6
+  rotate: false
+  xy: 1338, 873
+  size: 259, 259
+  orig: 260, 259
+  offset: 1, 0
+  index: -1
+fuwen_7
+  rotate: false
+  xy: 1599, 913
+  size: 220, 219
+  orig: 220, 219
+  offset: 0, 0
+  index: -1
+fuwen_8
+  rotate: false
+  xy: 1005, 659
+  size: 200, 201
+  orig: 200, 201
+  offset: 0, 0
+  index: -1
+fx3_10
+  rotate: false
+  xy: 1946, 1877
+  size: 46, 47
+  orig: 46, 47
+  offset: 0, 0
+  index: -1
+ssg2
+  rotate: false
+  xy: 1042, 1134
+  size: 902, 911
+  orig: 1024, 1024
+  offset: 71, 37
+  index: -1
+yingWu_11_3
+  rotate: false
+  xy: 2, 1005
+  size: 1038, 1040
+  orig: 1048, 1050
+  offset: 5, 5
+  index: -1
+yingWu_11_4
+  rotate: false
+  xy: 2, 2
+  size: 1001, 1001
+  orig: 1007, 1007
+  offset: 3, 3
+  index: -1
