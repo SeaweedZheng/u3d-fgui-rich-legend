@@ -39,7 +39,7 @@ public class PageUtils
 
                 ModuleDownloadManager.Instance.AddModeToRuning(gameId);
 
-                string enterPageName = LobbyGamesManager.Instance.GetGameValueFromSever<string>(gameId, "enter_page");
+                string enterPageName = LobbyGamesManager.Instance.GetGameValueFromServer<string>(gameId, "enter_page");
                 PageName pn = (PageName)Enum.Parse(typeof(PageName), enterPageName);
                 PageManager.Instance.OpenPage(pn,
                 onFinishCalllback: (page) =>

@@ -57,7 +57,7 @@ public class GameUpdateChecker : MonoSingleton<GameUpdateChecker>
         */
 
         // 获取游戏的游戏模块名称
-        string moduleName = LobbyGamesManager.Instance.GetGameValueFromSever<string>(gameId, "module_name");
+        string moduleName = LobbyGamesManager.Instance.GetGameValueFromServer<string>(gameId, "module_name");
 
         bool isOk = ModuleDownloadManager.Instance.CheckGamePlayable(moduleName);
 
@@ -79,6 +79,7 @@ public class GameUpdateChecker : MonoSingleton<GameUpdateChecker>
         else{
 
             // 标记（重启热更一次）
+            // 【问题】为什么要在这里标记为重启热更一次？？(难道是允许进入前热更？？)
             LobbyGamesManager.Instance.SetValueForCache<bool>(gameId, "update_at_launch_once", true);
 
             string webPth = PathHelper.GetModuleVersionWEBURL(moduleName);
@@ -161,7 +162,10 @@ public class GameUpdateChecker : MonoSingleton<GameUpdateChecker>
                     yield break;
                 }
 
-                string assetPth = LobbyGamesManager.Instance.GetGameValueFromSever<string>(gameId, "poster_url");
+
+                // 【优化】在这里标记为重启热更一次？？
+
+                string assetPth = LobbyGamesManager.Instance.GetGameValueFromServer<string>(gameId, "poster_url");
 
                 PageManager.Instance.OpenPage(PageName.CommonPopupSystemLoading, 
                     /*new EventData<Dictionary<string, object>>("",new Dictionary<string, object>()

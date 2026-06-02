@@ -5,7 +5,8 @@
 [Oo]bj/
 [Bb]uild
 [Bb]uilds
-[Ll]ibrary/
+#[Ll]ibrary/ 改为只忽略根路劲下
+/[Ll]ibrary/
 [Ll]ogs/
 
 # =============== #
