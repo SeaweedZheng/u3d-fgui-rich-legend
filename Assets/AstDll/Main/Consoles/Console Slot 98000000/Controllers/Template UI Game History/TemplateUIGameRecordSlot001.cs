@@ -147,7 +147,7 @@ namespace ConsoleSlot98000000
         }
         void SetRecordTitle(GRichTextField txtTitle)
         {
-            string gameName = LobbyGamesManager.Instance.GetGameValueFromSever<string>(gameId, "game_name");
+            string gameName = LobbyGamesManager.Instance.GetGameValueFromServer<string>(gameId, "game_name");
 
             string result = string.Format(I18nMgr.T("{0} Game Record {1} of {2}"), I18nMgr.T(gameName), curPageNumber, totalPageCount);
 

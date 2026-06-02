@@ -456,7 +456,7 @@ public  class LobbyGamesManager
 
         return nodeSever[key].Value<T>();
     }
-    public T GetGameValueFromSever<T>(int gameId, string key) => GetGameValueFrom<T>(lobbyGamesInfoSever, gameId, key);
+    public T GetGameValueFromServer<T>(int gameId, string key) => GetGameValueFrom<T>(lobbyGamesInfoSever, gameId, key);
     public T GetGameValueFromCache<T>(int gameId, string key) => GetGameValueFrom<T>(lobbyGamesInfoCache, gameId, key);
 
     /*

@@ -112,7 +112,7 @@ namespace Lobby89000000
 
                 int gameId = ids[index];
 
-                string imgUrl = LobbyGamesManager.Instance.GetGameValueFromSever<string>(gameId,"lobby_icon_big");
+                string imgUrl = LobbyGamesManager.Instance.GetGameValueFromServer<string>(gameId,"lobby_icon_big");
 
                 string pth = Application.isEditor ?
                 PathHelper.GetAssetBackupSAPTH(imgUrl) :

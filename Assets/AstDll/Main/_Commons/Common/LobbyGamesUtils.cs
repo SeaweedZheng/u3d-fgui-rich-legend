@@ -15,7 +15,7 @@ public static class LobbyGamesUtils
            
             int gameId = game["game_id"].Value<int>();
             if (game["display_in_lobby"].Value<bool>() == true
-                && LobbyGamesManager.Instance.GetGameValueFromSever<bool>(gameId, "is_available") == true)
+                && LobbyGamesManager.Instance.GetGameValueFromServer<bool>(gameId, "is_available") == true)
             {
                 gameIds.Add(gameId);
             }

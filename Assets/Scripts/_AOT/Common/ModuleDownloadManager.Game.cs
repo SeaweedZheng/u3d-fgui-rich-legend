@@ -460,7 +460,7 @@ public partial class ModuleDownloadManager
         if (!ApplicationSettings.Instance.isUseMoudle)
             return;
 
-        string moduleName = LobbyGamesManager.Instance.GetGameValueFromSever<string>(gameId, "module_name");
+        string moduleName = LobbyGamesManager.Instance.GetGameValueFromServer<string>(gameId, "module_name");
         AddModeToRuning(moduleName);
     }
 
